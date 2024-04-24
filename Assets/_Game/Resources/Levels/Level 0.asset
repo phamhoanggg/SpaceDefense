@@ -14415,266 +14415,288 @@ MonoBehaviour:
   - position: {x: 94, y: 73, z: 0}
     levelTile: {fileID: 11400000, guid: c0a0ddf02068ff345af65a6fb5d5476b, type: 2}
   Obstacle_Tilemap:
-  - position: {x: 18, y: -1, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 18, y: 0, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 19, y: 0, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 20, y: 0, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 21, y: 0, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 22, y: 0, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 22, y: 1, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 23, y: 1, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 24, y: 1, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 25, y: 1, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 26, y: 1, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 27, y: 1, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 27, y: 2, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 27, y: 3, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 28, y: 3, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 29, y: 3, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 30, y: 3, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 31, y: 3, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 32, y: 3, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 33, y: 3, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 34, y: 3, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 34, y: 4, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 35, y: 4, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 34, y: 5, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 35, y: 5, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 34, y: 6, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 35, y: 6, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 34, y: 7, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 34, y: 8, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 35, y: 8, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 36, y: 8, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 37, y: 8, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 38, y: 8, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 39, y: 8, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 40, y: 8, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 41, y: 8, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 42, y: 8, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 43, y: 8, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 44, y: 8, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 44, y: 9, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 44, y: 10, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 44, y: 11, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 44, y: 12, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 45, y: 12, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 46, y: 12, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 47, y: 12, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 48, y: 12, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 49, y: 12, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 49, y: 13, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 50, y: 13, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 51, y: 13, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 52, y: 13, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 51, y: 14, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 52, y: 14, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 52, y: 15, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 53, y: 15, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 54, y: 15, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 63, y: 15, z: 0}
-    levelTile: {fileID: 11400000, guid: 98876df1dd2bbc3429db55a9728257ff, type: 2}
-  - position: {x: 64, y: 15, z: 0}
-    levelTile: {fileID: 11400000, guid: 98876df1dd2bbc3429db55a9728257ff, type: 2}
-  - position: {x: 65, y: 15, z: 0}
-    levelTile: {fileID: 11400000, guid: 98876df1dd2bbc3429db55a9728257ff, type: 2}
-  - position: {x: 66, y: 15, z: 0}
-    levelTile: {fileID: 11400000, guid: 98876df1dd2bbc3429db55a9728257ff, type: 2}
-  - position: {x: 52, y: 16, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 53, y: 16, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 54, y: 16, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 55, y: 16, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 56, y: 16, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 57, y: 16, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 58, y: 16, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 59, y: 16, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 60, y: 16, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 61, y: 16, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 62, y: 16, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 63, y: 16, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 64, y: 16, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 65, y: 16, z: 0}
-    levelTile: {fileID: 11400000, guid: 98876df1dd2bbc3429db55a9728257ff, type: 2}
-  - position: {x: 66, y: 16, z: 0}
-    levelTile: {fileID: 11400000, guid: 98876df1dd2bbc3429db55a9728257ff, type: 2}
-  - position: {x: 67, y: 16, z: 0}
-    levelTile: {fileID: 11400000, guid: 98876df1dd2bbc3429db55a9728257ff, type: 2}
-  - position: {x: 68, y: 16, z: 0}
-    levelTile: {fileID: 11400000, guid: 98876df1dd2bbc3429db55a9728257ff, type: 2}
-  - position: {x: 59, y: 17, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 60, y: 17, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 61, y: 17, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 62, y: 17, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 63, y: 17, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 64, y: 17, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 65, y: 17, z: 0}
-    levelTile: {fileID: 11400000, guid: 98876df1dd2bbc3429db55a9728257ff, type: 2}
-  - position: {x: 66, y: 17, z: 0}
-    levelTile: {fileID: 11400000, guid: 98876df1dd2bbc3429db55a9728257ff, type: 2}
-  - position: {x: 67, y: 17, z: 0}
-    levelTile: {fileID: 11400000, guid: 98876df1dd2bbc3429db55a9728257ff, type: 2}
-  - position: {x: 68, y: 17, z: 0}
-    levelTile: {fileID: 11400000, guid: 98876df1dd2bbc3429db55a9728257ff, type: 2}
-  - position: {x: 64, y: 18, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 65, y: 18, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 66, y: 18, z: 0}
-    levelTile: {fileID: 11400000, guid: 98876df1dd2bbc3429db55a9728257ff, type: 2}
-  - position: {x: 67, y: 18, z: 0}
-    levelTile: {fileID: 11400000, guid: 98876df1dd2bbc3429db55a9728257ff, type: 2}
-  - position: {x: 68, y: 18, z: 0}
-    levelTile: {fileID: 11400000, guid: 98876df1dd2bbc3429db55a9728257ff, type: 2}
-  - position: {x: 65, y: 19, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 66, y: 19, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 66, y: 20, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 66, y: 21, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 66, y: 22, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 74, y: 24, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 75, y: 24, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 76, y: 24, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 77, y: 24, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 78, y: 24, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 74, y: 25, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 75, y: 25, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 76, y: 25, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 77, y: 25, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 78, y: 25, z: 0}
-    levelTile: {fileID: 11400000, guid: 03ffdc184ee30ef4784da83e7d5bcec3, type: 2}
-  - position: {x: 8, y: 51, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 9, y: 51, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 10, y: 51, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 11, y: 51, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 8, y: 52, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 9, y: 52, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 10, y: 52, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 11, y: 52, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 5, y: 53, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 6, y: 53, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 7, y: 53, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 8, y: 53, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 9, y: 53, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 10, y: 53, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 11, y: 53, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 5, y: 54, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 6, y: 54, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 7, y: 54, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 8, y: 54, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 9, y: 54, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 10, y: 54, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
-  - position: {x: 11, y: 54, z: 0}
-    levelTile: {fileID: 11400000, guid: 3ccd1d20929c600428eff27cd9e2c83e, type: 2}
+  - position: {x: 12.25, y: 15.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 11.75, y: 15.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 11.75, y: 14.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.25, y: 14.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.25, y: 14.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.25, y: 13.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.25, y: 13.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.25, y: 12.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.25, y: 12.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.25, y: 11.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.25, y: 11.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.75, y: 11.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 13.25, y: 11.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 13.25, y: 11.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 13.25, y: 12.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 13.25, y: 12.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 13.25, y: 13.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.75, y: 13.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.75, y: 12.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.75, y: 12.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.75, y: 11.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.75, y: 13.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 13.25, y: 13.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 13.75, y: 13.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 14.25, y: 13.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 14.75, y: 13.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 15.25, y: 13.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 15.25, y: 13.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 14.75, y: 13.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 14.25, y: 13.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 13.75, y: 13.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 13.75, y: 12.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 14.25, y: 12.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 14.75, y: 12.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.75, y: 14.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.75, y: 14.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 14.75, y: 8.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 14.75, y: 8.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 14.25, y: 8.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 13.75, y: 8.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 13.75, y: 7.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 13.25, y: 7.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.75, y: 7.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.25, y: 7.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 11.75, y: 7.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 11.75, y: 7.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 11.25, y: 7.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 11.25, y: 6.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 10.75, y: 6.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 10.75, y: 6.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 10.25, y: 6.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 10.25, y: 5.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 10.25, y: 5.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 10.75, y: 5.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 11.25, y: 6.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 11.75, y: 6.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.25, y: 7.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 13.25, y: 8.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 3.75, y: 23.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 3.25, y: 23.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 3.25, y: 22.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 2.75, y: 22.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 2.75, y: 22.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 2.25, y: 22.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 2.25, y: 21.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 2.25, y: 21.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 2.25, y: 20.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 2.25, y: 20.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 2.25, y: 19.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 2.75, y: 21.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 2.75, y: 21.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 3.25, y: 21.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 3.25, y: 22.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 3.75, y: 22.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 4.25, y: 23.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 4.75, y: 23.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 5.25, y: 23.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 5.75, y: 23.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 5.75, y: 24.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 6.25, y: 24.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 6.75, y: 24.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 7.25, y: 24.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 7.75, y: 24.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 7.75, y: 24.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 8.25, y: 24.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 8.75, y: 24.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 9.25, y: 24.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 9.75, y: 24.75}
+    go_type: 1
+    type_index: 3
+  - position: {x: 9.75, y: 24.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 10.25, y: 24.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 10.75, y: 24.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 11.25, y: 24.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 11.75, y: 24.25}
+    go_type: 1
+    type_index: 3
+  - position: {x: 12.25, y: 24.25}
+    go_type: 1
+    type_index: 3
   Resource_Tilemap:
   - position: {x: 11.25, y: 27.75}
     go_type: 0
@@ -14970,6 +14992,48 @@ MonoBehaviour:
   - position: {x: 45.75, y: 16.25}
     go_type: 0
     type_index: 1
+  - position: {x: 8.75, y: 19.25}
+    go_type: 0
+    type_index: 4
+  - position: {x: 9.25, y: 19.25}
+    go_type: 0
+    type_index: 4
+  - position: {x: 9.75, y: 19.25}
+    go_type: 0
+    type_index: 4
+  - position: {x: 10.25, y: 19.25}
+    go_type: 0
+    type_index: 4
+  - position: {x: 10.75, y: 19.25}
+    go_type: 0
+    type_index: 4
+  - position: {x: 11.75, y: 19.25}
+    go_type: 0
+    type_index: 4
+  - position: {x: 11.25, y: 19.25}
+    go_type: 0
+    type_index: 4
+  - position: {x: 8.75, y: 18.75}
+    go_type: 0
+    type_index: 4
+  - position: {x: 9.25, y: 18.75}
+    go_type: 0
+    type_index: 4
+  - position: {x: 9.75, y: 18.75}
+    go_type: 0
+    type_index: 4
+  - position: {x: 10.25, y: 18.75}
+    go_type: 0
+    type_index: 4
+  - position: {x: 10.75, y: 18.75}
+    go_type: 0
+    type_index: 4
+  - position: {x: 11.25, y: 18.75}
+    go_type: 0
+    type_index: 4
+  - position: {x: 11.75, y: 18.75}
+    go_type: 0
+    type_index: 4
   Construction_Tilemap: []
   EnemyWaves:
   - type: 0

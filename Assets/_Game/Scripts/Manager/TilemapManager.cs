@@ -64,14 +64,14 @@ public class TilemapManager : SingletonMB<TilemapManager>
 
         IEnumerable<GameObjectTile> GetObstacleFromMap(GameObject map)
         {
-            Transform[] obstacles = map.GetComponentsInChildren<Transform>();
-            foreach (var unit in obstacles)
+            Obstacle[] obstacles = map.GetComponentsInChildren<Obstacle>();
+            foreach (var obs in obstacles)
             {
                 yield return new GameObjectTile()
                 {
-                    position = unit.localPosition,
+                    position = obs.transform.localPosition,
                     go_type = MapGameObjectType.obstacle,
-                    type_index = ResourceController.Instance.obstacleList.IndexOf(unit.gameObject)
+                    type_index = obs.obstacleID,
                 };
             }
         }
@@ -92,6 +92,12 @@ public class TilemapManager : SingletonMB<TilemapManager>
         foreach (var unit in mines)
         {
             DestroyImmediate(unit.gameObject);
+        }
+
+        BoxCollider2D[] obstacles = Obs_Map.GetComponentsInChildren<BoxCollider2D>();
+        foreach (var obs in obstacles)
+        {
+            DestroyImmediate(obs.gameObject);
         }
     }
 
