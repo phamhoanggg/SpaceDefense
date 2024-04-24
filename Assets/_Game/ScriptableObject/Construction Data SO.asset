@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f160a5e997969844ab56946a8482ca47, type: 3}
+  m_Name: Construction Data SO
+  m_EditorClassIdentifier: 
+  constructionSet:
+  - constructionID: 0
+    ConstructionName: 
+    ConstructionImage: {fileID: 0}
+    parentID_Required: 
+    IsUnlocked: 0
+    unlock_resources:
+    - res_type: 0
+      res_amount: 0
+    - res_type: 0
+      res_amount: 0
+  - constructionID: 0
+    ConstructionName: 
+    ConstructionImage: {fileID: 0}
+    parentID_Required: 
+    IsUnlocked: 0
+    unlock_resources: []
+  - constructionID: 0
+    ConstructionName: 
+    ConstructionImage: {fileID: 0}
+    parentID_Required: 
+    IsUnlocked: 0
+    unlock_resources: []

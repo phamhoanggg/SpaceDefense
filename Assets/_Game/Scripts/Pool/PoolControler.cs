@@ -152,6 +152,8 @@ public enum PoolType
     Coal_Props,
     Copper_Props,
     Lead_Props,
+    Gold_Props,
+    Silver_Props,
 }
 
 

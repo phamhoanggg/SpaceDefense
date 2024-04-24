@@ -9,9 +9,8 @@ using UnityEngine.Tilemaps;
 
 public class TilemapManager : SingletonMB<TilemapManager>
 {
-    [SerializeField] private Tilemap BG_Map, Obs_Map;
-    [SerializeField] private GameObject Res_Map, Constrcution_Map;
-    [SerializeField] private GameObject[] resourceList;
+    [SerializeField] private Tilemap BG_Map;
+    [SerializeField] private GameObject Res_Map, Constrcution_Map, Obs_Map;
 
 #if UNITY_EDITOR
     public void SaveMap(int levelIdx, List<EnemyWave> enemyWaves, Vector2 centerModulePos)
@@ -23,7 +22,7 @@ public class TilemapManager : SingletonMB<TilemapManager>
         newLevel.resAvailableList = new List<ResourcesType>();
 
         newLevel.BG_Tilemap = GetTilesFromMap(BG_Map).ToList();
-        //newLevel.Obstacle_Tilemap = GetTilesFromMap(Obs_Map).ToList();
+        newLevel.Obstacle_Tilemap = GetObstacleFromMap(Obs_Map).ToList();
         newLevel.Resource_Tilemap = GetMinesFromMap(Res_Map).ToList();
         newLevel.EnemyWaves = enemyWaves;
         newLevel.centerModulePostion = centerModulePos;
@@ -57,8 +56,22 @@ public class TilemapManager : SingletonMB<TilemapManager>
                 yield return new GameObjectTile()
                 {
                     position = unit.transform.localPosition,
-                    go_type = GameObjectType.resource,
+                    go_type = MapGameObjectType.resource,
                     type_index = (int)unit.resType
+                };
+            }
+        }
+
+        IEnumerable<GameObjectTile> GetObstacleFromMap(GameObject map)
+        {
+            Transform[] obstacles = map.GetComponentsInChildren<Transform>();
+            foreach (var unit in obstacles)
+            {
+                yield return new GameObjectTile()
+                {
+                    position = unit.localPosition,
+                    go_type = MapGameObjectType.obstacle,
+                    type_index = ResourceController.Instance.obstacleList.IndexOf(unit.gameObject)
                 };
             }
         }
@@ -99,14 +112,15 @@ public class TilemapManager : SingletonMB<TilemapManager>
             SetTile(BG_Map, tile);
         }
 
-        //foreach (var tile in level.Obstacle_Tilemap)
-        //{
-        //    SetTile(Obs_Map, tile);
-        //}
+        foreach (var obsTile in level.Obstacle_Tilemap)
+        {
+            GameObject new_obsTile = Instantiate(ResourceController.Instance.obstacleList[obsTile.type_index], Obs_Map.transform);
+            new_obsTile.transform.localPosition = obsTile.position;
+        }
 
         foreach (var resTile in level.Resource_Tilemap)
         {
-            GameObject new_resTile = Instantiate(resourceList[resTile.type_index], Res_Map.transform);
+            GameObject new_resTile = Instantiate(ResourceController.Instance.resourceList[resTile.type_index], Res_Map.transform);
             new_resTile.transform.localPosition = resTile.position;
         }
 

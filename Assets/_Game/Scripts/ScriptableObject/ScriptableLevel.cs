@@ -7,7 +7,7 @@ public class ScriptableLevel : ScriptableObject
 {
     public int LevelIndex;
     public List<MapTile> BG_Tilemap;
-    public List<MapTile> Obstacle_Tilemap;
+    public List<GameObjectTile> Obstacle_Tilemap;
     public List<GameObjectTile> Resource_Tilemap;
     public List<GameObjectTile> Construction_Tilemap;
     public List<EnemyWave> EnemyWaves;

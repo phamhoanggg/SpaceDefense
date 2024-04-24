@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Input_PlaceContruction_State : State
+public class Input_PlaceContruction_State : GamePlayState
 {
     public override void OnEnter()
     {

@@ -14,13 +14,13 @@ public class InputManager : SingletonMB<InputManager>
     public Transform gridContructParent;
     private GridTile selectingTile;
     private InputMode currentInputMode;
-    private State currentState;
+    private GamePlayState currentState;
 
-    private Input_Default_State defaultState;
-    public Input_Default_State DefaultState => defaultState;
+    private GamePlayState defaultState;
+    public GamePlayState DefaultState => defaultState;
 
-    private Input_PlaceContruction_State placeContructionState;
-    public Input_PlaceContruction_State PlaceContructionState => placeContructionState;
+    private GamePlayState placeContructionState;
+    public GamePlayState PlaceContructionState => placeContructionState;
 
     public GameObject Selecting_Block;
 
@@ -41,9 +41,9 @@ public class InputManager : SingletonMB<InputManager>
         }
     }
 
-    public bool IsInputMode(InputMode mode) => currentInputMode == mode;
+    public bool IsGameState(GamePlayState state) => currentState == state;
 
-    public void ChangeState(State newState)
+    public void ChangeState(GamePlayState newState)
     {
         if (currentState != null)
         {

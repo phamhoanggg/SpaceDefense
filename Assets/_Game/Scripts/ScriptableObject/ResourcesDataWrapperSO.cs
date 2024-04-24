@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Scriptable Object/Data/Resources Data Wrapper")]
+[CreateAssetMenu(menuName = "Scriptable Object/Resources Data Wrapper")]
 public class ResourcesDataWrapperSO : ScriptableObject
 {
     public ResourcesListData[] sets;

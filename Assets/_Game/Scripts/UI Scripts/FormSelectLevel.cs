@@ -36,13 +36,13 @@ public class FormSelectLevel : SingletonMB<FormSelectLevel>
     {
         if (selectingLevel != null)
         {
-            GameManager.Instance.ChangeScene(Scene.GamePlayScene);
+            GameManager.Instance.ChangeScene(SceneId.GamePlay);
             DataManager.Instance.gameData.currentLevelIndex = selectingLevel.LevelIndex;
         }
     }
 
     public void BackButton()
     {
-        GameManager.Instance.ChangeScene(Scene.MenuScene);
+        GameManager.Instance.ChangeScene(SceneId.Menu);
     }
 }

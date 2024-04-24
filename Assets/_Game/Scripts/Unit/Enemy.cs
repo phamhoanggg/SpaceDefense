@@ -59,7 +59,7 @@ public class Enemy : MonoBehaviour
 
     public void TakeAirDamage(float dmg)
     {
-        if (GameManager.Instance.isOneHit)
+        if (GameManager.Instance.gameConfig.isOneHit)
         {
             OnDead();
             return;
@@ -73,7 +73,7 @@ public class Enemy : MonoBehaviour
 
     public void TakeLandDamage(float dmg)
     {
-        if (GameManager.Instance.isOneHit)
+        if (GameManager.Instance.gameConfig.isOneHit)
         {
             OnDead();
             return;

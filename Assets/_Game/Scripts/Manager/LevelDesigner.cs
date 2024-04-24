@@ -19,7 +19,7 @@ public class LevelDesigner : MonoBehaviour
     private ScriptableLevel edittingLevel;
     [Header("LAYER LIST")]
     [SerializeField] private Tilemap BGLayer;
-    [SerializeField] private Tilemap ObsLayer;
+    [SerializeField] private GameObject ObsLayer;
     [SerializeField] private GameObject ResLayer;
     [SerializeField] private GameObject ConsLayer;
 

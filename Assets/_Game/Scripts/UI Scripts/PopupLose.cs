@@ -24,6 +24,6 @@ public class PopupLose : PopupBase
     public void MainMenuButton()
     {
         Time.timeScale = 1;
-        GameManager.Instance.ChangeScene(Scene.MenuScene);
+        GameManager.Instance.ChangeScene(SceneId.Menu);
     }
 }

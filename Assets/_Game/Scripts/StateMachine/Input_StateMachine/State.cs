@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class State
+public class GamePlayState
 {
     public virtual void OnEnter()
     {

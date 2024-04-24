@@ -4,22 +4,21 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
-public class GameManager : PersistentSingletonMB<GameManager>
+public class GameManager : SingletonMB<GameManager>
 {
     [Header("GAME CONFIG")]
-    public bool isOneHit;
-    public bool isUndying;
+    public GameConfig gameConfig;
 
     #region CHANGE SCENE
-    private Scene currentScene;
-    public bool IsCurrentScene(Scene scene) => currentScene == scene;
+    private SceneId currentScene;
+    public bool IsCurrentScene(SceneId scene) => currentScene == scene;
 
-    public void ChangeScene(Scene scene)
+    public void ChangeScene(SceneId scene)
     {
         StartCoroutine(ChangeSceneRoutine(scene));
     }
 
-    private IEnumerator ChangeSceneRoutine(Scene scene)
+    private IEnumerator ChangeSceneRoutine(SceneId scene)
     {
         bool isCloseAnimationComplete = false;
         FadeInAnimation(() =>
@@ -70,4 +69,13 @@ public class GameManager : PersistentSingletonMB<GameManager>
         });
     }
     #endregion
+}
+
+[System.Serializable]
+public class GameConfig
+{
+    public ConstructionDataSO ConstructionDataSO;
+
+    public bool isOneHit;
+    public bool isUndying;
 }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_Drill_State : State
+public class Player_Drill_State : PlayerState
 {
     float counter = 1.5f;
     public override void OnExecute()

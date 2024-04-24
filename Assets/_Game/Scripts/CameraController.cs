@@ -36,7 +36,7 @@ public class CameraController : MonoBehaviour
 
     private void Update()
     {
-        if (InputManager.Instance.IsInputMode(InputMode.Default))
+        if (InputManager.Instance.IsGameState(InputManager.Instance.DefaultState))
         {
             if (Input.touchCount == 2)
             {

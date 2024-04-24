@@ -18,11 +18,12 @@ public class Player : SingletonMB<Player>, IFlyable
     private bool isMoving;
 
     #region STATE MACHINE
-    private State currentState;
-    public Player_Drill_State drillState = new Player_Drill_State();
-    public Player_Normal_State normalState = new Player_Normal_State();
+    private PlayerState currentState;
+    public PlayerState drillState = new Player_Drill_State();
+    public PlayerState normalState = new Player_Normal_State();
 
-    public void ChangeState(State state)
+    public bool IsState(PlayerState state) => currentState == state;
+    public void ChangeState(PlayerState state)
     {
         if (currentState != null) currentState.OnExit();
         currentState = state;
@@ -38,7 +39,7 @@ public class Player : SingletonMB<Player>, IFlyable
     }
     public void TakeAirDamage(float dmg)
     {
-        if (GameManager.Instance.isUndying) return;
+        if (GameManager.Instance.gameConfig.isUndying) return;
         curHP -= dmg;
         if (curHP <= 0)
         {

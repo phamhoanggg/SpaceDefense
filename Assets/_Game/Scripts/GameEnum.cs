@@ -39,10 +39,11 @@ public enum EnemyType
     Quasar,
 }
 
-public enum Scene
+public enum SceneId
 {
-    LoadingScene,
-    MenuScene,
-    SelectLevelScene,
-    GamePlayScene,
+    None = -1,
+    Loading = 0,
+    Menu,
+    SelectLevel,
+    GamePlay,
 }

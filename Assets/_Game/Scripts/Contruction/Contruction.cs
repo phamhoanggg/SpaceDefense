@@ -58,7 +58,7 @@ public class Contruction : MonoBehaviour, IOnLand
 
     public virtual void TakeLandDamage(float dmg)
     {
-        if (GameManager.Instance.isUndying) return;
+        if (GameManager.Instance.gameConfig.isUndying) return;
         curHP -= dmg;
         if (curHP <= 0)
         {
