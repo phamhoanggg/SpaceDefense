@@ -18,6 +18,6 @@ public class ButtonContruction : MonoBehaviour
     {
         FormGameplay.Instance.Selecting_block.transform.position = transform.position;
         CoreManager.Instance.selectingPrefab = prefabContruction;
-        UIManager.Instance.OpenPopupPlaceContruction();
+        FormGameplay.Instance.OpenPopupPlaceConstruction();
     }
 }

@@ -9,6 +9,9 @@ public class SceneTransition : MonoBehaviour
     [SerializeField]
     private GameObject animatedObject;
 
+    [SerializeField] private RectTransform[] transitionObjectList;
+
+
     private WaitForSeconds waitClose, waitOpen;
 
     private void Awake()
@@ -27,6 +30,14 @@ public class SceneTransition : MonoBehaviour
         }
 
         animatedObject.SetActive(false);
+
+        float height = Screen.height * 1.0f / transitionObjectList.Length;
+
+        for (int i = 0; i < transitionObjectList.Length; i++)
+        {
+            transitionObjectList[i].SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, height);
+            transitionObjectList[i].anchoredPosition = new Vector2(0, -height * (i + 0.5f));
+        }
     }
 
     public Coroutine Close(Action onComplete = null)

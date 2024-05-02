@@ -35,13 +35,12 @@ public abstract class PopupBase : MonoBehaviour
         boxTransform.DOScale(Vector3.one, 0.5f).SetEase(Ease.OutBack);
     }
 
-    public virtual void Close(UnityAction OnComplete = null)
+    public virtual void Close()
     {
         if (gameObject.activeInHierarchy)
         {
             CloseAnimation(() =>
             {
-                OnComplete?.Invoke();
                 gameObject.SetActive(false);
             });
         }

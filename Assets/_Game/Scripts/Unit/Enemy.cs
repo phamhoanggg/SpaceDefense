@@ -44,7 +44,6 @@ public class Enemy : MonoBehaviour
 
         if (hit.collider != null && hit.collider.CompareTag(GameConstant.TAG_CAMERA_BOX))
         {
-            Debug.Log("hit");
             indicator_object.SetActive(true);
             indicator_object.transform.position = hit.point;
             float angleZ = Mathf.Atan2(rayDirect.y, rayDirect.x) * Mathf.Rad2Deg;
@@ -52,7 +51,6 @@ public class Enemy : MonoBehaviour
         }
         else
         {
-            Debug.Log("Not hit");
             indicator_object.SetActive(false);
         }
     }

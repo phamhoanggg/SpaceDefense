@@ -17,7 +17,7 @@ public class PopupPause : PopupBase
     public void ButtonExit()
     {
         Time.timeScale = 1;
-        GameManager.Instance.ChangeScene(SceneId.Menu);
+        SceneLoader.Instance.LoadScene(SceneId.Menu);
         Close();
     }
 }

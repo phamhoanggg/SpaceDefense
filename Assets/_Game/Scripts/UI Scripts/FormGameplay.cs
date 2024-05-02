@@ -8,6 +8,14 @@ public class FormGameplay : SingletonMB<FormGameplay>
     [SerializeField] private GameObject[] listPanel;
     [SerializeField] private GameObject[] panelButtons;
     [SerializeField] private GameObject selectingPanel_obj;
+
+    [Header("POPUPS")]
+    [SerializeField] private PopupPause popupPause;
+    [SerializeField] private PopupWin popupWin;
+    [SerializeField] private PopupLose popupLose;
+    [SerializeField] private PopupPlaceContruction popupPlaceContruction;
+    [SerializeField] private PopupConstructionTree popupConstructionTree;
+
     private GameObject currentPanel;
     private CenterModule centerModule;
 
@@ -57,6 +65,26 @@ public class FormGameplay : SingletonMB<FormGameplay>
 
     public void SettingButton()
     {
-        UIManager.Instance.OpenPopupPause();
+        popupPause.Open();
+    }
+
+    public void OpenPopupLose()
+    {
+        popupLose.Open();
+    }
+
+    public void OpenPopupWin()
+    {
+        popupWin.Open();
+    }
+
+    public void OpenPopupPlaceConstruction()
+    {
+        popupPlaceContruction.Open();
+    }
+
+    public void OpenPopupConstructionTree()
+    {
+        popupConstructionTree.Open();
     }
 }

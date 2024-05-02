@@ -15,23 +15,19 @@ MonoBehaviour:
   constructionSet:
   - constructionID: 0
     ConstructionName: 
-    ConstructionImage: {fileID: 0}
+    ConstructionImage: {fileID: 21300000, guid: 5272b447f426bf04fa70ae2ad0e37387, type: 3}
     parentID_Required: 
-    IsUnlocked: 0
-    unlock_resources:
-    - res_type: 0
-      res_amount: 0
-    - res_type: 0
-      res_amount: 0
-  - constructionID: 0
-    ConstructionName: 
-    ConstructionImage: {fileID: 0}
-    parentID_Required: 
-    IsUnlocked: 0
+    IsUnlocked: 1
     unlock_resources: []
-  - constructionID: 0
-    ConstructionName: 
-    ConstructionImage: {fileID: 0}
+  - constructionID: 1
+    ConstructionName: Scatter
+    ConstructionImage: {fileID: 21300000, guid: fb49725f5e34fb74d82b05724653c8fa, type: 3}
     parentID_Required: 
-    IsUnlocked: 0
+    IsUnlocked: 1
+    unlock_resources: []
+  - constructionID: 2
+    ConstructionName: Drill
+    ConstructionImage: {fileID: 21300000, guid: fbfc1ff368a2f3e4091e6f7b9d195206, type: 3}
+    parentID_Required: 
+    IsUnlocked: 1
     unlock_resources: []

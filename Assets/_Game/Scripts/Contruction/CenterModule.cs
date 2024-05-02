@@ -5,7 +5,7 @@ public class CenterModule : Contruction
         base.TakeLandDamage(dmg);
         if (curHP <= 0)
         {
-            UIManager.Instance.OpenPopupPopupLose();
+            FormGameplay.Instance.OpenPopupLose();
         }
     }
 }

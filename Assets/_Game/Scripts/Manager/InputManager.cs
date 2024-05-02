@@ -12,8 +12,6 @@ public class InputManager : SingletonMB<InputManager>
     public Camera mainCamera;
     public LayerMask tileLayer, constructionLayer, resourcesLayer, uiLayer, oreLayer;
     public Transform gridContructParent;
-    private GridTile selectingTile;
-    private InputMode currentInputMode;
     private GamePlayState currentState;
 
     private GamePlayState defaultState;
@@ -24,6 +22,8 @@ public class InputManager : SingletonMB<InputManager>
 
     public GameObject Selecting_Block;
 
+    public bool IsBlockInput => isBlockInput;
+    private bool isBlockInput;
     // Start is called before the first frame update
     void Start()
     {
@@ -99,4 +99,8 @@ public class InputManager : SingletonMB<InputManager>
         Selecting_Block.transform.localScale = Vector3.one * contructionSize;
     }
 
+    public void SetBlockInput(bool isBlock)
+    {
+        isBlockInput = isBlock;
+    }
 }

@@ -42,7 +42,7 @@ public enum EnemyType
 public enum SceneId
 {
     None = -1,
-    Loading = 0,
+    Load = 0,
     Menu,
     SelectLevel,
     GamePlay,

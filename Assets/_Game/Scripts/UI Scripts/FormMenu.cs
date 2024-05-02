@@ -6,6 +6,6 @@ public class FormMenu : MonoBehaviour
 {
     public void PlayButton()
     {
-        GameManager.Instance.ChangeScene(SceneId.SelectLevel);
+        SceneLoader.Instance.LoadScene(SceneId.SelectLevel);
     }
 }

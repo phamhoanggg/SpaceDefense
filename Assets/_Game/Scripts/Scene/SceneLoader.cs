@@ -45,7 +45,7 @@ public class SceneLoader : SingletonMB<SceneLoader>
     }
 
     [Button(ButtonStyle.FoldoutButton)]
-    public void LoadScene(SceneId sceneId, Mode mode = Mode.After,
+    public void LoadScene(SceneId sceneId, Mode mode = Mode.Before,
         Action<float> onLoading = null, Action onComplete = null)
     {
         isLoading = true;
@@ -75,7 +75,7 @@ public class SceneLoader : SingletonMB<SceneLoader>
 
             if (operation.progress >= 0.9f && !operation.allowSceneActivation)
             {
-                yield return transition.Close();
+                yield return transition.Close(() => OpenAnimation());
 
                 CleanupBeforeLoadScene();
                 operation.allowSceneActivation = true;

@@ -25,6 +25,6 @@ public class PopupWin : PopupBase
     }
     public void MainMenuButton()
     {
-        GameManager.Instance.ChangeScene(SceneId.Menu);
+        SceneLoader.Instance.LoadScene(SceneId.Menu);
     }
 }

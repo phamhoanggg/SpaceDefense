@@ -18,9 +18,9 @@ public class PopupPlaceContruction : PopupBase
 
         directArrow.rotation = Quaternion.Euler(0, 0, -90 * CoreManager.Instance.ConstructionDirect);
     }
-    public override void Close(UnityAction OnComplete = null)
+    public override void Close()
     {
-        base.Close(OnComplete);
+        base.Close();
         CoreManager.Instance.selectingPrefab = null;
         CoreManager.Instance.selectingContruction = null;
         InputManager.Instance.ChangeState(InputManager.Instance.DefaultState);

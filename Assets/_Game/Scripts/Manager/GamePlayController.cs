@@ -142,7 +142,7 @@ public class GamePlayController : SingletonMB<GamePlayController>
             DataManager.Instance.gameData.currentLevelIndex++;
         }
 
-        UIManager.Instance.OpenPopupPopupWin();
+        FormGameplay.Instance.OpenPopupWin();
     }
 
     public void OnLoseLevel()
