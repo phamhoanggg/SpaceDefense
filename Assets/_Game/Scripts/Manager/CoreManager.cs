@@ -5,14 +5,14 @@ using UnityEngine;
 public class CoreManager : SingletonMB<CoreManager>
 {
     public Camera GameplayCamera;
-    public Contruction selectingPrefab;
-    public Contruction selectingContruction;
-    public List<Contruction> placingContructionList;
+    public Construction selectingPrefab;
+    public Construction selectingConstruction;
+    public List<Construction> placingConstructionList;
     public int ConstructionDirect;
     // Start is called before the first frame update
     void Start()
     {
-        placingContructionList = new List<Contruction>();
+        placingConstructionList = new List<Construction>();
         ConstructionDirect = 0;
     }
 }

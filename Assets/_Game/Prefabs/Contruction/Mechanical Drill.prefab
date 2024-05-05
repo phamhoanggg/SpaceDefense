@@ -735,7 +735,7 @@ GameObject:
   - component: {fileID: 4061587150092701995}
   m_Layer: 6
   m_Name: Mechanical Drill
-  m_TagString: Contruction
+  m_TagString: Construction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -772,13 +772,17 @@ MonoBehaviour:
   anim: {fileID: 5982676956117384799}
   tf: {fileID: 5982676956117384798}
   Info:
-    ContructionName: Mechanical Drill
-    materialList:
+    constructionID: 2
+    ConstructionName: Drill
+    avatarSprite: {fileID: 21300000, guid: fbfc1ff368a2f3e4091e6f7b9d195206, type: 3}
+    buildResources:
     - res_type: 0
       res_amount: 50
+    unlockResources: []
     Description: Extract resources from mines
-  avatarSprite: {fileID: 21300000, guid: fbfc1ff368a2f3e4091e6f7b9d195206, type: 3}
-  Contruction_Width: 2
+    parentID_Required: 
+    IsUnlocked: 1
+  Construction_Width: 0
   maxHP: 200
   curHP: 0
   isPlaced: 0

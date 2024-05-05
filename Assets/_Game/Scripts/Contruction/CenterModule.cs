@@ -1,4 +1,4 @@
-public class CenterModule : Contruction
+public class CenterModule : Construction
 {
     public override void TakeLandDamage(float dmg)
     {

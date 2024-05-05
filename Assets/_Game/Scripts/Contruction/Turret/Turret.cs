@@ -9,7 +9,7 @@ public class Turret : MonoBehaviour
     [SerializeField] protected float atk_range;
     [SerializeField] protected CircleCollider2D circleCol;
     [SerializeField] protected Transform tf;
-    [SerializeField] private Contruction baseTurret;
+    [SerializeField] private Construction baseTurret;
     public Transform TF => tf;
     private float atk_CD = 0;
     private List<Enemy> enemyList;

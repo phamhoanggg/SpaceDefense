@@ -3,18 +3,18 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class PopupPlaceContruction : PopupBase
+public class PopupPlaceConstruction : PopupBase
 {
-    [SerializeField] private TMP_Text contructionName_tmp, contructionDes_tmp;
-    [SerializeField] private TMP_Text contructionMat_tmp;
+    [SerializeField] private TMP_Text ConstructionName_tmp, ConstructionDes_tmp;
+    [SerializeField] private TMP_Text ConstructionMat_tmp;
     [SerializeField] private RectTransform directArrow;
     public override void Open()
     {
         base.Open();
-        InputManager.Instance.ChangeState(InputManager.Instance.PlaceContructionState);
+        InputManager.Instance.ChangeState(InputManager.Instance.PlaceConstructionState);
         FormGameplay.Instance.Selecting_block.SetActive(true);
-        contructionName_tmp.text = CoreManager.Instance.selectingPrefab.Info.ContructionName;
-        contructionDes_tmp.text = CoreManager.Instance.selectingPrefab.Info.Description;
+        ConstructionName_tmp.text = CoreManager.Instance.selectingPrefab.Info.ConstructionName;
+        ConstructionDes_tmp.text = CoreManager.Instance.selectingPrefab.Info.Description;
 
         directArrow.rotation = Quaternion.Euler(0, 0, -90 * CoreManager.Instance.ConstructionDirect);
     }
@@ -22,7 +22,7 @@ public class PopupPlaceContruction : PopupBase
     {
         base.Close();
         CoreManager.Instance.selectingPrefab = null;
-        CoreManager.Instance.selectingContruction = null;
+        CoreManager.Instance.selectingConstruction = null;
         InputManager.Instance.ChangeState(InputManager.Instance.DefaultState);
         FormGameplay.Instance.Selecting_block.SetActive(false);
         InputManager.Instance.Selecting_Block.SetActive(false);
@@ -33,12 +33,12 @@ public class PopupPlaceContruction : PopupBase
         if (CoreManager.Instance.selectingPrefab)
         {
             string mat_text = "";
-            List<BuildMaterial> matList = CoreManager.Instance.selectingPrefab.Info.materialList;
+            List<ResourceData> matList = CoreManager.Instance.selectingPrefab.Info.buildResources;
             for (int i = 0; i < matList.Count; i++)
             {
                 mat_text += $"<sprite={(int)matList[i].res_type}> {DataManager.Instance.gameData.resourcesAmounts[(int)matList[i].res_type]} / {matList[i].res_amount} \n";
             }
-            contructionMat_tmp.text = mat_text;
+            ConstructionMat_tmp.text = mat_text;
         }
         
     }
@@ -46,13 +46,13 @@ public class PopupPlaceContruction : PopupBase
     #region UI Events
     public void ButtonConfirm()
     {
-        for (int i = 0; i < CoreManager.Instance.placingContructionList.Count; i++)
+        for (int i = 0; i < CoreManager.Instance.placingConstructionList.Count; i++)
         {
-            CoreManager.Instance.placingContructionList[i].PlayAnimPrepare(false);
-            CoreManager.Instance.placingContructionList[i].Place();
+            CoreManager.Instance.placingConstructionList[i].PlayAnimPrepare(false);
+            CoreManager.Instance.placingConstructionList[i].Place();
         }
 
-        CoreManager.Instance.placingContructionList.Clear();
+        CoreManager.Instance.placingConstructionList.Clear();
         Close();
     }
 
@@ -63,24 +63,24 @@ public class PopupPlaceContruction : PopupBase
         {
             CoreManager.Instance.ConstructionDirect = 0;
         }
-        if (CoreManager.Instance.selectingContruction)
+        if (CoreManager.Instance.selectingConstruction)
         {
-            CoreManager.Instance.selectingContruction.TF.eulerAngles = new Vector3(0, 0, 90 * CoreManager.Instance.ConstructionDirect);
+            CoreManager.Instance.selectingConstruction.TF.eulerAngles = new Vector3(0, 0, 90 * CoreManager.Instance.ConstructionDirect);
         }
         directArrow.rotation = Quaternion.Euler(0, 0, -90 * CoreManager.Instance.ConstructionDirect);
     }
 
     public void ButtonCancel()
     {
-        for (int i = 0; i < CoreManager.Instance.placingContructionList.Count; i++)
+        for (int i = 0; i < CoreManager.Instance.placingConstructionList.Count; i++)
         {
-            Destroy(CoreManager.Instance.placingContructionList[i].gameObject);
+            Destroy(CoreManager.Instance.placingConstructionList[i].gameObject);
         }
-        for (int i = 0; i < CoreManager.Instance.placingContructionList.Count; i++)
+        for (int i = 0; i < CoreManager.Instance.placingConstructionList.Count; i++)
         {
-            CoreManager.Instance.placingContructionList[i].RefillResources();
+            CoreManager.Instance.placingConstructionList[i].RefillResources();
         }
-        CoreManager.Instance.placingContructionList.Clear();
+        CoreManager.Instance.placingConstructionList.Clear();
         Close();
     }
     #endregion

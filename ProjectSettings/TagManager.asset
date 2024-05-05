@@ -6,13 +6,13 @@ TagManager:
   tags:
   - Lead
   - Coal
-  - Contruction
   - Copper
   - StartPosition
   - EndPosition
   - Ore
   - CenterModule
   - CameraBox
+  - Construction
   layers:
   - Default
   - TransparentFX

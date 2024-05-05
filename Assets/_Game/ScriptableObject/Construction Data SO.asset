@@ -13,21 +13,8 @@ MonoBehaviour:
   m_Name: Construction Data SO
   m_EditorClassIdentifier: 
   constructionSet:
-  - constructionID: 0
-    ConstructionName: 
-    ConstructionImage: {fileID: 21300000, guid: 5272b447f426bf04fa70ae2ad0e37387, type: 3}
-    parentID_Required: 
-    IsUnlocked: 1
-    unlock_resources: []
-  - constructionID: 1
-    ConstructionName: Scatter
-    ConstructionImage: {fileID: 21300000, guid: fb49725f5e34fb74d82b05724653c8fa, type: 3}
-    parentID_Required: 
-    IsUnlocked: 1
-    unlock_resources: []
-  - constructionID: 2
-    ConstructionName: Drill
-    ConstructionImage: {fileID: 21300000, guid: fbfc1ff368a2f3e4091e6f7b9d195206, type: 3}
-    parentID_Required: 
-    IsUnlocked: 1
-    unlock_resources: []
+  - {fileID: 8217034256142649396, guid: 168bf4a6ae06ac74d8332664b9010e1d, type: 3}
+  - {fileID: 111428357688872937, guid: 432a5e191a265ac4fbf3b11f120466be, type: 3}
+  - {fileID: 4962090300411123728, guid: 6528d2e91fd390e42807ff4da5222996, type: 3}
+  - {fileID: 5133588094289688924, guid: 3d20cfcdb18834447a5761eafdd2cb96, type: 3}
+  - {fileID: 8313938795682402348, guid: 9cbf0ab60ade34a4da9117beac19facc, type: 3}

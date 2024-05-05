@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -1214464763036277129}
   m_Layer: 6
   m_Name: SmallWall
-  m_TagString: Contruction
+  m_TagString: Construction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,13 +101,19 @@ MonoBehaviour:
   anim: {fileID: 6877375632361154977}
   tf: {fileID: 5179857333379750010}
   Info:
-    ContructionName: Small Wall
-    materialList:
+    constructionID: 4
+    ConstructionName: Small Wall
+    avatarSprite: {fileID: 21300000, guid: 33abf10e7ea9cdd4f9e86cf78fa6fdef, type: 3}
+    buildResources:
     - res_type: 1
       res_amount: 15
+    unlockResources:
+    - res_type: 1
+      res_amount: 100
     Description: Protect buildings from enemies
-  avatarSprite: {fileID: 21300000, guid: 33abf10e7ea9cdd4f9e86cf78fa6fdef, type: 3}
-  Contruction_Width: 1
+    parentID_Required: 01000000
+    IsUnlocked: 0
+  Construction_Width: 0
   maxHP: 300
   curHP: 0
   isPlaced: 0

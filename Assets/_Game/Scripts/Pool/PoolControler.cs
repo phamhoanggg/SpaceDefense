@@ -140,7 +140,7 @@ public enum ParticleType
 {
     Spawn,
     DeathUnit,
-    DeathContruction,
+    DeathConstruction,
     Hit_4,
 }
 

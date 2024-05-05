@@ -3,21 +3,21 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ButtonContruction : MonoBehaviour
+public class ButtonConstruction : MonoBehaviour
 {
     [SerializeField] Image frameImg;
-    [SerializeField] Image contructionImg;
-    [SerializeField] Contruction prefabContruction;
+    [SerializeField] Image constructionImg;
+    [SerializeField] Construction prefabConstruction;
 
     private void Start()
     {
-        contructionImg.sprite = prefabContruction.avatarSprite;
+        constructionImg.sprite = prefabConstruction.Info.avatarSprite;
     }
 
     public void OnClick()
     {
         FormGameplay.Instance.Selecting_block.transform.position = transform.position;
-        CoreManager.Instance.selectingPrefab = prefabContruction;
+        CoreManager.Instance.selectingPrefab = prefabConstruction;
         FormGameplay.Instance.OpenPopupPlaceConstruction();
     }
 }

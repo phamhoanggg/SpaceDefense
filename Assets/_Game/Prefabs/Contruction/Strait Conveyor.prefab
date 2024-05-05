@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 8313938795682402348}
   m_Layer: 6
   m_Name: Strait Conveyor
-  m_TagString: Contruction
+  m_TagString: Construction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -310,13 +310,17 @@ MonoBehaviour:
   anim: {fileID: 1915567719850718061}
   tf: {fileID: 1915567719850718063}
   Info:
-    ContructionName: Conveyor
-    materialList:
-    - res_type: 1
-      res_amount: 15
+    constructionID: 3
+    ConstructionName: Conveyor
+    avatarSprite: {fileID: 21300000, guid: 8fcadbc30518faa4ea7f53bc793bdc59, type: 3}
+    buildResources:
+    - res_type: 4
+      res_amount: 5
+    unlockResources: []
     Description: Transport resources to storage
-  avatarSprite: {fileID: 21300000, guid: 8fcadbc30518faa4ea7f53bc793bdc59, type: 3}
-  Contruction_Width: 1
+    parentID_Required: 
+    IsUnlocked: 1
+  Construction_Width: 0
   maxHP: 100
   curHP: 0
   isPlaced: 0

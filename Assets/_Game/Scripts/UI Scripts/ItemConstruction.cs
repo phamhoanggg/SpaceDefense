@@ -11,7 +11,7 @@ public class ItemConstruction : MonoBehaviour
     public void OnInit(ConstructionData data)
     {
         locked_Frame.SetActive(!data.IsUnlocked);
-        constructionImage.sprite = data.ConstructionImage;
+        constructionImage.sprite = data.avatarSprite;
     }
 
     public void SetUnlock(bool isUnlocked)

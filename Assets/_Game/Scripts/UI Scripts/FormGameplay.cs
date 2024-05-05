@@ -13,7 +13,7 @@ public class FormGameplay : SingletonMB<FormGameplay>
     [SerializeField] private PopupPause popupPause;
     [SerializeField] private PopupWin popupWin;
     [SerializeField] private PopupLose popupLose;
-    [SerializeField] private PopupPlaceContruction popupPlaceContruction;
+    [SerializeField] private PopupPlaceConstruction popupPlaceConstruction;
     [SerializeField] private PopupConstructionTree popupConstructionTree;
 
     private GameObject currentPanel;
@@ -40,7 +40,7 @@ public class FormGameplay : SingletonMB<FormGameplay>
         currentPanel.SetActive(true);
         selectingPanel_obj.SetActive(true);
         selectingPanel_obj.transform.position = panelButtons[index].transform.position;
-        CoreManager.Instance.selectingContruction = null;
+        CoreManager.Instance.selectingConstruction = null;
         CoreManager.Instance.selectingPrefab = null;
     }
     public void OpenDrillPanel()
@@ -80,7 +80,7 @@ public class FormGameplay : SingletonMB<FormGameplay>
 
     public void OpenPopupPlaceConstruction()
     {
-        popupPlaceContruction.Open();
+        popupPlaceConstruction.Open();
     }
 
     public void OpenPopupConstructionTree()

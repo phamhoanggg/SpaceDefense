@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Drill : Contruction, IDriller
+public class Drill : Construction, IDriller
 {
     [SerializeField] private float drillSpeed;
     [SerializeField] private Animator fanAnim;
@@ -18,7 +18,7 @@ public class Drill : Contruction, IDriller
         if (!isPlacable)
         {
             RefillResources();
-            DestroyContruction();
+            DestroyConstruction();
         }
         
     }
@@ -49,7 +49,7 @@ public class Drill : Contruction, IDriller
         if (!isPlacable)
         {
             RefillResources();
-            DestroyContruction();
+            DestroyConstruction();
         }
         else
         {

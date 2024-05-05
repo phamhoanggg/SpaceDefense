@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Input_PlaceContruction_State : GamePlayState
+public class Input_PlaceConstruction_State : GamePlayState
 {
     public override void OnEnter()
     {
@@ -23,12 +23,12 @@ public class Input_PlaceContruction_State : GamePlayState
 
                 RaycastHit2D hit1 = Physics2D.Raycast(ray.origin, ray.direction, 100, InputManager.Instance.constructionLayer);
 
-                if (hit1 && hit1.collider.GetComponent<Contruction>() != null)
+                if (hit1 && hit1.collider.GetComponent<Construction>() != null)
                 {
-                    if (!hit1.collider.GetComponent<Contruction>().isPlaced)
+                    if (!hit1.collider.GetComponent<Construction>().isPlaced)
                     {
-                        hit1.collider.GetComponent<Contruction>().RefillResources();
-                        hit1.collider.GetComponent<Contruction>().DestroyContruction();
+                        hit1.collider.GetComponent<Construction>().RefillResources();
+                        hit1.collider.GetComponent<Construction>().DestroyConstruction();
                     }
                     return;
                 }
@@ -38,7 +38,7 @@ public class Input_PlaceContruction_State : GamePlayState
                 if (hit && hit.collider.GetComponent<GridTile>() != null)
                 {
                     Debug.Log("Tile");
-                    InputManager.Instance.PlaceNewContruction(hit.collider.transform.position, CoreManager.Instance.selectingPrefab.Contruction_Width);
+                    InputManager.Instance.PlaceNewConstruction(hit.collider.transform.position, CoreManager.Instance.selectingPrefab.Construction_Width);
                 }
                 
             }

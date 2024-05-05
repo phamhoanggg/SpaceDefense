@@ -267,11 +267,15 @@ MonoBehaviour:
   anim: {fileID: 0}
   tf: {fileID: 7267159448686492474}
   Info:
-    ContructionName: 
-    materialList: []
+    constructionID: 0
+    ConstructionName: 
+    avatarSprite: {fileID: 0}
+    buildResources: []
+    unlockResources: []
     Description: 
-  avatarSprite: {fileID: 0}
-  Contruction_Width: 3
+    parentID_Required: 
+    IsUnlocked: 0
+  Construction_Width: 0
   maxHP: 500
   curHP: 0
   isPlaced: 1

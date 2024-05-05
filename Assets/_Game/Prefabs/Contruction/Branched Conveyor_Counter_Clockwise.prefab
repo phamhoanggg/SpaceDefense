@@ -433,7 +433,7 @@ GameObject:
   - component: {fileID: 5283072649347041455}
   m_Layer: 6
   m_Name: Branched Conveyor_Counter_Clockwise
-  m_TagString: Contruction
+  m_TagString: Construction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -574,13 +574,15 @@ MonoBehaviour:
   anim: {fileID: 2352360517395065838}
   tf: {fileID: 2352360517395065836}
   Info:
-    ContructionName: Conveyor
-    materialList:
-    - res_type: 1
-      res_amount: 15
+    constructionID: 0
+    ConstructionName: 
+    avatarSprite: {fileID: 0}
+    buildResources: []
+    unlockResources: []
     Description: Transport resources to storage
-  avatarSprite: {fileID: 21300000, guid: 8fcadbc30518faa4ea7f53bc793bdc59, type: 3}
-  Contruction_Width: 1
+    parentID_Required: 
+    IsUnlocked: 0
+  Construction_Width: 0
   maxHP: 100
   curHP: 0
   isPlaced: 0

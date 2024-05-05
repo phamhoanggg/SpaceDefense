@@ -9,7 +9,7 @@ public enum LayerEditing
     BackgroundLayer,
     ObstacleLayer,
     ResourceLayer,
-    ContructionLayer,
+    ConstructionLayer,
 }
 
 #if UNITY_EDITOR

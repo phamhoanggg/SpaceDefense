@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 1659537567568151237}
   m_Layer: 6
   m_Name: Corner_Conveyor_CounterClockise
-  m_TagString: Contruction
+  m_TagString: Construction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -233,11 +233,15 @@ MonoBehaviour:
   anim: {fileID: 2327745307593859037}
   tf: {fileID: 2327745307593859039}
   Info:
-    ContructionName: 
-    materialList: []
+    constructionID: 0
+    ConstructionName: 
+    avatarSprite: {fileID: 0}
+    buildResources: []
+    unlockResources: []
     Description: 
-  avatarSprite: {fileID: 21300000, guid: e934fbcb5ecdb884f9855bcdc17894d0, type: 3}
-  Contruction_Width: 1
+    parentID_Required: 
+    IsUnlocked: 0
+  Construction_Width: 0
   maxHP: 100
   curHP: 0
   isPlaced: 0

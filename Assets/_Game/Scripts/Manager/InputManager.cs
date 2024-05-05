@@ -4,7 +4,7 @@ using UnityEngine.EventSystems;
 public enum InputMode
 {
     Default,
-    PlacingContruction,
+    PlacingConstruction,
 }
 
 public class InputManager : SingletonMB<InputManager>
@@ -17,8 +17,8 @@ public class InputManager : SingletonMB<InputManager>
     private GamePlayState defaultState;
     public GamePlayState DefaultState => defaultState;
 
-    private GamePlayState placeContructionState;
-    public GamePlayState PlaceContructionState => placeContructionState;
+    private GamePlayState placeConstructionState;
+    public GamePlayState PlaceConstructionState => placeConstructionState;
 
     public GameObject Selecting_Block;
 
@@ -28,7 +28,7 @@ public class InputManager : SingletonMB<InputManager>
     void Start()
     {
         defaultState = new Input_Default_State();
-        placeContructionState = new Input_PlaceContruction_State();
+        placeConstructionState = new Input_PlaceConstruction_State();
         ChangeState(defaultState);
     }
 
@@ -53,14 +53,14 @@ public class InputManager : SingletonMB<InputManager>
         currentState.OnEnter();
     }
 
-    public void PlaceNewContruction(Vector3 tilePos, int contructionSize)
+    public void PlaceNewConstruction(Vector3 tilePos, int ConstructionSize)
     {
         Vector3 pos = tilePos;
-        if (contructionSize == 1)
+        if (ConstructionSize == 1)
         {
 
         }
-        else if (contructionSize == 2)
+        else if (ConstructionSize == 2)
         {
             Vector3 leftTilePos = pos - new Vector3(GameConstant.TileSize, 0, 0);
             Vector3 underTilePos = pos - new Vector3(0, GameConstant.TileSize, 0);
@@ -86,17 +86,17 @@ public class InputManager : SingletonMB<InputManager>
             pos -= new Vector3(GameConstant.TileSize / 2, GameConstant.TileSize / 2, 0);
         }
 
-        Contruction newContruction = Instantiate(CoreManager.Instance.selectingPrefab, pos, Quaternion.identity, gridContructParent);
-        newContruction.transform.eulerAngles = new Vector3(0, 0, -90 * CoreManager.Instance.ConstructionDirect);
-        newContruction.PlayAnimPrepare(true);
-        CoreManager.Instance.placingContructionList.Add(newContruction);
-        CoreManager.Instance.selectingContruction = newContruction;
+        Construction newConstruction = Instantiate(CoreManager.Instance.selectingPrefab, pos, Quaternion.identity, gridContructParent);
+        newConstruction.transform.eulerAngles = new Vector3(0, 0, -90 * CoreManager.Instance.ConstructionDirect);
+        newConstruction.PlayAnimPrepare(true);
+        CoreManager.Instance.placingConstructionList.Add(newConstruction);
+        CoreManager.Instance.selectingConstruction = newConstruction;
 
-        newContruction.ConsumeResources();
+        newConstruction.ConsumeResources();
 
         Selecting_Block.SetActive(true);
         Selecting_Block.transform.position = pos;
-        Selecting_Block.transform.localScale = Vector3.one * contructionSize;
+        Selecting_Block.transform.localScale = Vector3.one * ConstructionSize;
     }
 
     public void SetBlockInput(bool isBlock)
