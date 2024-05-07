@@ -73,7 +73,7 @@ public class GamePlayController : SingletonMB<GamePlayController>
 
         if (centerModule)
         {
-            centerModule_hp_img.fillAmount = centerModule.curHP / centerModule.maxHP;
+            centerModule_hp_img.fillAmount = centerModule.CurrentHp / centerModule.maxHP;
         }
         else
         {

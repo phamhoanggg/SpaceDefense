@@ -13,8 +13,8 @@ public class PopupPlaceConstruction : PopupBase
         base.Open();
         InputManager.Instance.ChangeState(InputManager.Instance.PlaceConstructionState);
         FormGameplay.Instance.Selecting_block.SetActive(true);
-        ConstructionName_tmp.text = CoreManager.Instance.selectingPrefab.Info.ConstructionName;
-        ConstructionDes_tmp.text = CoreManager.Instance.selectingPrefab.Info.Description;
+        ConstructionName_tmp.text = CoreManager.Instance.selectingPrefab.ConstructionName;
+        ConstructionDes_tmp.text = CoreManager.Instance.selectingPrefab.Description;
 
         directArrow.rotation = Quaternion.Euler(0, 0, -90 * CoreManager.Instance.ConstructionDirect);
     }
@@ -33,7 +33,7 @@ public class PopupPlaceConstruction : PopupBase
         if (CoreManager.Instance.selectingPrefab)
         {
             string mat_text = "";
-            List<ResourceData> matList = CoreManager.Instance.selectingPrefab.Info.buildResources;
+            List<ResourceData> matList = CoreManager.Instance.selectingPrefab.buildResources;
             for (int i = 0; i < matList.Count; i++)
             {
                 mat_text += $"<sprite={(int)matList[i].res_type}> {DataManager.Instance.gameData.resourcesAmounts[(int)matList[i].res_type]} / {matList[i].res_amount} \n";

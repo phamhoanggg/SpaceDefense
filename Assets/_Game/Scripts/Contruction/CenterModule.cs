@@ -1,5 +1,6 @@
 public class CenterModule : Construction
 {
+    public float CurrentHp => curHP;
     public override void TakeLandDamage(float dmg)
     {
         base.TakeLandDamage(dmg);

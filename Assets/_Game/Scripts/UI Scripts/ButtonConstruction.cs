@@ -11,7 +11,7 @@ public class ButtonConstruction : MonoBehaviour
 
     private void Start()
     {
-        constructionImg.sprite = prefabConstruction.Info.avatarSprite;
+        constructionImg.sprite = prefabConstruction.avatarSprite;
     }
 
     public void OnClick()

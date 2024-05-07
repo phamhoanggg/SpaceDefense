@@ -167,26 +167,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 5249176050644968097}
   tf: {fileID: 5249176050644968103}
-  Info:
-    constructionID: 1
-    ConstructionName: Scatter
-    avatarSprite: {fileID: 21300000, guid: fb49725f5e34fb74d82b05724653c8fa, type: 3}
-    buildResources:
-    - res_type: 0
-      res_amount: 20
-    - res_type: 1
-      res_amount: 30
-    unlockResources:
-    - res_type: 0
-      res_amount: 100
-    - res_type: 1
-      res_amount: 100
-    Description: Attack units on sky
-    parentID_Required: 
-    IsUnlocked: 1
-  Construction_Width: 0
+  ConstructionName: Scatter
+  avatarSprite: {fileID: 21300000, guid: fb49725f5e34fb74d82b05724653c8fa, type: 3}
+  Description: Attack enemies on air
+  Construction_Width: 2
+  buildResources:
+  - res_type: 0
+    res_amount: 50
+  - res_type: 1
+    res_amount: 25
+  unlockResources:
+  - res_type: 0
+    res_amount: 200
+  - res_type: 1
+    res_amount: 200
   maxHP: 250
-  curHP: 0
   isPlaced: 0
 --- !u!1 &5249176050796484257
 GameObject:

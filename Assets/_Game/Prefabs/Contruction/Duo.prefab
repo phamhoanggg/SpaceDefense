@@ -147,20 +147,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 2379120061885782438}
   tf: {fileID: 2379120061343172972}
-  Info:
-    constructionID: 0
-    ConstructionName: Duo
-    avatarSprite: {fileID: 21300000, guid: 5272b447f426bf04fa70ae2ad0e37387, type: 3}
-    buildResources:
-    - res_type: 1
-      res_amount: 50
-    unlockResources: []
-    Description: Attack units on land
-    parentID_Required: 
-    IsUnlocked: 1
-  Construction_Width: 0
+  ConstructionName: D.U.O
+  avatarSprite: {fileID: 21300000, guid: 5272b447f426bf04fa70ae2ad0e37387, type: 3}
+  Description: Attack enemies on land
+  Construction_Width: 1
+  buildResources:
+  - res_type: 0
+    res_amount: 50
+  unlockResources: []
   maxHP: 150
-  curHP: 0
   isPlaced: 0
 --- !u!1 &2379120061885782435
 GameObject:

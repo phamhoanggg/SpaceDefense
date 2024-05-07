@@ -5,21 +5,15 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Scriptable Object/Construction Data")]
 public class ConstructionDataSO : ScriptableObject
 {
-    public Construction[] constructionSet;
+    public ConstructionData[] constructionSet;
 }
 
 [System.Serializable]
 public class ConstructionData
 {
+    public Construction constructionPrefab;
     public int constructionID;
-    public string ConstructionName;
-    public Sprite avatarSprite;
-
-    public List<ResourceData> buildResources = new List<ResourceData>();
-    public List<ResourceData> unlockResources = new List<ResourceData>();
-    public string Description;
-
-    public int[] parentID_Required;
+    public int[] parent_Required_ID;
     public bool IsUnlocked;
 }
 

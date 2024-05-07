@@ -13,8 +13,23 @@ MonoBehaviour:
   m_Name: Construction Data SO
   m_EditorClassIdentifier: 
   constructionSet:
-  - {fileID: 8217034256142649396, guid: 168bf4a6ae06ac74d8332664b9010e1d, type: 3}
-  - {fileID: 111428357688872937, guid: 432a5e191a265ac4fbf3b11f120466be, type: 3}
-  - {fileID: 4962090300411123728, guid: 6528d2e91fd390e42807ff4da5222996, type: 3}
-  - {fileID: 5133588094289688924, guid: 3d20cfcdb18834447a5761eafdd2cb96, type: 3}
-  - {fileID: 8313938795682402348, guid: 9cbf0ab60ade34a4da9117beac19facc, type: 3}
+  - constructionPrefab: {fileID: 8313938795682402348, guid: 9cbf0ab60ade34a4da9117beac19facc, type: 3}
+    constructionID: 0
+    parent_Required_ID: 
+    IsUnlocked: 1
+  - constructionPrefab: {fileID: 4962090300411123728, guid: 6528d2e91fd390e42807ff4da5222996, type: 3}
+    constructionID: 1
+    parent_Required_ID: 
+    IsUnlocked: 1
+  - constructionPrefab: {fileID: 5133588094289688924, guid: 3d20cfcdb18834447a5761eafdd2cb96, type: 3}
+    constructionID: 2
+    parent_Required_ID: 
+    IsUnlocked: 1
+  - constructionPrefab: {fileID: 8217034256142649396, guid: 168bf4a6ae06ac74d8332664b9010e1d, type: 3}
+    constructionID: 3
+    parent_Required_ID: 
+    IsUnlocked: 1
+  - constructionPrefab: {fileID: 111428357688872937, guid: 432a5e191a265ac4fbf3b11f120466be, type: 3}
+    constructionID: 4
+    parent_Required_ID: 03000000
+    IsUnlocked: 0

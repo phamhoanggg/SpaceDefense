@@ -12,7 +12,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected GameObject indicator_prefab;
     [SerializeField] protected LayerMask raycastLayer;
 
-    private float cur_HP;
+    protected float cur_HP;
     private bool isDead;
     private GameObject indicator_object;
     public bool IsDead => isDead;
@@ -55,18 +55,9 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public void TakeAirDamage(float dmg)
+    public virtual void TakeAirDamage(float dmg)
     {
-        if (GameManager.Instance.gameConfig.isOneHit)
-        {
-            OnDead();
-            return;
-        }
-        cur_HP -= dmg;
-        if (cur_HP <= 0)
-        {
-            OnDead();
-        }
+        
     }
 
     public void TakeLandDamage(float dmg)
@@ -89,6 +80,7 @@ public class Enemy : MonoBehaviour
         if (!isDead)
         {
             isDead = true;
+            Destroy(indicator_object);
             GamePlayController.Instance.StopAllCoroutines();
             GamePlayController.Instance.StartCoroutine(GamePlayController.Instance.CheckWinLevel());
             ParticlePool.Play(ParticleType.DeathUnit, tf.position, Quaternion.identity);

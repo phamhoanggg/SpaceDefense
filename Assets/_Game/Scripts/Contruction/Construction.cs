@@ -3,12 +3,20 @@ using UnityEngine;
 
 public class Construction : MonoBehaviour, IOnLand
 {
+    [Header("REFERENCES")]
     [SerializeField] protected Animator anim;
     [SerializeField] protected Transform tf;
-    public ConstructionData Info;
-    public int Construction_Width;
-    public float maxHP, curHP;  
 
+    [Header("DATA")]
+    public string ConstructionName;
+    public Sprite avatarSprite;
+    public string Description;
+    public int Construction_Width;
+    public List<ResourceData> buildResources = new List<ResourceData>();
+    public List<ResourceData> unlockResources = new List<ResourceData>();
+    public float maxHP;
+
+    protected float curHP;
     public Transform TF => tf;
 
     public bool isPlaced;
@@ -70,10 +78,10 @@ public class Construction : MonoBehaviour, IOnLand
     public bool IsEnoughResourcesToBuild()
     {
 
-        for (int i = 0; i < Info.buildResources.Count; i++)
+        for (int i = 0; i < buildResources.Count; i++)
         {
-            int res_index = (int)Info.buildResources[i].res_type;
-            int res_amount = Info.buildResources[i].res_amount;
+            int res_index = (int)buildResources[i].res_type;
+            int res_amount = buildResources[i].res_amount;
 
             if (DataManager.Instance.gameData.resourcesAmounts[res_index] < res_amount) return false;
         }
@@ -83,10 +91,10 @@ public class Construction : MonoBehaviour, IOnLand
 
     public void ConsumeResources()
     {
-        for (int i = 0; i < Info.buildResources.Count; i++)
+        for (int i = 0; i < buildResources.Count; i++)
         {
-            int res_index = (int)Info.buildResources[i].res_type;
-            int res_amount = Info.buildResources[i].res_amount;
+            int res_index = (int)buildResources[i].res_type;
+            int res_amount = buildResources[i].res_amount;
 
             DataManager.Instance.gameData.resourcesAmounts[res_index] -= res_amount;
         }
@@ -94,10 +102,10 @@ public class Construction : MonoBehaviour, IOnLand
 
     public void RefillResources()
     {
-        for (int i = 0; i < Info.buildResources.Count; i++)
+        for (int i = 0; i < buildResources.Count; i++)
         {
-            int res_index = (int)Info.buildResources[i].res_type;
-            int res_amount = Info.buildResources[i].res_amount;
+            int res_index = (int)buildResources[i].res_type;
+            int res_amount = buildResources[i].res_amount;
 
             DataManager.Instance.gameData.resourcesAmounts[res_index] += res_amount;
         }

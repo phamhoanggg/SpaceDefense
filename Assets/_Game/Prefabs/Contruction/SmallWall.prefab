@@ -100,22 +100,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 6877375632361154977}
   tf: {fileID: 5179857333379750010}
-  Info:
-    constructionID: 4
-    ConstructionName: Small Wall
-    avatarSprite: {fileID: 21300000, guid: 33abf10e7ea9cdd4f9e86cf78fa6fdef, type: 3}
-    buildResources:
-    - res_type: 1
-      res_amount: 15
-    unlockResources:
-    - res_type: 1
-      res_amount: 100
-    Description: Protect buildings from enemies
-    parentID_Required: 01000000
-    IsUnlocked: 0
-  Construction_Width: 0
+  ConstructionName: Small Wall
+  avatarSprite: {fileID: 21300000, guid: 33abf10e7ea9cdd4f9e86cf78fa6fdef, type: 3}
+  Description: Protect other constructions from enemies
+  Construction_Width: 1
+  buildResources:
+  - res_type: 1
+    res_amount: 15
+  unlockResources: []
   maxHP: 300
-  curHP: 0
   isPlaced: 0
 --- !u!95 &6877375632361154977
 Animator:

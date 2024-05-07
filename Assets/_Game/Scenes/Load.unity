@@ -289,6 +289,7 @@ MonoBehaviour:
     levelUnlocked: 0
     currentLevelIndex: 0
     resourcesAmounts: c8000000c8000000c8000000c8000000c8000000
+  isLoaded: 0
 --- !u!1 &208880944
 GameObject:
   m_ObjectHideFlags: 0

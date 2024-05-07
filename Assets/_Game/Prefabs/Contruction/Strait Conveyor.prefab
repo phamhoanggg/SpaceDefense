@@ -309,20 +309,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 1915567719850718061}
   tf: {fileID: 1915567719850718063}
-  Info:
-    constructionID: 3
-    ConstructionName: Conveyor
-    avatarSprite: {fileID: 21300000, guid: 8fcadbc30518faa4ea7f53bc793bdc59, type: 3}
-    buildResources:
-    - res_type: 4
-      res_amount: 5
-    unlockResources: []
-    Description: Transport resources to storage
-    parentID_Required: 
-    IsUnlocked: 1
-  Construction_Width: 0
+  ConstructionName: Conveyor
+  avatarSprite: {fileID: 21300000, guid: 8fcadbc30518faa4ea7f53bc793bdc59, type: 3}
+  Description: Transport resources to storage
+  Construction_Width: 1
+  buildResources:
+  - res_type: 4
+    res_amount: 5
+  unlockResources: []
   maxHP: 100
-  curHP: 0
   isPlaced: 0
   transitionAnim: {fileID: 1915567720434951681}
   straitConveyor: {fileID: 8313938795682402348}
