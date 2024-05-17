@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PopupPause : PopupBase
 {
-    public override void Open()
+    public override void Open(object args = null)
     {
         base.Open();
 

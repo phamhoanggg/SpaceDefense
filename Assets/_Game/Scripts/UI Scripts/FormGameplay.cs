@@ -1,3 +1,4 @@
+using Sirenix.OdinInspector;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -73,9 +74,9 @@ public class FormGameplay : SingletonMB<FormGameplay>
         popupLose.Open();
     }
 
-    public void OpenPopupWin()
+    public void OpenPopupWin(string playTime)
     {
-        popupWin.Open();
+        popupWin.Open(playTime);
     }
 
     public void OpenPopupPlaceConstruction()

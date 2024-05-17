@@ -55,26 +55,6 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    public virtual void TakeAirDamage(float dmg)
-    {
-        
-    }
-
-    public void TakeLandDamage(float dmg)
-    {
-        if (GameManager.Instance.gameConfig.isOneHit)
-        {
-            OnDead();
-            return;
-        }
-
-        cur_HP -= dmg;
-        if (cur_HP <= 0)
-        {
-            OnDead();
-        }
-    }
-
     public void OnDead()
     {
         if (!isDead)

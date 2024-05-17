@@ -154,7 +154,9 @@ MonoBehaviour:
   buildResources:
   - res_type: 0
     res_amount: 50
-  unlockResources: []
+  unlockResources:
+  - res_type: 0
+    res_amount: 100
   maxHP: 150
   isPlaced: 0
 --- !u!1 &2379120061885782435

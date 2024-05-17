@@ -1,12 +1,14 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PopupWin : PopupBase
 {
     [SerializeField] private TMP_Text res_remains_tmp;
+    [SerializeField] private Text playTime_tmp;
 
     private GameData gameData;
-    public override void Open()
+    public override void Open(object playTime)
     {
         base.Open();
         gameData = DataManager.Instance.gameData;
@@ -20,6 +22,9 @@ public class PopupWin : PopupBase
         {
             res_remains_tmp.text += $"<sprite={i}> : {gameData.resourcesAmounts[i]} \n";
         }
+
+        playTime_tmp.text = playTime.ToString();
+
         DataManager.Instance.SaveData();
 
     }

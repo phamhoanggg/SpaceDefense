@@ -27,8 +27,8 @@ MonoBehaviour:
     IsUnlocked: 1
   - constructionPrefab: {fileID: 8217034256142649396, guid: 168bf4a6ae06ac74d8332664b9010e1d, type: 3}
     constructionID: 3
-    parent_Required_ID: 
-    IsUnlocked: 1
+    parent_Required_ID: 02000000
+    IsUnlocked: 0
   - constructionPrefab: {fileID: 111428357688872937, guid: 432a5e191a265ac4fbf3b11f120466be, type: 3}
     constructionID: 4
     parent_Required_ID: 03000000

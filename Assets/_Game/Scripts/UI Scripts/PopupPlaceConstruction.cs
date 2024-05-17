@@ -8,7 +8,7 @@ public class PopupPlaceConstruction : PopupBase
     [SerializeField] private TMP_Text ConstructionName_tmp, ConstructionDes_tmp;
     [SerializeField] private TMP_Text ConstructionMat_tmp;
     [SerializeField] private RectTransform directArrow;
-    public override void Open()
+    public override void Open(object args = null)
     {
         base.Open();
         InputManager.Instance.ChangeState(InputManager.Instance.PlaceConstructionState);
@@ -65,7 +65,7 @@ public class PopupPlaceConstruction : PopupBase
         }
         if (CoreManager.Instance.selectingConstruction)
         {
-            CoreManager.Instance.selectingConstruction.TF.eulerAngles = new Vector3(0, 0, 90 * CoreManager.Instance.ConstructionDirect);
+            CoreManager.Instance.selectingConstruction.TF.eulerAngles = new Vector3(0, 0, -90 * CoreManager.Instance.ConstructionDirect);
         }
         directArrow.rotation = Quaternion.Euler(0, 0, -90 * CoreManager.Instance.ConstructionDirect);
     }

@@ -23,7 +23,7 @@ public class GamePlayController : SingletonMB<GamePlayController>
     private void Start()
     {
         LoadLevel(DataManager.Instance.gameData.currentLevelIndex);
-        startTime = Time.time;
+        startTime = Time.realtimeSinceStartup;
         currentWaveIndex = 0;
         Player.Instance.InitValue();
         spawningPosition_Obj.SetActive(false);
@@ -44,11 +44,11 @@ public class GamePlayController : SingletonMB<GamePlayController>
 
     private void Update()
     {
-        playTime = (Time.time - startTime);
+        playTime = (Time.realtimeSinceStartup - startTime);
 
         if (curLevel && currentWaveIndex < curLevel.EnemyWaves.Count)
         {
-            nextWaveSpawn_tmp.text = $"Next wave spawn in: {timeLeftFormatter(curLevel.EnemyWaves[currentWaveIndex].spawnTime - Mathf.FloorToInt(playTime))}";
+            nextWaveSpawn_tmp.text = $"Next wave spawn in: {TimeFormatter(curLevel.EnemyWaves[currentWaveIndex].spawnTime - Mathf.FloorToInt(playTime))}";
             if (curLevel.EnemyWaves[currentWaveIndex].spawnTime - Mathf.FloorToInt(playTime) < 30)
             {
                 spawningPosition_Obj.SetActive(true);
@@ -93,33 +93,33 @@ public class GamePlayController : SingletonMB<GamePlayController>
         }
     }
 
-    string timeLeftFormatter(int second)
+    string TimeFormatter(int second)
     {
-        string timeLeft = "";
+        string time = "";
         if (second < 60)
         {
-            timeLeft += "00:";
+            time += "00:";
             if (second < 10)
             {
-                timeLeft += "0";
+                time += "0";
             }
 
-            timeLeft += second;
+            time += second;
         }
         else
         {
             int min = second / 60;      // min is always < 10
             int newSec = second % 60;
-            timeLeft += $"0{min}:";
+            time += $"0{min}:";
             if (newSec < 10)
             {
-                timeLeft += "0";
+                time += "0";
             }
 
-            timeLeft += newSec;
+            time += newSec;
         }
 
-        return timeLeft;
+        return time;
     }
 
     public IEnumerator CheckWinLevel()
@@ -142,7 +142,7 @@ public class GamePlayController : SingletonMB<GamePlayController>
             DataManager.Instance.gameData.currentLevelIndex++;
         }
 
-        FormGameplay.Instance.OpenPopupWin();
+        FormGameplay.Instance.OpenPopupWin(TimeFormatter((int)playTime));
     }
 
     public void OnLoseLevel()

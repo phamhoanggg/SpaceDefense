@@ -6,7 +6,7 @@ public class PopupLose : PopupBase
     [SerializeField] private TMP_Text res_remains_tmp;
 
     private GameData gameData;
-    public override void Open()
+    public override void Open(object args = null)
     {
         base.Open();
         gameData = DataManager.Instance.gameData;

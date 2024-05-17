@@ -12,7 +12,7 @@ public abstract class PopupBase : MonoBehaviour
         boxTransform.localScale = Vector3.zero;
     }
 
-    public virtual void Open()
+    public virtual void Open(object args = null)
     {
         if (gameObject.activeInHierarchy)
         {

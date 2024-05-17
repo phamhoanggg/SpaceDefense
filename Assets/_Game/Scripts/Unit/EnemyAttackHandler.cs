@@ -107,19 +107,27 @@ public class EnemyAttackHandler : MonoBehaviour
 
     protected void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.gameObject == parent.gameObject) return;
+
         if (collision.GetComponent<IOnLand>() != null && GetComponent<ILandAttackable>() != null)
         {
+            if (targetList.Contains(collision.gameObject)) return;
+
             targetList.Add(collision.gameObject);
         }
 
         if (collision.GetComponent<IFlyable>() != null && GetComponent<IAirAttackable>() != null)
         {
+            if (targetList.Contains(collision.gameObject)) return;
+
             targetList.Add(collision.gameObject);
         }
     }
 
     protected void OnTriggerExit2D(Collider2D collision)
     {
+        if (collision.gameObject == parent.gameObject) return;
+
         if (targetList.Contains(collision.gameObject))
         {
             targetList.Remove(collision.gameObject);

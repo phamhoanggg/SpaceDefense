@@ -27,6 +27,8 @@ public class Bullet : GameUnit
         isFlying = true;
         StartCoroutine(IE_Despawn(5));
         gameObject.layer = (int)layer;
+        Debug.Log("Attacker: " + attacker.name);
+
     }
 
     private void Update()

@@ -22,27 +22,30 @@ public class PopupConstructionTree : PopupBase
     [SerializeField] private Text constructionName;
     [SerializeField] private TMP_Text unlockResourcesText;
     [SerializeField] private TMP_Text buildResourcesText;
+    [SerializeField] private Text requireConstructionText;
     [SerializeField] private Button unlockButton;
 
     private Construction currentConstructionCentered;
-
+    private static readonly List<ItemConstruction> itemList = new List<ItemConstruction>();
+    private GameData gameData => DataManager.Instance.gameData;
     protected override void Awake()
     {
         base.Awake();
         SetupConstructionInfor();
     }
-    public override void Open()
+    public override void Open(object args = null)
     {
         base.Open();
         InputManager.Instance.SetBlockInput(true);
+
+        scrolSnap.GoToPanel(0);
+        SetSelectedPanel();
     }
     public override void Close()
     {
         base.Close();
         InputManager.Instance.SetBlockInput(false);
 
-        scrolSnap.GoToPanel(0);
-        SetSelectedPanel();
     }
 
     public void SetupConstructionInfor()
@@ -52,6 +55,7 @@ public class PopupConstructionTree : PopupBase
         {
             ItemConstruction newItem = Instantiate(itemPrefab, contentParent);
             newItem.OnInit(constructionSet[i]);
+            itemList.Add(newItem);
         }
     }
 
@@ -71,11 +75,33 @@ public class PopupConstructionTree : PopupBase
         {
             buildInfor_go.SetActive(false);
             unlockInfor_go.SetActive(true);
+            bool isUnlockable = true;
+
             unlockResourcesText.text = "";
+            List<ResourceData> unlockResources = constructionData.constructionPrefab.unlockResources;
             for (int i = 0; i < constructionData.constructionPrefab.unlockResources.Count; i++)
             {
-                unlockResourcesText.text += $"<sprite={(int)constructionData.constructionPrefab.unlockResources[i].res_type}>: {constructionData.constructionPrefab.unlockResources[i].res_amount}/{DataManager.Instance.gameData.resourcesAmounts[(int)constructionData.constructionPrefab.unlockResources[i].res_type]}\n";
+                unlockResourcesText.text += $"<sprite={(int)unlockResources[i].res_type}>: {unlockResources[i].res_amount}/{gameData.resourcesAmounts[(int)unlockResources[i].res_type]}\n";
+
+                if (gameData.resourcesAmounts[(int)unlockResources[i].res_type] < unlockResources[i].res_amount) isUnlockable = false;
             }
+
+            requireConstructionText.text = "";
+            for (int i = 0; i < constructionData.parent_Required_ID.Length; i++)
+            {
+                int parentID = constructionData.parent_Required_ID[i];
+                if (constructionSet[parentID].IsUnlocked)
+                {
+                    requireConstructionText.text += $"<color=green>{constructionSet[parentID].constructionPrefab.ConstructionName}</color>  ";
+                }
+                else
+                {
+                    requireConstructionText.text += $"<color=red>{constructionSet[parentID].constructionPrefab.ConstructionName}</color>  ";
+                    isUnlockable = false;
+                }
+            }
+
+            unlockButton.interactable = isUnlockable;
         }
     }
     
@@ -87,7 +113,6 @@ public class PopupConstructionTree : PopupBase
         ConstructionData constructionData = constructionSet[panelCentered];
         constructionIcon.sprite = constructionData.constructionPrefab.avatarSprite;
         constructionName.text = constructionData.constructionPrefab.ConstructionName;
-        unlockButton.gameObject.SetActive(!constructionData.IsUnlocked);
 
         SetResourceRequire(constructionData);
 
@@ -98,29 +123,16 @@ public class PopupConstructionTree : PopupBase
 
     public void UnlockConstruction()
     {
-        bool isEnough = true;
-
         for (int i = 0; i < currentConstructionCentered.unlockResources.Count; i++)
         {
             ResourceData resData = currentConstructionCentered.unlockResources[i];
-            if (DataManager.Instance.gameData.resourcesAmounts[(int)resData.res_type] < resData.res_amount)
-            {
-                isEnough = false;
-                break;
-            }
+            DataManager.Instance.gameData.resourcesAmounts[(int)resData.res_type] -= resData.res_amount;
         }
 
-        if (isEnough)
-        {
-            for (int i = 0; i < currentConstructionCentered.unlockResources.Count; i++)
-            {
-                ResourceData resData = currentConstructionCentered.unlockResources[i];
-                DataManager.Instance.gameData.resourcesAmounts[(int)resData.res_type] -= resData.res_amount;
-            }
-
-            constructionSet[scrolSnap.CenteredPanel].IsUnlocked = true;
-            DataManager.Instance.SaveData();
-            SetSelectedPanel();
-        }
+        constructionSet[scrolSnap.CenteredPanel].IsUnlocked = true;
+        DataManager.Instance.SaveData();
+        SetSelectedPanel();
+        int panelCentered = scrolSnap.CenteredPanel;
+        itemList[panelCentered].OnInit(constructionSet[panelCentered]);
     }
 }
