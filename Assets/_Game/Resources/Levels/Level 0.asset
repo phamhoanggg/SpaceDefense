@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Level 0
   m_EditorClassIdentifier: 
   LevelIndex: 0
+  Map_Width: 96
+  Map_Height: 75
   BG_Tilemap:
   - position: {x: -1, y: -1, z: 0}
     levelTile: {fileID: 11400000, guid: c0a0ddf02068ff345af65a6fb5d5476b, type: 2}

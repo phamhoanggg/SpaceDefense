@@ -6,6 +6,8 @@ using UnityEngine;
 public class ScriptableLevel : ScriptableObject
 {
     public int LevelIndex;
+    public int Map_Width;
+    public int Map_Height;
     public List<MapTile> BG_Tilemap;
     public List<GameObjectTile> Obstacle_Tilemap;
     public List<GameObjectTile> Resource_Tilemap;

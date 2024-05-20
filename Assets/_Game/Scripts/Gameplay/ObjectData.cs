@@ -3,20 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-[System.Serializable]
-public class LevelDataWrapper
-{
-    public List<LevelData> levelList;
-}
+//[System.Serializable]
+//public class LevelDataWrapper
+//{
+//    public List<LevelData> levelList;
+//}
 
-[System.Serializable]
-public class LevelData
-{
-    public List<MapTile> BG_Tilemap;
-    public List<MapTile> Obstacle_Tilemap;
-    public List<GameObjectTile> Resource_Tilemap;
-    public List<GameObjectTile> Construction_Tilemap;
-}
+//[System.Serializable]
+//public class LevelData
+//{
+//    public List<MapTile> BG_Tilemap;
+//    public List<MapTile> Obstacle_Tilemap;
+//    public List<GameObjectTile> Resource_Tilemap;
+//    public List<GameObjectTile> Construction_Tilemap;
+//}
 
 [System.Serializable]
 public class GameObjectTile

@@ -26,7 +26,10 @@ public class TilemapManager : SingletonMB<TilemapManager>
         newLevel.Resource_Tilemap = GetMinesFromMap(Res_Map).ToList();
         newLevel.EnemyWaves = enemyWaves;
         newLevel.centerModulePostion = centerModulePos;
-
+        BG_Map.CompressBounds();
+        Vector3Int mapsize = BG_Map.size;
+        newLevel.Map_Width = mapsize.x;
+        newLevel.Map_Height = mapsize.y;
         ScriptableObjectUtility.SaveLevelFile(newLevel);
 
         IEnumerable<MapTile> GetTilesFromMap(Tilemap map)

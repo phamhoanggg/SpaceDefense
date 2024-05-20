@@ -40,6 +40,8 @@ public class GamePlayController : SingletonMB<GamePlayController>
         centerModule = Instantiate(centerModulePrefab, constructorTileLayer);
         centerModule.Place();
         centerModule.TF.localPosition = curLevel.centerModulePostion;
+
+        GridTileManager.Instance.SpawnAllTiles(curLevel.Map_Width, curLevel.Map_Height);
     }
 
     private void Update()

@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class GridTileManager : SingletonMB<GridTileManager>
 {
-    public int width, height;
     [SerializeField] private GridTile prefabTile;
     [SerializeField] Transform tileParent;
 
-    private void Start()
-    {
-        SpawnAllTiles();
-    }
-    public void SpawnAllTiles()
+    public void SpawnAllTiles(int width, int height)
     {
         for (int y = 0; y < height; y++)
         {
