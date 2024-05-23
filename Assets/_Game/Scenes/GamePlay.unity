@@ -4564,8 +4564,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f4280d0950d05443a6175fecac6c426, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 100
-  height: 100
   prefabTile: {fileID: 5388703070454829782, guid: d9a4ef38814c1bb49a9e78d7765803ef, type: 3}
   tileParent: {fileID: 1730002143}
 --- !u!1 &1803104234
