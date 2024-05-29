@@ -5,11 +5,12 @@ using UnityEngine;
 public class EnemyAttackHandler : MonoBehaviour
 {
     [SerializeField] protected float dmg;
-    [SerializeField] protected float atk_range;
+    protected float atk_range;
     [SerializeField] protected float atk_speed;
-    [SerializeField] protected CircleCollider2D circleCol;
-    [SerializeField] protected GameObject centerModule;
-    [SerializeField] protected Enemy parent;
+    protected CircleCollider2D circleCol;
+    protected GameObject centerModule;
+    protected Enemy parent;
+
     private List<GameObject> targetList;
     private GameObject curTarget;
     private float atk_CD;
@@ -17,8 +18,11 @@ public class EnemyAttackHandler : MonoBehaviour
     private void Start()
     {
         targetList = new List<GameObject>();
-        circleCol.radius = atk_range;
         centerModule = FindObjectOfType<CenterModule>().gameObject;
+        parent = transform.parent.GetComponent<Enemy>();
+        atk_range = parent.Attack_Range;
+        circleCol = GetComponent<CircleCollider2D>();
+        circleCol.radius = atk_range;
     }
     // Update is called once per frame
     protected void Update()
@@ -49,29 +53,8 @@ public class EnemyAttackHandler : MonoBehaviour
             }
         }
     }
-    public virtual void Attack(Transform target)
-    {
-        if (target.GetComponent<IFlyable>() != null && GetComponent<IAirAttackable>() != null)
-        {
-            AttackOnAir(dmg, target);
-        }
-        else if (target.GetComponent<IOnLand>() != null && GetComponent<ILandAttackable>() != null)
-        {
-            AttackOnLand(dmg, target);
-        }
-    }
+    public virtual void Attack(Transform target) {}
 
-    public virtual void AttackOnAir(float dmg, Transform target)
-    {
-        Bullet newBullet = SimplePool.Spawn<Bullet>(PoolType.Bullet_Air, transform.position, Quaternion.identity);
-        newBullet.AssignValues(dmg, 20, target, gameObject, GameLayer.Enemy);
-    }
-
-    public virtual void AttackOnLand(float dmg, Transform target)
-    {
-        Bullet newBullet = SimplePool.Spawn<Bullet>(PoolType.Bullet_Land, transform.position, Quaternion.identity);
-        newBullet.AssignValues(dmg, 20, target, gameObject, GameLayer.Enemy);
-    }
 
     public GameObject GetTarget()
     {
@@ -108,6 +91,7 @@ public class EnemyAttackHandler : MonoBehaviour
     protected void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject == parent.gameObject) return;
+        if (collision.GetComponent<EnemyAttackHandler>() != null || collision.GetComponent<Enemy>() != null) return;
 
         if (collision.GetComponent<IOnLand>() != null && GetComponent<ILandAttackable>() != null)
         {
@@ -127,6 +111,7 @@ public class EnemyAttackHandler : MonoBehaviour
     protected void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject == parent.gameObject) return;
+        if (collision.GetComponent<EnemyAttackHandler>() != null || collision.GetComponent<Enemy>() != null) return;
 
         if (targetList.Contains(collision.gameObject))
         {

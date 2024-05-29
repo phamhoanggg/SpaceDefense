@@ -37,6 +37,7 @@ public enum EnemyType
     Pulsar,
     Elude,
     Quasar,
+    Risso,
 }
 
 public enum SceneId

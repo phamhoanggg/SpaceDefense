@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3072197076543351813}
   - component: {fileID: 8528952316600463033}
   - component: {fileID: 1613535959794649445}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: ice-wall-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

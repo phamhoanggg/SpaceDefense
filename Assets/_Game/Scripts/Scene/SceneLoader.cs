@@ -135,7 +135,7 @@ public class SceneLoader : SingletonMB<SceneLoader>
 
     private void CleanupBeforeLoadScene()
     {
-        DOTween.KillAll();
+        //DOTween.KillAll();
         DataManager.Instance.SaveData();
     }
 

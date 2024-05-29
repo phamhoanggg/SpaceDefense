@@ -82,6 +82,6 @@ public class GameData
     public GameData()
     {
         levelUnlocked = 0;
-        resourcesAmounts = new int[] { 200, 200, 200, 200, 200};
+        resourcesAmounts = new int[] { 2000, 2000, 2000, 2000, 2000};
     }
 }

@@ -6,6 +6,8 @@ public class Construction : MonoBehaviour, IOnLand
     [Header("REFERENCES")]
     [SerializeField] protected Animator anim;
     [SerializeField] protected Transform tf;
+    [SerializeField] protected Construction_HP_Bar hp_bar;
+    protected Collider2D col2D;
 
     [Header("DATA")]
     public string ConstructionName;
@@ -51,8 +53,12 @@ public class Construction : MonoBehaviour, IOnLand
         }
         else
         {
+            col2D = GetComponent<Collider2D>();
+            col2D.enabled = true;
             isPlaced = true;
             curHP = maxHP;
+            hp_bar.transform.eulerAngles = new Vector3(0, 0, -transform.eulerAngles.z);
+            hp_bar.SetFillAmount(1);
         }
     }
 
@@ -67,11 +73,21 @@ public class Construction : MonoBehaviour, IOnLand
     {
         if (GameManager.Instance.gameConfig.isUndying) return;
         curHP -= dmg;
+        hp_bar.SetFillAmount(curHP / maxHP);
         if (curHP <= 0)
         {
             ParticlePool.Play(ParticleType.DeathConstruction, tf.position, Quaternion.identity);
             DestroyConstruction();
         }
+    }
+
+    public void GetHeal(float amount)
+    {
+        if (curHP < maxHP)
+        {
+            curHP += amount;
+            hp_bar.SetFillAmount(curHP / maxHP);
+        }   
     }
 
     #region Resources Related

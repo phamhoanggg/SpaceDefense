@@ -128,7 +128,7 @@ public static class ParticlePool
 
     //--------------------------------------------------------------------------------------------------
 
-    static Dictionary<ParticleType, ParticleSystem> shortcuts = new Dictionary<ParticleType, ParticleSystem>();
+    public static Dictionary<ParticleType, ParticleSystem> shortcuts = new Dictionary<ParticleType, ParticleSystem>();
     // All of our pools
     static Dictionary<int, Pool> pools = new Dictionary<int, Pool>();
 
@@ -195,6 +195,7 @@ public static class ParticlePool
 
     static public void Shortcut(ParticleType particleType, ParticleSystem particleSystem)
     {
+        if (shortcuts.ContainsKey(particleType)) return;
         shortcuts.Add(particleType, particleSystem);
     }
 }

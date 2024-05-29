@@ -6,8 +6,8 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] protected float maxHP;
     [SerializeField] protected float move_speed;
-    [SerializeField] protected Transform tf;
-    [SerializeField] protected Transform centerModule;
+    protected Transform tf;
+    protected Transform centerModule;
     [SerializeField] protected float atk_range;
     [SerializeField] protected GameObject indicator_prefab;
     [SerializeField] protected LayerMask raycastLayer;
@@ -17,27 +17,23 @@ public class Enemy : MonoBehaviour
     private GameObject indicator_object;
     public bool IsDead => isDead;
     public Transform TF => tf;
+    public float Attack_Range => atk_range;
     // Start is called before the first frame update
     protected void Start()
     {
         tf = transform;
         centerModule = FindObjectOfType<CenterModule>().TF;
+
         isDead = false;
         indicator_object = Instantiate(indicator_prefab);
         indicator_object.SetActive(false);
         cur_HP = maxHP;
+        Debug.Log(indicator_object);
     }
 
-    protected void Update()
+    protected virtual void Update()
     {
-        if (centerModule == null) return;
-        if (Vector2.Distance(tf.position, centerModule.position) > atk_range)
-        {
-            tf.position = Vector2.MoveTowards(tf.position, centerModule.position, move_speed * Time.deltaTime);
-            Vector2 direct = centerModule.position - tf.position;
-            float angleZ = Mathf.Atan2(direct.y, direct.x) * Mathf.Rad2Deg;
-            tf.eulerAngles = new Vector3(0, 0, angleZ - 90);
-        }
+        Moving();
 
         Vector2 rayDirect = tf.position - Player.Instance.transform.position;
         RaycastHit2D hit = Physics2D.Raycast(Player.Instance.transform.position, rayDirect, rayDirect.magnitude, raycastLayer);
@@ -54,6 +50,8 @@ public class Enemy : MonoBehaviour
             indicator_object.SetActive(false);
         }
     }
+
+    public virtual void Moving(){}
 
     public void OnDead()
     {

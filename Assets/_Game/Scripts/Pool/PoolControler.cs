@@ -29,6 +29,7 @@ public class PoolControler : MonoBehaviour
             SimplePool.Preload(Pool[i].prefab, Pool[i].amount, Pool[i].root, Pool[i].collect);
         }
 
+        ParticlePool.shortcuts = new Dictionary<ParticleType, ParticleSystem>();
         for (int i = 0; i < Particle.Length; i++)
         {
             ParticlePool.Preload(Particle[i].prefab, Particle[i].amount, Particle[i].root);

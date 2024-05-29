@@ -376,8 +376,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 150
   move_speed: 6
-  tf: {fileID: 202251338421501814}
-  centerModule: {fileID: 0}
   atk_range: 10
   indicator_prefab: {fileID: 3448290570557431367, guid: 98023cd9d92c3b942b96cd84d608a1fc, type: 3}
   raycastLayer:
@@ -444,7 +442,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -516,11 +514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dmg: 10
-  atk_range: 10
   atk_speed: 4
-  circleCol: {fileID: 7949783893929738603}
-  centerModule: {fileID: 0}
-  parent: {fileID: 566987091800641382}
 --- !u!50 &1633447856
 Rigidbody2D:
   serializedVersion: 4

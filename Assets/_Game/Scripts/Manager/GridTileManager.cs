@@ -11,8 +11,8 @@ public class GridTileManager : SingletonMB<GridTileManager>
 
     public void SpawnAllTiles(int width, int height)
     {
-        tile_array = new GridTile[width, height];
-        walkableMap = new bool[width, height];
+        tile_array = new GridTile[height, width];
+        walkableMap = new bool[height, width];
 
         for (int y = 0; y < height; y++)
         {
@@ -20,9 +20,9 @@ public class GridTileManager : SingletonMB<GridTileManager>
             {
                 GridTile newTile = Instantiate(prefabTile, new Vector3(x/2f, y/2f, 0), Quaternion.identity, tileParent);
                 newTile.name = "TILE (" + x + "," + y + ")";
-                tile_array[x, y] = newTile;
-                newTile.SetCoord(x, y);
-                walkableMap[x, y] = newTile.IsWalkable();
+                tile_array[height - 1 - y, x] = newTile;
+                newTile.SetCoord(height - 1 - y, x);
+                walkableMap[height - 1 - y, x] = newTile.IsWalkable();
             }
         }
     }
@@ -30,5 +30,10 @@ public class GridTileManager : SingletonMB<GridTileManager>
     public bool[,] GetWalkableMap()
     {
         return walkableMap;
+    }
+
+    public Transform GetWolrdGridTileFromCoordinate(int x, int y)
+    {
+        return tile_array[x, y].transform;
     }
 }
