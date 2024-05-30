@@ -61,7 +61,7 @@ public class Enemy : MonoBehaviour
             Destroy(indicator_object);
             GamePlayController.Instance.StopAllCoroutines();
             GamePlayController.Instance.StartCoroutine(GamePlayController.Instance.CheckWinLevel());
-            ParticlePool.Play(ParticleType.DeathUnit, tf.position, Quaternion.identity);
+            ParticlePoolController.Instance.Play(ParticleType.DeathUnit, tf.position);
             Destroy(gameObject);
         }
         

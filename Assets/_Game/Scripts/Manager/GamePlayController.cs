@@ -90,7 +90,7 @@ public class GamePlayController : SingletonMB<GamePlayController>
         for (int i = 0; i < curLevel.EnemyWaves[waveIndex].amount; i++)
         {
             Instantiate(enemyListPrefab[(int)curLevel.EnemyWaves[waveIndex].type], spawnPos, Quaternion.identity);
-            ParticlePool.Play(ParticleType.Spawn, spawnPos, Quaternion.identity);
+            ParticlePoolController.Instance.Play(ParticleType.Spawn, spawnPos);
             yield return new WaitForSeconds(1);
         }
     }
