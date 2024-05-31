@@ -110,7 +110,7 @@ MonoBehaviour:
   - res_type: 1
     res_amount: 15
   unlockResources: []
-  maxHP: 300
+  maxHP: 150
   isPlaced: 0
 --- !u!95 &6877375632361154977
 Animator:

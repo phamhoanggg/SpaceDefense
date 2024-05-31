@@ -6,6 +6,8 @@ public class Parallax : Turret, IAirAttackable
 {
     public override void Attack(float dmg, Transform target)
     {
+        Debug.Log("Parallax Attak");
+
         AttackOnAir(dmg, target);
     }
     public void AttackOnAir(float dmg, Transform target)

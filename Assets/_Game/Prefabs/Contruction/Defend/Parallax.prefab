@@ -108,7 +108,7 @@ MonoBehaviour:
   Construction_Width: 2
   buildResources: []
   unlockResources: []
-  maxHP: 0
+  maxHP: 250
   isPlaced: 0
 --- !u!50 &61444575702446356
 Rigidbody2D:

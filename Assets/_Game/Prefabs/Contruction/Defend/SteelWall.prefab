@@ -108,7 +108,7 @@ MonoBehaviour:
   Construction_Width: 2
   buildResources: []
   unlockResources: []
-  maxHP: 0
+  maxHP: 300
   isPlaced: 0
 --- !u!95 &2674569052567564803
 Animator:
