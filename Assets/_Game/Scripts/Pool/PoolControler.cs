@@ -143,6 +143,7 @@ public enum ParticleType
     DeathUnit,
     DeathConstruction,
     Hit_4,
+    Missile_Hit,
 }
 
 public enum PoolType
@@ -155,6 +156,7 @@ public enum PoolType
     Lead_Props,
     Gold_Props,
     Silver_Props,
+    Missile,
 }
 
 

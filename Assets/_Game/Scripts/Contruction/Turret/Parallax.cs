@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Scatter : Turret, IAirAttackable
+public class Parallax : Turret, IAirAttackable
 {
     public override void Attack(float dmg, Transform target)
     {
@@ -10,8 +10,8 @@ public class Scatter : Turret, IAirAttackable
     }
     public void AttackOnAir(float dmg, Transform target)
     {
-        Bullet newBullet = SimplePool.Spawn<Bullet>(PoolType.Bullet_Air, TF.position, Quaternion.identity);
-        newBullet.AssignValues(dmg, 20, target, gameObject, GameLayer.Construction);
+        Bullet newBullet = SimplePool.Spawn<Bullet>(PoolType.Missile, TF.position, Quaternion.identity);
+        newBullet.AssignValues(dmg, 10, target, gameObject, GameLayer.Construction);
     }
 
 }

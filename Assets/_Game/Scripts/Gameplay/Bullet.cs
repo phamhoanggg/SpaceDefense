@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class Bullet : GameUnit
 {
-    [SerializeField] private float dmg;
-    [SerializeField] private float speed;
-    [SerializeField] private Transform target;
-    private Vector3 direct;
-    private GameObject attacker;
+    protected float dmg;
+    protected float speed;
+    protected Transform target;
+    protected Vector3 direct;
+    protected GameObject attacker;
 
-    private bool isFlying;
+    protected bool isFlying;
     public override void OnInit()
     {
         isFlying = false;
     } 
 
-    public void AssignValues(float damage, float fly_speed, Transform target, GameObject attacker, GameLayer layer)
+    public virtual void AssignValues(float damage, float fly_speed, Transform target, GameObject attacker, GameLayer layer)
     {
         dmg = damage;
         speed = fly_speed;
@@ -27,11 +27,9 @@ public class Bullet : GameUnit
         isFlying = true;
         StartCoroutine(IE_Despawn(5));
         gameObject.layer = (int)layer;
-        Debug.Log("Attacker: " + attacker.name);
-
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         if (isFlying)
         {
@@ -60,7 +58,7 @@ public class Bullet : GameUnit
         OnDespawn();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject == attacker) return;
 

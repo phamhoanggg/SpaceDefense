@@ -36,6 +36,7 @@ public class FormSelectLevel : SingletonMB<FormSelectLevel>
     {
         if (selectingLevel != null)
         {
+            UIManager.Instance.SetActiveBlock(true);
             SceneLoader.Instance.LoadScene(SceneId.GamePlay);
             DataManager.Instance.gameData.currentLevelIndex = selectingLevel.LevelIndex;
         }

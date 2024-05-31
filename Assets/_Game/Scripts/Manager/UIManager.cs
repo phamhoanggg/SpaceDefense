@@ -5,6 +5,7 @@ using UnityEngine;
 public class UIManager : SingletonMB<UIManager>
 {
     [SerializeField] private Transform canvasPopupTransform;
+    [SerializeField] private GameObject blocker_obj;
 
     public bool HaveActivePopup()
     {
@@ -14,5 +15,10 @@ public class UIManager : SingletonMB<UIManager>
         }
 
         return false;
+    }
+
+    public void SetActiveBlock(bool isActive)
+    {
+        blocker_obj.SetActive(isActive);
     }
 }

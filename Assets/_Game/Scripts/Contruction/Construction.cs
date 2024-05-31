@@ -64,6 +64,8 @@ public class Construction : MonoBehaviour, IOnLand
 
     public void DestroyConstruction()
     {
+        ParticlePoolController.Instance.Play(ParticleType.DeathConstruction, tf.position);
+
         InputManager.Instance.Selecting_Block.SetActive(false);
         CoreManager.Instance.placingConstructionList.Remove(this);
         Destroy(gameObject);
@@ -72,13 +74,18 @@ public class Construction : MonoBehaviour, IOnLand
     public virtual void TakeLandDamage(float dmg)
     {
         if (GameManager.Instance.gameConfig.isUndying) return;
-        curHP -= dmg;
-        hp_bar.SetFillAmount(curHP / maxHP);
-        if (curHP <= 0)
+        if (curHP > 0)
         {
-            ParticlePool.Play(ParticleType.DeathConstruction, tf.position, Quaternion.identity);
-            DestroyConstruction();
+            curHP -= dmg;
+            hp_bar.SetFillAmount(curHP / maxHP);
+
+            if (curHP <= 0)
+            {
+                DestroyConstruction();
+            }
         }
+        
+        
     }
 
     public void GetHeal(float amount)

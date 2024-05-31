@@ -41,7 +41,7 @@ public class Turret : MonoBehaviour
                     }
                     else
                     {
-                        AttackOnAir(dmg, target.TF);
+                        Attack(dmg, target.TF);
                         atk_CD = 1 / atk_speed;
                     }
                 }
@@ -50,19 +50,11 @@ public class Turret : MonoBehaviour
                     target = GetTarget();
                 }
             }
-        }      
-    }
-    public void AttackOnAir(float dmg, Transform target)
-    {
-        Bullet newBullet = SimplePool.Spawn<Bullet>(PoolType.Bullet_Air, TF.position, Quaternion.identity);
-        newBullet.AssignValues(dmg, 20, target, gameObject, GameLayer.Construction);
+        }
     }
 
-    public void AttackOnLand(float dmg, Transform target)
-    {
-        Bullet newBullet = SimplePool.Spawn<Bullet>(PoolType.Bullet_Air, TF.position, Quaternion.identity);
-        newBullet.AssignValues(dmg, 20, target, gameObject, GameLayer.Construction);
-    }
+    public virtual void Attack(float dmg, Transform target) { }
+
 
     public Enemy GetTarget()
     {
