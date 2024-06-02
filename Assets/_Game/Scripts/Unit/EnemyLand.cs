@@ -51,6 +51,13 @@ public class EnemyLand : Enemy, IOnLand
                 float angleZ = Mathf.Atan2(direct.x, direct.y) * Mathf.Rad2Deg;
                 transform.eulerAngles = new Vector3(0, 0, -angleZ);
             }
+            else
+            {
+                if (direct.x != 0)
+                {
+                    transform.eulerAngles = new Vector3(0, 0, (direct.x > 0) ? -90 : 90);
+                }
+            }
             
         }
     }

@@ -78,10 +78,14 @@ public class GameData
     public int levelUnlocked;
     public int currentLevelIndex;
     public int[] resourcesAmounts;
+    public bool isSFXEnabled;
+    public bool isMusicEnabled;
 
     public GameData()
     {
         levelUnlocked = 0;
         resourcesAmounts = new int[] { 2000, 2000, 2000, 2000, 2000};
+        isSFXEnabled = true;
+        isMusicEnabled = true;
     }
 }

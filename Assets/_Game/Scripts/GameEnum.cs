@@ -22,6 +22,8 @@ public enum GameLayer
     Default = 0,
     Construction = 6,
     Enemy = 9,
+    Player_Bullet = 14,
+    Enemy_Bullet = 15,
 }
 
 public enum ConveyorType

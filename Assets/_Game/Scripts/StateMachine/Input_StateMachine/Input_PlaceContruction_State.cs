@@ -28,7 +28,8 @@ public class Input_PlaceConstruction_State : GamePlayState
                     if (!hit1.collider.GetComponent<Construction>().isPlaced)
                     {
                         hit1.collider.GetComponent<Construction>().RefillResources();
-                        hit1.collider.GetComponent<Construction>().DestroyConstruction();
+                        hit1.collider.GetComponent<Construction>().DestroyBeforePlaced();
+                        
                     }
                     return;
                 }

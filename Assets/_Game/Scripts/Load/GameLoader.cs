@@ -25,6 +25,7 @@ public class GameLoader : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         DataManager.Instance.LoadData();
+        AudioManager.Instance.Initialize();
 
         yield return new WaitForSeconds(2f);
 

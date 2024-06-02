@@ -49,6 +49,7 @@ public class Bullet : GameUnit
     {
         isFlying = false;
         StopAllCoroutines();
+        ParticlePoolController.Instance.Play(ParticleType.Missile_Hit, TF.position);
         SimplePool.Despawn(this);
     }
 
@@ -61,6 +62,8 @@ public class Bullet : GameUnit
     protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject == attacker) return;
+
+        if (collision.GetComponent<Construction>() != null && !collision.GetComponent<Construction>().isPlaced) return;
 
         if (collision.GetComponent<IOnLand>() != null && poolType == PoolType.Bullet_Land)
         {

@@ -43,13 +43,18 @@ public class Construction : MonoBehaviour, IOnLand
         {
             isCollided = true;
         }
+
+        if (collision.GetComponent<Obstacle>() != null && !isPlaced)
+        {
+            isCollided = true;
+        }
     }
 
     public virtual void Place()
     {
         if (isCollided)
         {
-            DestroyConstruction();
+            DestroyBeforePlaced();
         }
         else
         {
@@ -62,12 +67,16 @@ public class Construction : MonoBehaviour, IOnLand
         }
     }
 
+    public void DestroyBeforePlaced()
+    {
+        InputManager.Instance.Selecting_Block.SetActive(false);
+        CoreManager.Instance.placingConstructionList.Remove(this);
+        Destroy(gameObject);
+    }
+
     public void DestroyConstruction()
     {
         ParticlePoolController.Instance.Play(ParticleType.DeathConstruction, tf.position);
-
-        InputManager.Instance.Selecting_Block.SetActive(false);
-        CoreManager.Instance.placingConstructionList.Remove(this);
         Destroy(gameObject);
     }
 

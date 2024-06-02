@@ -11,7 +11,7 @@ public class Scatter : Turret, IAirAttackable
     public void AttackOnAir(float dmg, Transform target)
     {
         Bullet newBullet = SimplePool.Spawn<Bullet>(PoolType.Bullet_Air, TF.position, Quaternion.identity);
-        newBullet.AssignValues(dmg, 20, target, gameObject, GameLayer.Construction);
+        newBullet.AssignValues(dmg, 20, target, gameObject, GameLayer.Player_Bullet);
     }
 
 }

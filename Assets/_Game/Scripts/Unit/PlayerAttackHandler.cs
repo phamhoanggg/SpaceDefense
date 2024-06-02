@@ -104,12 +104,12 @@ public class PlayerAttackHandler : MonoBehaviour, IAirAttackable, ILandAttackabl
     public void AttackOnAir(float dmg, Transform target)
     {
         Bullet newBullet = SimplePool.Spawn<Bullet>(PoolType.Bullet_Air, TF.position, Quaternion.identity);
-        newBullet.AssignValues(dmg, 20, target, TF.gameObject, GameLayer.Construction);
+        newBullet.AssignValues(dmg, 20, target, TF.gameObject, GameLayer.Player_Bullet);
     }
 
     public void AttackOnLand(float dmg, Transform target)
     {
         Bullet newBullet = SimplePool.Spawn<Bullet>(PoolType.Bullet_Land, TF.position, Quaternion.identity);
-        newBullet.AssignValues(dmg, 20, target, TF.gameObject, GameLayer.Construction);
+        newBullet.AssignValues(dmg, 20, target, TF.gameObject, GameLayer.Player_Bullet);
     }
 }

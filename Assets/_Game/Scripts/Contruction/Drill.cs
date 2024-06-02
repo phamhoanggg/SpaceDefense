@@ -18,7 +18,9 @@ public class Drill : Construction, IDriller
         if (!isPlacable)
         {
             RefillResources();
-            DestroyConstruction();
+            InputManager.Instance.Selecting_Block.SetActive(false);
+            CoreManager.Instance.placingConstructionList.Remove(this);
+            Destroy(gameObject);
         }
         
     }
@@ -49,7 +51,7 @@ public class Drill : Construction, IDriller
         if (!isPlacable)
         {
             RefillResources();
-            DestroyConstruction();
+            DestroyBeforePlaced();
         }
         else
         {

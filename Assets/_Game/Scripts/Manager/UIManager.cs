@@ -7,6 +7,10 @@ public class UIManager : SingletonMB<UIManager>
     [SerializeField] private Transform canvasPopupTransform;
     [SerializeField] private GameObject blocker_obj;
 
+    private void OnApplicationQuit()
+    {
+        DataManager.Instance.SaveData();
+    }
     public bool HaveActivePopup()
     {
         foreach (Transform child in canvasPopupTransform)

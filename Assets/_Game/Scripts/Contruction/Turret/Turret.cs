@@ -35,7 +35,7 @@ public class Turret : MonoBehaviour
                     Vector2 direct = target.transform.position - TF.position;
                     float angleZ = Mathf.Atan2(direct.y, direct.x) * Mathf.Rad2Deg - 90;
                     TF.eulerAngles = new Vector3(0, 0, angleZ);
-                    if (Vector2.Distance(TF.position, target.TF.position) > atk_range)
+                    if (Vector2.Distance(TF.position, target.TF.position) > atk_range + baseTurret.Construction_Width / 2f + 0.5f)
                     {
                         enemyList.Remove(target);
                     }
@@ -85,11 +85,13 @@ public class Turret : MonoBehaviour
         if (collision.GetComponent<Enemy>() != null && collision.GetComponent<IFlyable>() != null && GetComponent<IAirAttackable>() != null)
         {
             enemyList.Add(collision.GetComponent<Enemy>());
+            Debug.Log(gameObject.name + " added enemy");
         }
 
         if (collision.GetComponent<Enemy>() != null && collision.GetComponent<IOnLand>() != null && GetComponent<ILandAttackable>() != null)
         {
             enemyList.Add(collision.GetComponent<Enemy>());
+            Debug.Log(gameObject.name + " added enemy");
         }
     }
 
@@ -98,11 +100,8 @@ public class Turret : MonoBehaviour
         if (collision.GetComponent<Enemy>() != null && enemyList.Contains(collision.GetComponent<Enemy>()))
         {
             enemyList.Remove(collision.GetComponent<Enemy>());
-        }
+            Debug.Log(gameObject.name + " removed enemy");
 
-        if (collision.GetComponent<Enemy>() != null && collision.GetComponent<IOnLand>() != null && GetComponent<ILandAttackable>() != null)
-        {
-            enemyList.Remove(collision.GetComponent<Enemy>());
         }
     }
 }

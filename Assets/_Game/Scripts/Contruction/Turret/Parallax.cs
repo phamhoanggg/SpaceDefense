@@ -13,7 +13,7 @@ public class Parallax : Turret, IAirAttackable
     public void AttackOnAir(float dmg, Transform target)
     {
         Bullet newBullet = SimplePool.Spawn<Bullet>(PoolType.Missile, TF.position, Quaternion.identity);
-        newBullet.AssignValues(dmg, 10, target, gameObject, GameLayer.Construction);
+        newBullet.AssignValues(dmg, 10, target, gameObject, GameLayer.Player_Bullet);
     }
 
 }

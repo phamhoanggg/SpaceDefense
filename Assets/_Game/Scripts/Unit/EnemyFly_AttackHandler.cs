@@ -18,12 +18,12 @@ public class EnemyFly_AttackHandler : EnemyAttackHandler, ILandAttackable, IAirA
     public void AttackOnAir(float dmg, Transform target)
     {
         Bullet newBullet = SimplePool.Spawn<Bullet>(PoolType.Bullet_Air, transform.position, Quaternion.identity);
-        newBullet.AssignValues(dmg, 20, target, gameObject, GameLayer.Enemy);
+        newBullet.AssignValues(dmg, 20, target, gameObject, GameLayer.Enemy_Bullet);
     }
 
     public void AttackOnLand(float dmg, Transform target)
     {
         Bullet newBullet = SimplePool.Spawn<Bullet>(PoolType.Bullet_Land, transform.position, Quaternion.identity);
-        newBullet.AssignValues(dmg, 20, target, gameObject, GameLayer.Enemy);
+        newBullet.AssignValues(dmg, 20, target, gameObject, GameLayer.Enemy_Bullet);
     }
 }

@@ -28,8 +28,8 @@ TagManager:
   - Ore
   - Obstacle
   - Aura
-  - 
-  - 
+  - Player_Bullet
+  - Enemy_Bullet
   - 
   - 
   - 
@@ -62,9 +62,9 @@ TagManager:
   - name: FOG_OF_WAR
     uniqueID: 1121466445
     locked: 0
-  - name: Effect
-    uniqueID: 175871563
-    locked: 0
   - name: Object
     uniqueID: 3312902145
+    locked: 0
+  - name: Effect
+    uniqueID: 175871563
     locked: 0

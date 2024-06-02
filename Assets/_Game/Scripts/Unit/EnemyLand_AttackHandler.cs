@@ -14,6 +14,6 @@ public class EnemyLand_AttackHandler : EnemyAttackHandler, ILandAttackable
     public void AttackOnLand(float dmg, Transform target)
     {
         Bullet newBullet = SimplePool.Spawn<Bullet>(PoolType.Bullet_Land, transform.position, Quaternion.identity);
-        newBullet.AssignValues(dmg, 20, target, gameObject, GameLayer.Enemy);
+        newBullet.AssignValues(dmg, 20, target, gameObject, GameLayer.Enemy_Bullet);
     }
 }

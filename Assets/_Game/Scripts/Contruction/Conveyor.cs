@@ -138,7 +138,7 @@ public class Conveyor : Construction
                     Conveyor newConveyor = Instantiate(cornerConveyor_clockwise, transform.position, Quaternion.identity, transform.parent);
                     newConveyor.TF.eulerAngles = new Vector3(0, 0, (angle - 135));
                     newConveyor.SetStyle(ConveyorType.Corner, direct.normalized);
-                    DestroyConstruction();
+                    DestroyBeforePlaced();
                 }
                 else
                 {
@@ -146,8 +146,8 @@ public class Conveyor : Construction
                     Conveyor newConveyor = Instantiate(cornerConveyor_counter_clockwise, transform.position, Quaternion.identity, transform.parent);
                     newConveyor.TF.eulerAngles = new Vector3(0, 0, (angle + 45));
                     newConveyor.SetStyle(ConveyorType.Corner, direct.normalized);
-                    DestroyConstruction();
-                }          
+                    DestroyBeforePlaced();
+                }
 
 
             }
@@ -188,7 +188,7 @@ public class Conveyor : Construction
                 Conveyor newConveyor = Instantiate(branchedConveyor_clockwise, transform.position, Quaternion.identity, transform.parent);
                 newConveyor.TF.eulerAngles = new Vector3(0, 0, (angle - 45));
                 newConveyor.SetStyle(ConveyorType.Branch, in_out_direct.normalized);
-                DestroyConstruction();
+                DestroyBeforePlaced();
             }
             else
             {
@@ -196,9 +196,9 @@ public class Conveyor : Construction
                 Conveyor newConveyor = Instantiate(branchedConveyor_counter_clockwise, transform.position, Quaternion.identity, transform.parent);
                 newConveyor.TF.eulerAngles = new Vector3(0, 0, (angle - 135));
                 newConveyor.SetStyle(ConveyorType.Branch, in_out_direct.normalized);
-                DestroyConstruction();
+                DestroyBeforePlaced();
             }
-            
+
         }
     }
 }

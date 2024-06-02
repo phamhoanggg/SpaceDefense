@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -409,6 +409,8 @@ MonoBehaviour:
     levelUnlocked: 0
     currentLevelIndex: 0
     resourcesAmounts: c8000000c8000000c8000000c8000000c8000000
+    isSFXEnabled: 1
+    isMusicEnabled: 0
   isLoaded: 0
 --- !u!1 &208880944
 GameObject:
@@ -997,6 +999,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 948232803}
+  - component: {fileID: 948232804}
   m_Layer: 0
   m_Name: Audio Manager
   m_TagString: Untagged
@@ -1020,6 +1023,31 @@ Transform:
   m_Father: {fileID: 1858323786}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &948232804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948232802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34fc8766a2576c049a93c8046c4b0757, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicSource: {fileID: 1144704910}
+  soundSource: {fileID: 1180756303}
+  musicById:
+    keys: 0000000001000000
+    values:
+    - {fileID: 8300000, guid: 3c239da23e1a7e14388f4cd8892855a9, type: 3}
+    - {fileID: 8300000, guid: 123c4d48fe5718a4a98f235787bd13c7, type: 3}
+  soundById:
+    keys: 000000000400000005000000
+    values:
+    - {fileID: 8300000, guid: b96b8adb712982d408cddbf5d08176dd, type: 3}
+    - {fileID: 8300000, guid: 821a16d5bf9b22c46a5c95b878b304e4, type: 3}
+    - {fileID: 8300000, guid: c100e270149818240bf9b40869973bdd, type: 3}
 --- !u!1 &984942481
 GameObject:
   m_ObjectHideFlags: 0
@@ -1240,7 +1268,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1958,8 +1986,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameConfig:
     ConstructionDataSO: {fileID: 11400000, guid: 2bdd456dbe175c748a76b7e7748105a4, type: 2}
-    isOneHit: 1
-    isUndying: 0
+    isOneHit: 0
+    isUndying: 1
 --- !u!1 &1858323785
 GameObject:
   m_ObjectHideFlags: 0
