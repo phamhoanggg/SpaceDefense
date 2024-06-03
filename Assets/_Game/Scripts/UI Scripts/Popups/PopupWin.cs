@@ -12,11 +12,6 @@ public class PopupWin : PopupBase
     {
         base.Open();
         gameData = DataManager.Instance.gameData;
-        if (gameData.currentLevelIndex == gameData.levelUnlocked)
-        {
-            gameData.levelUnlocked++;
-            DataManager.Instance.gameData = gameData;
-        }
         res_remains_tmp.text = "";
         for (int i = 0; i < gameData.resourcesAmounts.Length; i++)
         {

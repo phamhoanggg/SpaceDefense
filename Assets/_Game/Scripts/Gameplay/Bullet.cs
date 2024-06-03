@@ -50,6 +50,7 @@ public class Bullet : GameUnit
         isFlying = false;
         StopAllCoroutines();
         ParticlePoolController.Instance.Play(ParticleType.Missile_Hit, TF.position);
+        AudioManager.Instance.PlaySound(SoundId.Bullet_hit);
         SimplePool.Despawn(this);
     }
 

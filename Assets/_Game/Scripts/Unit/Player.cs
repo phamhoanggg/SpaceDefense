@@ -78,14 +78,15 @@ public class Player : SingletonMB<Player>, IFlyable
     void OnDespawn()
     {
         gameObject.SetActive(false);
-        ParticlePool.Play(ParticleType.DeathUnit, TF.position, Quaternion.identity);
+        ParticlePoolController.Instance.Play(ParticleType.DeathUnit, transform.position);
+        AudioManager.Instance.PlaySound(SoundId.Explode);
         Invoke(nameof(Respawn), 2);
     }
 
     void Respawn()
     {
         TF.position = centerModule.position;
-        ParticlePool.Play(ParticleType.Spawn, TF.position, Quaternion.identity);
+        ParticlePoolController.Instance.Play(ParticleType.Spawn, TF.position);
         gameObject.SetActive(true);
         InitValue();
     }

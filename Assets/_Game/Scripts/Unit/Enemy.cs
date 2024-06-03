@@ -57,6 +57,7 @@ public class Enemy : MonoBehaviour
     {
         if (!isDead)
         {
+            AudioManager.Instance.PlaySound(SoundId.Explode);
             isDead = true;
             Destroy(indicator_object);
             GamePlayController.Instance.StopAllCoroutines();

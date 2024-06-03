@@ -51,7 +51,7 @@ public class PlayerAttackHandler : MonoBehaviour, IAirAttackable, ILandAttackabl
     private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        if (collision.GetComponent<Enemy>() != null)
+        if (collision.GetComponent<Enemy>() != null && !enemyList.Contains(collision.GetComponent<Enemy>()))
         {
             enemyList.Add(collision.GetComponent<Enemy>());
         }
@@ -71,6 +71,10 @@ public class PlayerAttackHandler : MonoBehaviour, IAirAttackable, ILandAttackabl
         int nearestEnemyIndex = -1;
         for (int i = 0; i < enemyList.Count; i++)
         {
+            if (enemyList[i] == null) {
+                enemyList.RemoveAt(i);
+                continue;
+            }
             if (Vector2.Distance(TF.position, enemyList[i].TF.position) <= minDis)
             {
                 nearestEnemyIndex = i;
@@ -91,6 +95,7 @@ public class PlayerAttackHandler : MonoBehaviour, IAirAttackable, ILandAttackabl
 
     public void Attack(float dmg, Transform target)
     {
+        AudioManager.Instance.PlaySound(SoundId.Bullet_fire);
         if (target.GetComponent<IFlyable>() != null)
         {
             AttackOnAir(dmg, target);

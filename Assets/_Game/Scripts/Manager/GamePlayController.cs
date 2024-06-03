@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class GamePlayController : SingletonMB<GamePlayController>
 {
     [SerializeField] private ScriptableLevel curLevel;
-    [SerializeField] private TMP_Text nextWaveSpawn_tmp;
+    [SerializeField] private LocalizeStringFormatter nextWaveSpawn_tmp;
     [SerializeField] private CenterModule centerModulePrefab;
     [SerializeField] private Transform constructorTileLayer;
     [SerializeField] private CenterModule centerModule;
@@ -50,7 +50,7 @@ public class GamePlayController : SingletonMB<GamePlayController>
 
         if (curLevel && currentWaveIndex < curLevel.EnemyWaves.Count)
         {
-            nextWaveSpawn_tmp.text = $"Next wave spawn in: {TimeFormatter(curLevel.EnemyWaves[currentWaveIndex].spawnTime - Mathf.FloorToInt(playTime))}";
+            nextWaveSpawn_tmp.SetAllParam(TimeFormatter(curLevel.EnemyWaves[currentWaveIndex].spawnTime - Mathf.FloorToInt(playTime)));
             if (curLevel.EnemyWaves[currentWaveIndex].spawnTime - Mathf.FloorToInt(playTime) < 30)
             {
                 spawningPosition_Obj.SetActive(true);
@@ -141,7 +141,7 @@ public class GamePlayController : SingletonMB<GamePlayController>
     {
         if (DataManager.Instance.gameData.currentLevelIndex == DataManager.Instance.gameData.levelUnlocked)
         {
-            DataManager.Instance.gameData.currentLevelIndex++;
+            DataManager.Instance.gameData.levelUnlocked++;
         }
 
         FormGameplay.Instance.OpenPopupWin(TimeFormatter((int)playTime));

@@ -15,6 +15,8 @@ public class Turret : MonoBehaviour
     private List<Enemy> enemyList;
     Enemy target;
 
+    private bool isRotatingIdle;
+    float targetAngle;
     protected void Start()
     {
         enemyList = new List<Enemy>();
@@ -22,7 +24,9 @@ public class Turret : MonoBehaviour
     }
     protected void Update()
     {
-        if (baseTurret.isPlaced && enemyList.Count > 0)
+        if (!baseTurret.isPlaced) return;
+
+        if (enemyList.Count > 0)
         {
             if (atk_CD > 0)
             {
@@ -38,6 +42,7 @@ public class Turret : MonoBehaviour
                     if (Vector2.Distance(TF.position, target.TF.position) > atk_range + baseTurret.Construction_Width / 2f + 0.5f)
                     {
                         enemyList.Remove(target);
+                        Debug.Log(gameObject.name + " removed " + target.gameObject.name);
                     }
                     else
                     {
@@ -50,6 +55,23 @@ public class Turret : MonoBehaviour
                     target = GetTarget();
                 }
             }
+        }
+        else
+        {
+            if (!isRotatingIdle)
+            {
+                targetAngle = Random.Range(0, 360f);
+                isRotatingIdle = true;
+            }
+            else
+            {
+                TF.eulerAngles += new Vector3(0, 0, targetAngle - TF.eulerAngles.z) * Time.deltaTime;
+                if (Mathf.Abs(TF.eulerAngles.z - targetAngle) < 1)
+                {
+                    isRotatingIdle = false;
+                }
+            }
+            
         }
     }
 

@@ -77,6 +77,7 @@ public class Construction : MonoBehaviour, IOnLand
     public void DestroyConstruction()
     {
         ParticlePoolController.Instance.Play(ParticleType.DeathConstruction, tf.position);
+        AudioManager.Instance.PlaySound(SoundId.Explode);
         Destroy(gameObject);
     }
 

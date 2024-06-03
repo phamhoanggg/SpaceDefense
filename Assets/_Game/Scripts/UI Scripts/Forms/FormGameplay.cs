@@ -11,7 +11,7 @@ public class FormGameplay : SingletonMB<FormGameplay>
     [SerializeField] private GameObject selectingPanel_obj;
 
     [Header("POPUPS")]
-    [SerializeField] private PopupPause popupPause;
+    [SerializeField] private PopupSetting popupPause;
     [SerializeField] private PopupWin popupWin;
     [SerializeField] private PopupLose popupLose;
     [SerializeField] private PopupPlaceConstruction popupPlaceConstruction;

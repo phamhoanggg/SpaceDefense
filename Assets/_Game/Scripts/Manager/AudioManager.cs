@@ -153,4 +153,7 @@ public enum SoundId
     PopupOpen = 3,
     PopupClose = 4,
     Play_Click = 5,
+    Bullet_hit = 6,
+    Bullet_fire = 7,
+    Explode = 8,
 }

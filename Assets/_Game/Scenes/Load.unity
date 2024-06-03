@@ -1043,11 +1043,14 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 3c239da23e1a7e14388f4cd8892855a9, type: 3}
     - {fileID: 8300000, guid: 123c4d48fe5718a4a98f235787bd13c7, type: 3}
   soundById:
-    keys: 000000000400000005000000
+    keys: 000000000400000005000000060000000700000008000000
     values:
     - {fileID: 8300000, guid: b96b8adb712982d408cddbf5d08176dd, type: 3}
     - {fileID: 8300000, guid: 821a16d5bf9b22c46a5c95b878b304e4, type: 3}
     - {fileID: 8300000, guid: c100e270149818240bf9b40869973bdd, type: 3}
+    - {fileID: 8300000, guid: bc439729354c02746989efac707ba702, type: 3}
+    - {fileID: 8300000, guid: c597af9fca604e34e944a95b882f90ef, type: 3}
+    - {fileID: 8300000, guid: 71e4161e886cddc49a8d10277ee7248f, type: 3}
 --- !u!1 &984942481
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,7 +1271,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1395,7 +1398,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d4163c81fd633d4488d8ddcac606e4a5, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
