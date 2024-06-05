@@ -29,10 +29,22 @@ public class GameLoader : MonoBehaviour
 
         yield return new WaitForSeconds(2f);
 
-        SceneLoader.Instance.LoadScene(SceneId.Menu, SceneLoader.Mode.Before, (float progress) =>
+        if (gameData.isFirstOpen)
         {
-            SetProgress(0.6f + progress / 0.9f * 0.4f);
-        });
+            DataManager.Instance.gameData.isFirstOpen = false;
+            SceneLoader.Instance.LoadScene(SceneId.GamePlay, SceneLoader.Mode.Before, (float progress) =>
+            {
+                SetProgress(0.6f + progress / 0.9f * 0.4f);
+            });
+        }
+        else
+        {
+            SceneLoader.Instance.LoadScene(SceneId.Menu, SceneLoader.Mode.Before, (float progress) =>
+            {
+                SetProgress(0.6f + progress / 0.9f * 0.4f);
+            });
+        }
+        
     }
 
     private void SetProgress(float progress)

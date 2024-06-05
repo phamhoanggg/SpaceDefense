@@ -4,7 +4,14 @@ using UnityEngine;
 
 public class Player_Drill_State : PlayerState
 {
-    float counter = 1.5f;
+    public override void OnEnter()
+    {
+        if (DataManager.Instance.gameData.currentLevelIndex == -1)
+        {
+            TutorialController.Instance.OnClickNextButton();
+        }
+    }
+    float counter = 1f;
     public override void OnExecute()
     {
         if (counter > 0)
@@ -14,7 +21,7 @@ public class Player_Drill_State : PlayerState
         else
         {
             DataManager.Instance.gameData.resourcesAmounts[(int)Player.Instance.drillingType]++;
-            counter = 1.5f;
+            counter = 1f;
         }     
     }
 }

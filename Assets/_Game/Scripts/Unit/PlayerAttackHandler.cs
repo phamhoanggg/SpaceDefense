@@ -30,7 +30,7 @@ public class PlayerAttackHandler : MonoBehaviour, IAirAttackable, ILandAttackabl
         {
             if (target != null)
             {
-                if (Vector2.Distance(TF.position, target.TF.position) > atk_range + 0.5f)
+                if (Vector2.Distance(TF.position, target.TF.position) > atk_range + 1f)
                 {
                     enemyList.Remove(target);
                     target = null;

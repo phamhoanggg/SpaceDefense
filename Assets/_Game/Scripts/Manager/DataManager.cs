@@ -75,6 +75,7 @@ public class DataManager : SingletonMB<DataManager>
 [System.Serializable]
 public class GameData
 {
+    public bool isFirstOpen;
     public int levelUnlocked;
     public int currentLevelIndex;
     public int[] resourcesAmounts;
@@ -83,7 +84,9 @@ public class GameData
 
     public GameData()
     {
+        isFirstOpen = true;
         levelUnlocked = 0;
+        currentLevelIndex = -1;
         resourcesAmounts = new int[] { 2000, 2000, 2000, 2000, 2000};
         isSFXEnabled = true;
         isMusicEnabled = true;

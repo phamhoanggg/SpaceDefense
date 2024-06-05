@@ -60,6 +60,10 @@ public class CameraController : MonoBehaviour
                 {
                     drag = true;
                     Origin = mainCamera.ScreenToWorldPoint(Input.mousePosition);
+                    if (DataManager.Instance.gameData.currentLevelIndex == -1 && TutorialController.Instance.CurrentTut_index == 5)
+                    {
+                        TutorialController.Instance.OnClickNextButton();
+                    }
                 }
 
             }

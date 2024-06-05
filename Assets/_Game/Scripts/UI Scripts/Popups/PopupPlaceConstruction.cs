@@ -51,6 +51,10 @@ public class PopupPlaceConstruction : PopupBase
             CoreManager.Instance.placingConstructionList[i].PlayAnimPrepare(false);
             CoreManager.Instance.placingConstructionList[i].Place();
         }
+        if (DataManager.Instance.gameData.currentLevelIndex == -1 && (TutorialController.Instance.CurrentTut_index == 8 || TutorialController.Instance.CurrentTut_index == 9))
+        {
+            TutorialController.Instance.OnClickNextButton();
+        }
 
         CoreManager.Instance.placingConstructionList.Clear();
         Close();

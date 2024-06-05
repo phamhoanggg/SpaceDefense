@@ -7,7 +7,8 @@ using UnityEngine.UI;
 public class GamePlayController : SingletonMB<GamePlayController>
 {
     [SerializeField] private ScriptableLevel curLevel;
-    [SerializeField] private LocalizeStringFormatter nextWaveSpawn_tmp;
+    [SerializeField] private GameObject nextWave_CD_obj;
+    [SerializeField] private Text nextWaveSpawn_tmp;
     [SerializeField] private CenterModule centerModulePrefab;
     [SerializeField] private Transform constructorTileLayer;
     [SerializeField] private CenterModule centerModule;
@@ -16,14 +17,15 @@ public class GamePlayController : SingletonMB<GamePlayController>
     [Header("ENEMY LIST")]
     [SerializeField] private List<Enemy> enemyListPrefab;
 
-    private float startTime;
     private float playTime;
     private int currentWaveIndex;
 
     private void Start()
     {
+        if (DataManager.Instance.gameData.currentLevelIndex == -1) nextWave_CD_obj.SetActive(false);
+
         LoadLevel(DataManager.Instance.gameData.currentLevelIndex);
-        startTime = Time.realtimeSinceStartup;
+        playTime = 0;
         currentWaveIndex = 0;
         Player.Instance.InitValue();
         spawningPosition_Obj.SetActive(false);
@@ -46,11 +48,13 @@ public class GamePlayController : SingletonMB<GamePlayController>
 
     private void Update()
     {
-        playTime = (Time.realtimeSinceStartup - startTime);
+        if (DataManager.Instance.gameData.currentLevelIndex == -1 && TutorialController.Instance.CurrentTut_index < 10) return;
+        else nextWave_CD_obj.SetActive(true);
+        playTime += Time.deltaTime;
 
         if (curLevel && currentWaveIndex < curLevel.EnemyWaves.Count)
         {
-            nextWaveSpawn_tmp.SetAllParam(TimeFormatter(curLevel.EnemyWaves[currentWaveIndex].spawnTime - Mathf.FloorToInt(playTime)));
+            nextWaveSpawn_tmp.text = TimeFormatter(curLevel.EnemyWaves[currentWaveIndex].spawnTime - Mathf.FloorToInt(playTime));
             if (curLevel.EnemyWaves[currentWaveIndex].spawnTime - Mathf.FloorToInt(playTime) < 30)
             {
                 spawningPosition_Obj.SetActive(true);
@@ -64,6 +68,10 @@ public class GamePlayController : SingletonMB<GamePlayController>
             if (playTime >= curLevel.EnemyWaves[currentWaveIndex].spawnTime)
             {
                 StartCoroutine(SpawnNewWave(currentWaveIndex));
+                if (currentWaveIndex == 0 && DataManager.Instance.gameData.currentLevelIndex == -1)
+                {
+                    TutorialController.Instance.OnClickNextButton();
+                }
                 currentWaveIndex++;
             }
         }
@@ -132,7 +140,14 @@ public class GamePlayController : SingletonMB<GamePlayController>
             Enemy[] enemies = FindObjectsOfType<Enemy>();
             if (enemies.Length == 0)
             {
-                OnWinLevel();
+                if (DataManager.Instance.gameData.currentLevelIndex == -1)
+                {
+                    TutorialController.Instance.OnClickNextButton();
+                }
+                else
+                {
+                    OnWinLevel();
+                }
             }
         }
     }

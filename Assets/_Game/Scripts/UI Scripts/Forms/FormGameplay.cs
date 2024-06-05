@@ -9,6 +9,7 @@ public class FormGameplay : SingletonMB<FormGameplay>
     [SerializeField] private GameObject[] listPanel;
     [SerializeField] private GameObject[] panelButtons;
     [SerializeField] private GameObject selectingPanel_obj;
+    [SerializeField] private GameObject bottom_object;
 
     [Header("POPUPS")]
     [SerializeField] private PopupSetting popupPause;
@@ -31,6 +32,12 @@ public class FormGameplay : SingletonMB<FormGameplay>
         }
 
         AudioManager.Instance.PlayMusic(MusicId.Game);
+        if (DataManager.Instance.gameData.currentLevelIndex == -1) bottom_object.SetActive(false);
+    }
+
+    public void DisplayBottomObject()
+    {
+        bottom_object.SetActive(true);
     }
 
     void OpenPanel(int index)
@@ -46,28 +53,41 @@ public class FormGameplay : SingletonMB<FormGameplay>
         CoreManager.Instance.selectingConstruction = null;
         CoreManager.Instance.selectingPrefab = null;
     }
+
     public void OpenDrillPanel()
     {
+        if (DataManager.Instance.gameData.currentLevelIndex == -1 && TutorialController.Instance.CurrentTut_index == 7)
+        {
+            TutorialController.Instance.OnClickNextButton();
+        }
         OpenPanel(0);
     }
 
     public void OpenConveyorPanel()
     {
+        if (DataManager.Instance.gameData.currentLevelIndex == -1 && TutorialController.Instance.CurrentTut_index <= 8) return;
+
         OpenPanel(1);
     }
 
     public void OpenTurretPanel()
     {
+        if (DataManager.Instance.gameData.currentLevelIndex == -1 && TutorialController.Instance.CurrentTut_index <= 9) return;
+
         OpenPanel(2);
     }
 
     public void OpenDefenderPanel()
     {
+        if (DataManager.Instance.gameData.currentLevelIndex == -1) return;
+
         OpenPanel(3);
     }
 
     public void SettingButton()
     {
+        if (DataManager.Instance.gameData.currentLevelIndex == -1) return;
+
         popupPause.Open();
     }
 
@@ -88,6 +108,8 @@ public class FormGameplay : SingletonMB<FormGameplay>
 
     public void OpenPopupConstructionTree()
     {
+        if (DataManager.Instance.gameData.currentLevelIndex == -1) return;
+
         popupConstructionTree.Open();
     }
 }

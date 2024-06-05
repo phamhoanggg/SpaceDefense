@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Level 1
   m_EditorClassIdentifier: 
   LevelIndex: 1
+  Map_Width: 151
+  Map_Height: 122
   BG_Tilemap:
   - position: {x: -1, y: -1, z: 0}
     levelTile: {fileID: 11400000, guid: 98876df1dd2bbc3429db55a9728257ff, type: 2}
@@ -38361,26 +38363,6 @@ MonoBehaviour:
     go_type: 0
     type_index: 0
   Construction_Tilemap: []
-  EnemyWaves:
-  - type: 0
-    amount: 2
-    spawnTime: 30
-    spawnPosition: {x: 60, y: 55}
-  - type: 1
-    amount: 1
-    spawnTime: 30
-    spawnPosition: {x: 66, y: 50}
-  - type: 0
-    amount: 2
-    spawnTime: 90
-    spawnPosition: {x: 60, y: 60}
-  - type: 2
-    amount: 1
-    spawnTime: 150
-    spawnPosition: {x: 70, y: 50}
-  - type: 0
-    amount: 3
-    spawnTime: 160
-    spawnPosition: {x: 70, y: 50}
+  EnemyWaves: []
   resAvailableList: 010000000400000000000000
   centerModulePostion: {x: 10.75, y: 17.75}

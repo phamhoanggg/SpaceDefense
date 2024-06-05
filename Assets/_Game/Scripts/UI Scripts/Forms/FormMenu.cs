@@ -16,6 +16,15 @@ public class FormMenu : MonoBehaviour
         AudioManager.Instance.PlaySound(SoundId.Click);
     }
 
+    public void TutorialButton()
+    {
+        UIManager.Instance.SetActiveBlock(true);
+        DataManager.Instance.gameData.currentLevelIndex = -1;
+
+        SceneLoader.Instance.LoadScene(SceneId.GamePlay);
+        AudioManager.Instance.PlaySound(SoundId.Click);
+    }
+
     public void SettingButton()
     {
         popupSetting.Open();
