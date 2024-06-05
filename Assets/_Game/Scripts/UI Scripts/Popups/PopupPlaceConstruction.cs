@@ -53,7 +53,7 @@ public class PopupPlaceConstruction : PopupBase
         }
         if (DataManager.Instance.gameData.currentLevelIndex == -1 && (TutorialController.Instance.CurrentTut_index == 8 || TutorialController.Instance.CurrentTut_index == 9))
         {
-            TutorialController.Instance.OnClickNextButton();
+            TutorialController.Instance.NextTutorial(0.5f);
         }
 
         CoreManager.Instance.placingConstructionList.Clear();

@@ -22,7 +22,7 @@ public class TutorialController : SingletonMB<TutorialController>
             current_button_index = 0;
             InputManager.Instance.SetBlockInput(true);
             skipBtn_obj.SetActive(false);
-            OpenTutorialDialog(0);
+            StartCoroutine(OpenTutorialDialog(0, 1f));
         }
         else
         {
@@ -30,8 +30,9 @@ public class TutorialController : SingletonMB<TutorialController>
         }
     }
 
-    public void OpenTutorialDialog(int tut_index)
+    public IEnumerator OpenTutorialDialog(int tut_index, float delayTime)
     {
+        yield return new WaitForSeconds(delayTime);
         list_tut[tut_index].SetActive(true);
 
         if (current_tut_index == 2) skipBtn_obj.SetActive(true);
@@ -59,15 +60,21 @@ public class TutorialController : SingletonMB<TutorialController>
         } 
     }
 
-    public void OnClickNextButton()
+    public void NextTutorial(float delayTime)
     {
         list_tut[current_tut_index].SetActive(false);
         current_tut_index++;
         
         if (current_tut_index < list_tut.Count)
         {
-            OpenTutorialDialog(current_tut_index);
+            StartCoroutine(OpenTutorialDialog(current_tut_index, delayTime));
         }
+    }
+
+    public void ClickNextButton()
+    {
+        NextTutorial(0.5f);
+        AudioManager.Instance.PlaySound(SoundId.Click);
     }
 
     public void SkipButton()

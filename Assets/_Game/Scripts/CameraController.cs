@@ -62,7 +62,7 @@ public class CameraController : MonoBehaviour
                     Origin = mainCamera.ScreenToWorldPoint(Input.mousePosition);
                     if (DataManager.Instance.gameData.currentLevelIndex == -1 && TutorialController.Instance.CurrentTut_index == 5)
                     {
-                        TutorialController.Instance.OnClickNextButton();
+                        TutorialController.Instance.NextTutorial(1);
                     }
                 }
 

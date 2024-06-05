@@ -70,7 +70,7 @@ public class GamePlayController : SingletonMB<GamePlayController>
                 StartCoroutine(SpawnNewWave(currentWaveIndex));
                 if (currentWaveIndex == 0 && DataManager.Instance.gameData.currentLevelIndex == -1)
                 {
-                    TutorialController.Instance.OnClickNextButton();
+                    TutorialController.Instance.NextTutorial(0.5f);
                 }
                 currentWaveIndex++;
             }
@@ -142,7 +142,7 @@ public class GamePlayController : SingletonMB<GamePlayController>
             {
                 if (DataManager.Instance.gameData.currentLevelIndex == -1)
                 {
-                    TutorialController.Instance.OnClickNextButton();
+                    TutorialController.Instance.NextTutorial(1);
                 }
                 else
                 {

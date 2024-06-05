@@ -58,7 +58,7 @@ public class FormGameplay : SingletonMB<FormGameplay>
     {
         if (DataManager.Instance.gameData.currentLevelIndex == -1 && TutorialController.Instance.CurrentTut_index == 7)
         {
-            TutorialController.Instance.OnClickNextButton();
+            TutorialController.Instance.NextTutorial(0);
         }
         OpenPanel(0);
     }

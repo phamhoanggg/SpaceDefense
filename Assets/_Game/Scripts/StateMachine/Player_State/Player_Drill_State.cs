@@ -8,7 +8,7 @@ public class Player_Drill_State : PlayerState
     {
         if (DataManager.Instance.gameData.currentLevelIndex == -1)
         {
-            TutorialController.Instance.OnClickNextButton();
+            TutorialController.Instance.NextTutorial(1.5f);
         }
     }
     float counter = 1f;
