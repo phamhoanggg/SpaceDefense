@@ -15,21 +15,56 @@ MonoBehaviour:
   constructionSet:
   - constructionPrefab: {fileID: 8313938795682402348, guid: 9cbf0ab60ade34a4da9117beac19facc, type: 3}
     constructionID: 0
+    constructionType: 1
     parent_Required_ID: 
     IsUnlocked: 1
   - constructionPrefab: {fileID: 4962090300411123728, guid: 6528d2e91fd390e42807ff4da5222996, type: 3}
     constructionID: 1
+    constructionType: 0
     parent_Required_ID: 
     IsUnlocked: 1
   - constructionPrefab: {fileID: 5133588094289688924, guid: 3d20cfcdb18834447a5761eafdd2cb96, type: 3}
     constructionID: 2
+    constructionType: 3
     parent_Required_ID: 
     IsUnlocked: 1
   - constructionPrefab: {fileID: 8217034256142649396, guid: 168bf4a6ae06ac74d8332664b9010e1d, type: 3}
     constructionID: 3
-    parent_Required_ID: 02000000
-    IsUnlocked: 0
+    constructionType: 2
+    parent_Required_ID: 
+    IsUnlocked: 1
   - constructionPrefab: {fileID: 111428357688872937, guid: 432a5e191a265ac4fbf3b11f120466be, type: 3}
     constructionID: 4
-    parent_Required_ID: 03000000
+    constructionType: 2
+    parent_Required_ID: 
+    IsUnlocked: 1
+  - constructionPrefab: {fileID: 185105964565336412, guid: 5c3f92e8e7e4653468de062689d515df, type: 3}
+    constructionID: 5
+    constructionType: 3
+    parent_Required_ID: 
+    IsUnlocked: 0
+  - constructionPrefab: {fileID: 2688965670878293315, guid: 9a6e2da5228b55f43a98db0b1d3c1d58, type: 3}
+    constructionID: 6
+    constructionType: 2
+    parent_Required_ID: 
+    IsUnlocked: 0
+  - constructionPrefab: {fileID: 8633634061806875851, guid: 581553950aa158142ad61035ea872d60, type: 3}
+    constructionID: 7
+    constructionType: 3
+    parent_Required_ID: 05000000
+    IsUnlocked: 0
+  - constructionPrefab: {fileID: 2640776310562845433, guid: d8cd0cbe0fa43d94bbff303df221a023, type: 3}
+    constructionID: 8
+    constructionType: 2
+    parent_Required_ID: 06000000
+    IsUnlocked: 0
+  - constructionPrefab: {fileID: 2674569052567564800, guid: 618ff80a1c8d26c41b6bf1e2d42161d5, type: 3}
+    constructionID: 9
+    constructionType: 3
+    parent_Required_ID: 0500000007000000
+    IsUnlocked: 0
+  - constructionPrefab: {fileID: 1613680176230810871, guid: fb43dfb11b241b84eb84d5f8ccc98a89, type: 3}
+    constructionID: 10
+    constructionType: 0
+    parent_Required_ID: 
     IsUnlocked: 0

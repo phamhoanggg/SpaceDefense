@@ -106,8 +106,14 @@ MonoBehaviour:
   avatarSprite: {fileID: 21300000, guid: 8f7878e0914a0cf4f97ebdbeb41d6b29, type: 3}
   Description: Larger wall with more HP
   Construction_Width: 2
-  buildResources: []
-  unlockResources: []
+  buildResources:
+  - res_type: 1
+    res_amount: 40
+  unlockResources:
+  - res_type: 0
+    res_amount: 100
+  - res_type: 1
+    res_amount: 200
   maxHP: 250
   isPlaced: 0
 --- !u!95 &185105964565336413

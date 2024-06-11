@@ -35,7 +35,20 @@ public class DataManager : SingletonMB<DataManager>
                 gameData = JsonUtility.FromJson<GameData>(PlayerPrefs.GetString(GAME_DATA));
             }
 
-            else gameData = new GameData();
+            else 
+            {
+                gameData = new GameData();
+                for (int i = 0; i < 5; i++)
+                {
+                    GameManager.Instance.gameConfig.ConstructionDataSO.constructionSet[i].IsUnlocked = true;
+                }
+
+                for (int i = 5; i < GameManager.Instance.gameConfig.ConstructionDataSO.constructionSet.Length; i++)
+                {
+                    GameManager.Instance.gameConfig.ConstructionDataSO.constructionSet[i].IsUnlocked = false;
+                }
+
+            }
         }
         catch (Exception ex)
         {
@@ -87,7 +100,7 @@ public class GameData
         isFirstOpen = true;
         levelUnlocked = 0;
         currentLevelIndex = -1;
-        resourcesAmounts = new int[] { 2000, 2000, 2000, 2000, 2000};
+        resourcesAmounts = new int[] { 2000, 2000, 2000, 2000, 2000, 0, 0, 0};
         isSFXEnabled = true;
         isMusicEnabled = true;
     }

@@ -17,11 +17,15 @@ public class PopupSetting : PopupBase
     public void CloseButton()
     {
         base.Close();
+        AudioManager.Instance.PlaySound(SoundId.Click);
+
         UIManager.Instance.SetActiveBlock(false);
     }
 
     public void ButtonContinue()
     {
+        AudioManager.Instance.PlaySound(SoundId.Click);
+
         Time.timeScale = 1;
         UIManager.Instance.SetActiveBlock(false);
         InputManager.Instance.SetBlockInput(false);
@@ -30,6 +34,8 @@ public class PopupSetting : PopupBase
 
     public void ButtonExit()
     {
+        AudioManager.Instance.PlaySound(SoundId.Click);
+
         Time.timeScale = 1;
         SceneLoader.Instance.LoadScene(SceneId.Menu);
         Close();

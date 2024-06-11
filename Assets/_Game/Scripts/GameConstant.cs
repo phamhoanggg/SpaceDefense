@@ -18,6 +18,7 @@ public class GameConstant
     public static string TAG_END_POSITION = "EndPosition";
     public static string TAG_ORE = "Ore";
     public static string TAG_CENTER_MODULE = "CenterModule";
+    public static string TAG_SILICON_MELTER = "SiliconMelter";
     public static string TAG_CAMERA_BOX = "CameraBox";
     #endregion
 }

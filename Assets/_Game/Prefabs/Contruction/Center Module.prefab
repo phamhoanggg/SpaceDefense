@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 126141416682174529}
   - component: {fileID: 7497056822425285042}
-  m_Layer: 6
+  m_Layer: 16
   m_Name: launch-pad-light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4375061856579984428}
   - component: {fileID: 4347027532190451621}
-  m_Layer: 6
+  m_Layer: 16
   m_Name: launchpod
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   - component: {fileID: 7924491078167566257}
   - component: {fileID: -6055512569758713748}
   - component: {fileID: 2222422358267735869}
-  m_Layer: 6
+  m_Layer: 16
   m_Name: Center Module
   m_TagString: CenterModule
   m_Icon: {fileID: 0}
@@ -353,7 +353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5670766890148160617}
   - component: {fileID: 4819273587767367470}
-  m_Layer: 3
+  m_Layer: 16
   m_Name: Sight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -431,9 +431,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7267159448686492474}
     m_Modifications:
+    - target: {fileID: 1017746546932708318, guid: baa0a5e9360f8734494d03aa6c63cf50, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1499163606703675004, guid: baa0a5e9360f8734494d03aa6c63cf50, type: 3}
+      propertyPath: m_Layer
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 3288272728375769650, guid: baa0a5e9360f8734494d03aa6c63cf50, type: 3}
       propertyPath: m_Name
       value: HPBar_Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 3288272728375769650, guid: baa0a5e9360f8734494d03aa6c63cf50, type: 3}
+      propertyPath: m_Layer
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5612593750704855852, guid: baa0a5e9360f8734494d03aa6c63cf50, type: 3}
       propertyPath: m_Pivot.x

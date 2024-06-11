@@ -23,15 +23,15 @@ public class GamePlayController : SingletonMB<GamePlayController>
     private void Start()
     {
         if (DataManager.Instance.gameData.currentLevelIndex == -1) nextWave_CD_obj.SetActive(false);
-
-        LoadLevel(DataManager.Instance.gameData.currentLevelIndex);
+        StartCoroutine(
+                LoadLevel(DataManager.Instance.gameData.currentLevelIndex));
         playTime = 0;
         currentWaveIndex = 0;
         Player.Instance.InitValue();
         spawningPosition_Obj.SetActive(false);
     }
 
-    public void LoadLevel(int levelIndex)
+    public IEnumerator LoadLevel(int levelIndex)
     {
         if (curLevel)
         {
@@ -43,6 +43,7 @@ public class GamePlayController : SingletonMB<GamePlayController>
         centerModule.Place();
         centerModule.TF.localPosition = curLevel.centerModulePostion;
 
+        yield return new WaitForSeconds(2);
         GridTileManager.Instance.SpawnAllTiles(curLevel.Map_Width, curLevel.Map_Height);
     }
 

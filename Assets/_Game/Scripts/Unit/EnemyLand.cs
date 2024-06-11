@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 
 public class EnemyLand : Enemy, IOnLand
@@ -31,7 +32,7 @@ public class EnemyLand : Enemy, IOnLand
 
         if (Vector2.Distance(tf.position, centerModule.position) <= atk_range) return;
 
-        if (path == null)
+        if (path == null || path.Length <= 0)
         {
             path = findPath();
         }
@@ -66,7 +67,16 @@ public class EnemyLand : Enemy, IOnLand
     {
         Vector2Int coord = getCoord(tf);
         Vector2Int targetCoord = getCoord(centerModule);
-        (int, int)[] path =  AStar.AStarPathfinding.GeneratePathSync(coord.y, coord.x, targetCoord.y, targetCoord.x, GridTileManager.Instance.GetWalkableMap());
+        Debug.Log("Target: " + targetCoord.x + "-" + targetCoord.y);
+        
+        (int, int)[] path = AStar.AStarPathfinding.GeneratePathSync(coord.y, coord.x, targetCoord.y, targetCoord.x, GridTileManager.Instance.GetWalkableMap());
+        //if (path.Length > 0)
+        //{
+        //    for (int i = 0; i < path.Length; i++)
+        //    {
+        //        GridTileManager.Instance.GetWolrdGridTileFromCoordinate(path[i].Item2, path[i].Item1).GetComponent<GridTile>().SetVisible();
+        //    }
+        //}
         return path;
     }
 

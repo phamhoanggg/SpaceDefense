@@ -33,3 +33,9 @@ public interface IDrillable
 {
 
 }
+
+public interface ISensorInOut
+{
+    public void SetUpInput(ProductSensor sensor);
+    public void SetUpOutput(ProductSensor sensor);
+}

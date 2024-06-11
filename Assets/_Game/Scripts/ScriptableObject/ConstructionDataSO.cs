@@ -13,6 +13,7 @@ public class ConstructionData
 {
     public Construction constructionPrefab;
     public int constructionID;
+    public ConstructionType constructionType;
     public int[] parent_Required_ID;
     public bool IsUnlocked;
 }
@@ -22,5 +23,13 @@ public class ResourceData
 {
     public ResourcesType res_type;
     public int res_amount;
+}
+
+public enum ConstructionType
+{
+    Drill,
+    Conveyor,
+    Turret,
+    Defender,
 }
 

@@ -17,135 +17,418 @@ MonoBehaviour:
     UserAgreesToHaveItInsideThePluginsFolder: 0
     GoogleLiveSyncIsUptoDate: 1
     mTerms:
-    - Term: back
+    - Term: No
       TermType: 0
       Description: 
       Languages:
-      - "Quay l\u1EA1i"
-      - back
+      - No
+      - "Kh\xF4ng"
       Flags: 0000
       Languages_Touch: []
-    - Term: font_outspace
-      TermType: 1
-      Description: 
-      Languages:
-      - Tektur-VariableFont_wdth,wght
-      - OutspaceFighterPersonalUse-YzZ94
-      Flags: 0000
-      Languages_Touch: []
-    - Term: launch
+    - Term: Yes
       TermType: 0
       Description: 
       Languages:
-      - "Ph\xF3ng"
-      - launch
-      Flags: 0000
-      Languages_Touch: []
-    - Term: loading
-      TermType: 0
-      Description: 
-      Languages:
-      - "\u0110ang t\u1EA3i"
-      - Loading
-      Flags: 0000
-      Languages_Touch: []
-    - Term: start
-      TermType: 0
-      Description: 
-      Languages:
-      - "B\u1EAFt \u0111\u1EA7u"
-      - Start
-      Flags: 0000
-      Languages_Touch: []
-    - Term: settings
-      TermType: 0
-      Description: 
-      Languages:
-      - "c\xE0i \u0111\u1EB7t"
-      - settings
-      Flags: 0000
-      Languages_Touch: []
-    - Term: music
-      TermType: 0
-      Description: 
-      Languages:
-      - "nh\u1EA1c n\u1EC1n"
-      - music
-      Flags: 0000
-      Languages_Touch: []
-    - Term: sound
-      TermType: 0
-      Description: 
-      Languages:
-      - "hi\u1EC7u \u1EE9ng"
-      - sound
-      Flags: 0000
-      Languages_Touch: []
-    - Term: font_nutshock
-      TermType: 1
-      Description: 
-      Languages:
-      - Tektur-VariableFont_wdth,wght
-      - nulshock bd
+      - 'Yes '
+      - "C\xF3"
       Flags: 0000
       Languages_Touch: []
     - Term: avail_res
       TermType: 0
       Description: 
       Languages:
-      - "T\xE0i nguy\xEAn s\u1EB5n c\xF3"
       - Available resources
+      - "T\xE0i nguy\xEAn s\u1EB5n c\xF3"
       Flags: 0000
       Languages_Touch: []
-    - Term: clear_to_unlock
+    - Term: back
       TermType: 0
       Description: 
       Languages:
-      - "V\u01B0\u1EE3t qua h\xE0nh tinh tr\u01B0\u1EDBc \u0111\xF3 \u0111\u1EC3
-        m\u1EDF kh\xF3a!"
-      - Clear previous planet to unlock!
+      - back
+      - "Quay l\u1EA1i"
       Flags: 0000
       Languages_Touch: []
     - Term: center_module_hp
       TermType: 0
       Description: 
       Languages:
-      - "\u0110\u1ED9 b\u1EC1n c\u0103n c\u1EE9 ch\xEDnh"
       - center module hp
+      - "\u0110\u1ED9 b\u1EC1n c\u0103n c\u1EE9 ch\xEDnh"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: clear_to_unlock
+      TermType: 0
+      Description: 
+      Languages:
+      - Clear previous planet to unlock!
+      - "V\u01B0\u1EE3t qua h\xE0nh tinh tr\u01B0\u1EDBc \u0111\xF3 \u0111\u1EC3
+        m\u1EDF kh\xF3a!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: construction
+      TermType: 0
+      Description: 
+      Languages:
+      - Constructions
+      - "C\xF4ng tr\xECnh"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: enemies?
+      TermType: 0
+      Description: 
+      Languages:
+      - Enemies???
+      - "K\u1EBB \u0111\u1ECBch???"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: font_nutshock
+      TermType: 1
+      Description: 
+      Languages:
+      - nulshock bd
+      - Tektur-VariableFont_wdth,wght
+      Flags: 0000
+      Languages_Touch: []
+    - Term: font_outspace
+      TermType: 1
+      Description: 
+      Languages:
+      - OutspaceFighterPersonalUse-YzZ94
+      - Tektur-VariableFont_wdth,wght
+      Flags: 0000
+      Languages_Touch: []
+    - Term: great
+      TermType: 0
+      Description: 
+      Languages:
+      - Great!!!
+      - "Tuy\u1EC7t v\u1EDDi!!!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: hmm
+      TermType: 0
+      Description: 
+      Languages:
+      - hmm...
+      - "H\u1EEBm..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: launch
+      TermType: 0
+      Description: 
+      Languages:
+      - launch
+      - "Ph\xF3ng"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: let_go
+      TermType: 0
+      Description: 
+      Languages:
+      - Let's gooo!!!
+      - "\u0110i th\xF4iiiii"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: loading
+      TermType: 0
+      Description: 
+      Languages:
+      - Loading
+      - "\u0110ang t\u1EA3i"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: music
+      TermType: 0
+      Description: 
+      Languages:
+      - music
+      - "nh\u1EA1c n\u1EC1n"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: next
+      TermType: 0
+      Description: 
+      Languages:
+      - Next
+      - "Ti\u1EBFp"
       Flags: 0000
       Languages_Touch: []
     - Term: next_wave
       TermType: 0
       Description: 
       Languages:
-      - "\u0110\u1EE3t t\u1EA5n c\xF4ng ti\u1EBFp theo xu\u1EA5t hi\u1EC7n sau: "
       - 'next wave spawns after: '
+      - "\u0110\u1EE3t t\u1EA5n c\xF4ng ti\u1EBFp theo xu\u1EA5t hi\u1EC7n sau: "
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ofcourse
+      TermType: 0
+      Description: 
+      Languages:
+      - Of course!
+      - "T\u1EA5t nhi\xEAn!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: okay
+      TermType: 0
+      Description: 
+      Languages:
+      - Okay
+      - "\u0110\xE3 hi\u1EC3u"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: require
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Require:'
+      - "Y\xEAu c\u1EA7u:"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: settings
+      TermType: 0
+      Description: 
+      Languages:
+      - settings
+      - "c\xE0i \u0111\u1EB7t"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: skip_desc
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Do you want to skip tutorial phase?
+
+
+        You can play it again anytime
+        you want.'
+      - "B\u1EA1n c\xF3 mu\u1ED1n b\u1ECF qua giai \u0111o\u1EA1n h\u01B0\u1EDBng
+        d\u1EABn kh\xF4ng?\r\n\r\nB\u1EA1n c\xF3 th\u1EC3 ch\u01A1i l\u1EA1i b\u1EA5t
+        c\u1EE9 l\xFAc n\xE0o b\u1EA1n mu\u1ED1n."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: skip_title
+      TermType: 0
+      Description: 
+      Languages:
+      - skip tutorial
+      - "B\u1ECF qua h\u01B0\u1EDBng d\u1EABn"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: sound
+      TermType: 0
+      Description: 
+      Languages:
+      - sound
+      - "hi\u1EC7u \u1EE9ng"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: start
+      TermType: 0
+      Description: 
+      Languages:
+      - Start
+      - "B\u1EAFt \u0111\u1EA7u"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: tut1
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Welcome to training, Captain!
+
+        Ready for battle?'
+      - "Ch\xE0o m\u1EEBng t\u1EDBi v\u1EDBi bu\u1ED5i hu\u1EA5n luy\u1EC7n, \u0110\u1ED9i
+        tr\u01B0\u1EDFng!\nS\u1EB5n s\xE0ng cho tr\u1EADn chi\u1EBFn ch\u01B0a?"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: tut10
+      TermType: 0
+      Description: 
+      Languages:
+      - "To transport resources from drill to center module, we need conveyor. \ntap
+        on conveyor panel and build conveyors."
+      - "\u0110\u1EC3 v\u1EADn chuy\u1EC3n t\xE0i nguy\xEAn t\u1EEB m\xE1y khoan
+        \u0111\u1EBFn m\xF4-\u0111un ch\u1EC9 huy, ch\xFAng ta c\u1EA7n b\u0103ng
+        t\u1EA3i. \r\nch\u1EA1m v\xE0o b\u1EA3ng b\u0103ng t\u1EA3i v\xE0 x\xE2y
+        d\u1EF1ng b\u0103ng t\u1EA3i."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: tut11
+      TermType: 0
+      Description: 
+      Languages:
+      - "be careful!!!\r\nenemies will land soon!\r\nlet's select turret panel to
+        build \r\ndefenders: scatter and duo."
+      - "H\xE3y c\u1EA9n th\u1EADn!!!\r\nK\u1EBB th\xF9 s\u1EBD \u0111\u1ED5 b\u1ED9
+        s\u1EDBm!\r\nH\xE3y ch\u1ECDn B\u1EA3ng Th\xE1p ph\xE1o \u0111\u1EC3 x\xE2y
+        d\u1EF1ng \r\nc\xF4ng tr\xECnh b\u1EA3o v\u1EC7: Scatter v\xE0 DUO."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: tut12
+      TermType: 0
+      Description: 
+      Languages:
+      - fly enemy can fly straight to your center module, while land enemy must find
+        the road to avoid obstacles
+      - "K\u1EBB th\xF9 bay c\xF3 th\u1EC3 bay th\u1EB3ng \u0111\u1EBFn m\xF4-\u0111un
+        trung t\xE2m c\u1EE7a b\u1EA1n, trong khi k\u1EBB th\xF9 tr\xEAn b\u1ED9
+        ph\u1EA3i t\xECm \u0111\u01B0\u1EDDng \u0111\u1EC3 tr\xE1nh ch\u01B0\u1EDBng
+        ng\u1EA1i v\u1EADt"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: tut13
+      TermType: 0
+      Description: 
+      Languages:
+      - 'you''ve completed the tutorial. Now you can start your adventure in space!
+
+        good
+        luck!'
+      - "B\u1EA1n \u0111\xE3 ho\xE0n th\xE0nh ph\u1EA7n h\u01B0\u1EDBng d\u1EABn.
+        B\xE2y gi\u1EDD b\u1EA1n c\xF3 th\u1EC3 b\u1EAFt \u0111\u1EA7u cu\u1ED9c
+        phi\xEAu l\u01B0u c\u1EE7a m\xECnh trong kh\xF4ng gian!\r\nCh\xFAc may m\u1EAFn!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: tut2
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Very good!
+
+        We just landed on a new planet, after a long trip from
+        Earth'
+      - "T\u1ED1t l\u1EAFm!\nCh\xFAng ta v\u1EEBa \u0111\xE1p c\xE1nh xu\u1ED1ng
+        m\u1ED9t h\xE0nh tinh m\u1EDBi, sau m\u1ED9t chuy\u1EBFn \u0111i d\xE0i t\u1EEB
+        Tr\xE1i \u0110\u1EA5t"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: tut3
+      TermType: 0
+      Description: 
+      Languages:
+      - Our tasks are collect resources from this planet, as much as possible, and
+        protect the center module from enemies.
+      - "Nhi\u1EC7m v\u1EE5 c\u1EE7a ch\xFAng ta l\xE0 thu th\u1EADp t\xE0i nguy\xEAn
+        t\u1EEB h\xE0nh tinh n\xE0y c\xE0ng nhi\u1EC1u c\xE0ng t\u1ED1t v\xE0 b\u1EA3o
+        v\u1EC7 m\xF4-\u0111un ch\u1EC9 huy kh\u1ECFi k\u1EBB \u0111\u1ECBch."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: tut4
+      TermType: 0
+      Description: 
+      Languages:
+      - Yes, they are forces in universe from other galaxy, and want to destroy us
+        to take all the resources.
+      - "\u0110\xFAng, ch\xFAng l\xE0 nh\u1EEFng th\u1EBF l\u1EF1c trong v\u0169
+        tr\u1EE5 \u0111\u1EBFn t\u1EEB thi\xEAn h\xE0 kh\xE1c v\xE0 mu\u1ED1n ti\xEAu
+        di\u1EC7t ch\xFAng ta \u0111\u1EC3 l\u1EA5y h\u1EBFt t\xE0i nguy\xEAn."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: tut5
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Let''s get started
+
+        This is your center module.
+
+        And that
+        is it''s durability on your screen.'
+      - "B\u1EAFt \u0111\u1EA7u n\xE0o\r\n\u0110\xE2y l\xE0 m\xF4-\u0111un ch\u1EC9
+        huy c\u1EE7a b\u1EA1n.\r\nC\xF2n kia ch\xEDnh l\xE0 \u0111\u1ED9 b\u1EC1n
+        c\u1EE7a n\xF3 hi\u1EC3n th\u1ECB tr\xEAn m\xE0n h\xECnh c\u1EE7a b\u1EA1n."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: tut6
+      TermType: 0
+      Description: 
+      Languages:
+      - Drag on screen to move your spaceship
+      - "K\xE9o m\xE0n h\xECnh \u0111\u1EC3 di chuy\u1EC3n t\xE0u kh\xF4ng gian c\u1EE7a
+        b\u1EA1n"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: tut7
+      TermType: 0
+      Description: 
+      Languages:
+      - Come closer and click on ore on the map to collect
+      - "\u0110\u1EBFn g\u1EA7n h\u01A1n v\xE0 nh\u1EA5p v\xE0o qu\u1EB7ng tr\xEAn
+        b\u1EA3n \u0111\u1ED3 \u0111\u1EC3 khai th\xE1c"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: tut8
+      TermType: 0
+      Description: 
+      Languages:
+      - Now, click on Drill Build Panel
+      - "B\xE2y gi\u1EDD, h\xE3y nh\u1EA5p v\xE0o B\u1EA3ng \u0111i\u1EC1u khi\u1EC3n
+        x\xE2y d\u1EF1ng m\xE1y khoan"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: tut9
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Select Drill
+
+        Then, click on ore position, and click build button
+        to build Drill'
+      - "Ch\u1ECDn m\xE1y khoan\r\nSau \u0111\xF3, nh\u1EA5p v\xE0o v\u1ECB tr\xED
+        qu\u1EB7ng v\xE0 nh\u1EA5p v\xE0o n\xFAt x\xE2y d\u1EF1ng \u0111\u1EC3 x\xE2y
+        d\u1EF1ng M\xE1y khoan"
       Flags: 0000
       Languages_Touch: []
     - Term: tutorial
       TermType: 0
       Description: 
       Languages:
-      - "H\u01B0\u1EDBng d\u1EABn"
       - Tutorial
+      - "H\u01B0\u1EDBng d\u1EABn"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: unlock
+      TermType: 0
+      Description: 
+      Languages:
+      - Unlock
+      - "M\u1EDF kh\xF3a"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: unlock_require
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Unlock Conditions:'
+      - "\u0110i\u1EC1u ki\u1EC7n m\u1EDF kh\xF3a:"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: build_require
+      TermType: 0
+      Description: 
+      Languages:
+      - Require Build
+      - "T\xE0i nguy\xEAn y\xEAu c\u1EA7u"
       Flags: 0000
       Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
     mLanguages:
-    - Name: Vietnamese
-      Code: vi
-      Flags: 0
     - Name: English
       Code: en
+      Flags: 0
+    - Name: Vietnamese
+      Code: vi
       Flags: 0
     IgnoreDeviceLanguage: 1
     _AllowUnloadingLanguages: 0
     Google_WebServiceURL: https://script.google.com/macros/s/AKfycbwT-VaH6KqeXby8IiLJKeo8DvRz0oHsBNBtn88iCw0hgH9G8ZoQkMKTQcrfBucrl006Wg/exec
     Google_SpreadsheetKey: 1OWrfGqCMoafaG9beixlMsL6qU_kr5OH2lCPjLPzOxtE
     Google_SpreadsheetName: I2Loc Project3_20231 Localization
-    Google_LastUpdatedVersion: 1716903508304
+    Google_LastUpdatedVersion: 1717946547901
     Google_Password: change_this
     GoogleUpdateFrequency: 3
     GoogleInEditorCheckFrequency: 2

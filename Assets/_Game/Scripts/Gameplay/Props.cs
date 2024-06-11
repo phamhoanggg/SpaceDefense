@@ -34,13 +34,18 @@ public class Props : GameUnit
     {
         if (collision.CompareTag(GameConstant.TAG_START_POSITION))
         {
-            target = collision.transform.parent.GetComponent<Conveyor>().GetOutputPositionOfInput(collision.transform);
+            target = (collision.transform.parent.GetComponent<Conveyor>() != null) ? collision.transform.parent.GetComponent<Conveyor>().GetOutputPositionOfInput(collision.transform): null;
         }
 
         if (collision.CompareTag(GameConstant.TAG_CENTER_MODULE))
         {
             DataManager.Instance.ChangeResourceAmount((int)Type, 1);
             SimplePool.Despawn(this);
+        }
+
+        if (collision.CompareTag(GameConstant.TAG_SILICON_MELTER))
+        {
+            collision.GetComponentInChildren<SiliconMelter>().AddFuel(this);
         }
     }
 

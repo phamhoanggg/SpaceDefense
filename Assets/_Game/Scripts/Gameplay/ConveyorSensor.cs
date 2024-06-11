@@ -8,19 +8,28 @@ public class ConveyorSensor : MonoBehaviour
     {
         if (collision.CompareTag(GameConstant.TAG_START_POSITION) && collision.transform.parent.gameObject != owner.gameObject)
         {
-            owner.OutputList.Clear();
-            owner.OutputList.Add(gameObject);
-            owner.UpdateConveyorStyle(false, true);       
+            OnTriggerStartTag();
         }
 
         if (collision.CompareTag(GameConstant.TAG_END_POSITION) && collision.transform.parent.gameObject != owner.gameObject)
         {
-            if (!owner.InputList.Contains(gameObject))
-            {
-                owner.InputList.Add(gameObject);
-                owner.UpdateConveyorStyle(true, false);
-            }
-            
+            OnTriggerEndTag();
+        }
+    }
+
+    public void OnTriggerStartTag()
+    {
+        owner.OutputList.Clear();
+        owner.OutputList.Add(gameObject);
+        owner.UpdateConveyorStyle(false, true);
+    }
+
+    public void OnTriggerEndTag()
+    {
+        if (!owner.InputList.Contains(gameObject))
+        {
+            owner.InputList.Add(gameObject);
+            owner.UpdateConveyorStyle(true, false);
         }
     }
 

@@ -1,20 +1,26 @@
 
 public enum ResourcesType
 {
-    Lead,
-    Copper,
-    Silver,
-    Gold,
-    Coal,
+    Lead = 0,
+    Copper = 1,
+    Silver = 2,
+    Gold = 3,
+    Coal = 4,
+    Titan = 5,
+    Sand = 6,
+    Silicon = 7,
 }
 
 public enum PropsType
 {
-    Lead,
-    Copper,
-    Silver,
-    Gold,
-    Coal,
+    Lead = 0,
+    Copper = 1,
+    Silver = 2,
+    Gold = 3,
+    Coal = 4,
+    Titan = 5,
+    Sand = 6,
+    Silicon = 7,
 }
 
 public enum GameLayer

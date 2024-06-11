@@ -16,6 +16,7 @@ public class PopupConstructionTree : PopupBase
 
     [SerializeField] private GameObject unlockInfor_go;
     [SerializeField] private GameObject buildInfor_go;
+    [SerializeField] private GameObject require_txt_obj;
 
     [Header("CONSTRUCTION PROPERTIES")]
     [SerializeField] private Image constructionIcon;
@@ -43,9 +44,9 @@ public class PopupConstructionTree : PopupBase
     }
     public override void Close()
     {
-        base.Close();
         InputManager.Instance.SetBlockInput(false);
 
+        base.Close();
     }
 
     public void SetupConstructionInfor()
@@ -86,6 +87,7 @@ public class PopupConstructionTree : PopupBase
                 if (gameData.resourcesAmounts[(int)unlockResources[i].res_type] < unlockResources[i].res_amount) isUnlockable = false;
             }
 
+            require_txt_obj.SetActive(constructionData.parent_Required_ID.Length > 0);
             requireConstructionText.text = "";
             for (int i = 0; i < constructionData.parent_Required_ID.Length; i++)
             {
@@ -134,5 +136,8 @@ public class PopupConstructionTree : PopupBase
         SetSelectedPanel();
         int panelCentered = scrolSnap.CenteredPanel;
         itemList[panelCentered].OnInit(constructionSet[panelCentered]);
+
+        GameManager.Instance.gameConfig.ConstructionDataSO.constructionSet = constructionSet;
+        FormGameplay.Instance.UnlockConstruction(panelCentered);
     }
 }

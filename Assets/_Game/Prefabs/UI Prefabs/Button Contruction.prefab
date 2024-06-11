@@ -136,8 +136,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   frameImg: {fileID: 1666370865001973032}
-  contructionImg: {fileID: 6175217266216811663}
-  prefabContruction: {fileID: 5133588094289688924, guid: 3d20cfcdb18834447a5761eafdd2cb96, type: 3}
+  constructionImg: {fileID: 6175217266216811663}
+  prefabConstruction: {fileID: 0}
 --- !u!114 &1666370865001973032
 MonoBehaviour:
   m_ObjectHideFlags: 0

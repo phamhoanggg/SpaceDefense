@@ -39,7 +39,7 @@ public class Construction : MonoBehaviour, IOnLand
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag(GameConstant.TAG_Construction) && !isPlaced)
+        if (collision.GetComponent<Construction>() != null && !isPlaced)
         {
             isCollided = true;
         }

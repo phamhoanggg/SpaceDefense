@@ -14,6 +14,11 @@ public class ButtonConstruction : MonoBehaviour
         constructionImg.sprite = prefabConstruction.avatarSprite;
     }
 
+    public void SetPrefab(Construction prefab)
+    {
+        prefabConstruction = prefab;
+    }
+
     public void OnClick()
     {
         FormGameplay.Instance.Selecting_block.transform.position = transform.position;

@@ -419,6 +419,8 @@ MonoBehaviour:
   - {fileID: 6375153315441602344, guid: 9d49d2ba7a1c4654a893a7fbbbf6e3fc, type: 3}
   - {fileID: 2194738164710371616, guid: 4bbda8d41f81e3140bc3779db8fd6928, type: 3}
   - {fileID: 1969421181914490199, guid: eb5c1e80c02f8004eb4c92517cfba994, type: 3}
+  - {fileID: 6904598127389606304, guid: e1d468733472d0e4a86bae9c40d0bd62, type: 3}
+  - {fileID: 6904598127389606304, guid: e1d468733472d0e4a86bae9c40d0bd62, type: 3}
   obstacleList:
   - {fileID: 604152483588864546, guid: ef1058a43fa688a4eb93a6b6b0025063, type: 3}
   - {fileID: 3072197076543351818, guid: 3deda8b88da81094fa0c32d4de521673, type: 3}
@@ -1113,7 +1115,7 @@ MonoBehaviour:
   enemyWaves:
   - type: 0
     amount: 1
-    spawnTime: 20
+    spawnTime: 15
     spawnPosition: {x: 34, y: 34}
   - type: 3
     amount: 1

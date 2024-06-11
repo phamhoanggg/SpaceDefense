@@ -102,6 +102,7 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 4096
+  sprite: {fileID: 422078219755824090}
 --- !u!61 &-6989249194141424900
 BoxCollider2D:
   m_ObjectHideFlags: 0

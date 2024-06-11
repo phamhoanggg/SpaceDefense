@@ -183,7 +183,7 @@ MonoBehaviour:
     res_amount: 200
   - res_type: 1
     res_amount: 200
-  maxHP: 250
+  maxHP: 200
   isPlaced: 0
 --- !u!1 &5249176050796484257
 GameObject:

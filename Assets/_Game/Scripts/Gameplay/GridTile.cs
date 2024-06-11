@@ -9,10 +9,12 @@ public class GridTile : MonoBehaviour
 
     public LayerMask constructionLayer, obstacleLayer;
 
+    public bool isWalkable;
+
+    public SpriteRenderer sprite;
     public void OnInit(int x, int y)
     {
         SetCoord(x, y);
-
     }
 
     public void SetCoord(int x, int y)
@@ -24,6 +26,13 @@ public class GridTile : MonoBehaviour
     {
         Collider2D col1 = Physics2D.OverlapCircle(transform.position, 0.1f, constructionLayer);
         Collider2D col2 = Physics2D.OverlapCircle(transform.position, 0.1f, obstacleLayer);
+
+        isWalkable = col1 == null && col2 == null;
         return col1 == null && col2 == null;
+    }
+
+    public void SetVisible()
+    {
+        sprite.enabled = true;
     }
 }

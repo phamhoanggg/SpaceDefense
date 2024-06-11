@@ -13463,202 +13463,7 @@ MonoBehaviour:
   - position: {x: 80, y: 78, z: 0}
     levelTile: {fileID: 11400000, guid: c0a0ddf02068ff345af65a6fb5d5476b, type: 2}
   Obstacle_Tilemap:
-  - position: {x: 6.25, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 6.75, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 7.25, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 7.75, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.25, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.75, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.25, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.75, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.25, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.75, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.25, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.75, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.25, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.75, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.25, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.75, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.25, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.75, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 6.25, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 6.75, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 7.25, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 7.75, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.25, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.75, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.25, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.75, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.25, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.75, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.25, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.75, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.25, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.75, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.25, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.75, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.25, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.75, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.25, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.75, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 16.25, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 16.75, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 17.25, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 17.75, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 18.25, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 18.75, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.25, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.75, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.25, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.75, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 16.25, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 16.75, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 17.25, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 17.75, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 18.25, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 18.75, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.25, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.75, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 8.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 8.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 8.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 8.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 9.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 9.25}
-    go_type: 1
-    type_index: 2
   - position: {x: 20.75, y: 9.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 9.75}
     go_type: 1
     type_index: 2
   - position: {x: 20.75, y: 10.25}
@@ -13679,58 +13484,10 @@ MonoBehaviour:
   - position: {x: 21.25, y: 11.25}
     go_type: 1
     type_index: 2
-  - position: {x: 20.75, y: 11.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 11.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 12.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 12.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 12.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 12.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 13.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 13.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 13.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 13.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 14.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 14.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 14.75}
-    go_type: 1
-    type_index: 2
   - position: {x: 21.75, y: -0.75}
     go_type: 1
     type_index: 2
-  - position: {x: 22.25, y: -0.75}
-    go_type: 1
-    type_index: 2
   - position: {x: 21.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.25, y: -0.25}
     go_type: 1
     type_index: 2
   - position: {x: 21.75, y: 0.25}
@@ -13787,1765 +13544,31 @@ MonoBehaviour:
   - position: {x: 22.25, y: 4.25}
     go_type: 1
     type_index: 2
-  - position: {x: 21.75, y: 4.75}
-    go_type: 1
-    type_index: 2
   - position: {x: 22.25, y: 4.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.75, y: 5.25}
     go_type: 1
     type_index: 2
   - position: {x: 22.25, y: 5.25}
     go_type: 1
     type_index: 2
-  - position: {x: 21.75, y: 5.75}
-    go_type: 1
-    type_index: 2
   - position: {x: 22.25, y: 5.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.75, y: 6.25}
     go_type: 1
     type_index: 2
   - position: {x: 22.25, y: 6.25}
     go_type: 1
     type_index: 2
-  - position: {x: 21.75, y: 6.75}
-    go_type: 1
-    type_index: 2
   - position: {x: 22.25, y: 6.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.75, y: 7.25}
     go_type: 1
     type_index: 2
   - position: {x: 22.25, y: 7.25}
     go_type: 1
     type_index: 2
-  - position: {x: 21.75, y: 7.75}
-    go_type: 1
-    type_index: 2
   - position: {x: 22.25, y: 7.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.75, y: 8.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.25, y: 8.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.75, y: 8.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.25, y: 8.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 7.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 7.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 7.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 7.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 8.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 8.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 8.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 8.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 9.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 9.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 9.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 9.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 10.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 10.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 10.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 10.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 11.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 11.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 11.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 11.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 12.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 12.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 12.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 12.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 13.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 13.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 13.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 13.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 14.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 14.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 16.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 16.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 16.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 16.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 17.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 17.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 6.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 1.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 1.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 1.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 1.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 2.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 2.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 2.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 2.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 3.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 3.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 3.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 3.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 4.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 4.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 4.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 4.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 5.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 5.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 5.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 5.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 6.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 6.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 6.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 0.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 0.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 1.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 1.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 2.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 2.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 3.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 3.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 4.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 4.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 5.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 5.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 6.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 6.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 7.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 7.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 16.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 16.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 17.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 17.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 18.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 18.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: -0.75}
     go_type: 1
     type_index: 2
   - position: {x: 21.25, y: -0.75}
     go_type: 1
     type_index: 2
-  - position: {x: 0.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 0.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 1.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 1.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 2.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 2.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 3.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 3.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 4.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 4.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 5.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 5.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 6.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 6.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 7.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 7.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 16.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 16.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 17.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 17.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 18.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 18.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: -0.25}
-    go_type: 1
-    type_index: 2
   - position: {x: 21.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 23.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 23.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 24.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 24.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 25.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 25.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 26.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 26.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 27.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 27.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 28.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 28.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 29.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 29.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 30.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 30.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 31.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 31.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 32.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 32.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 33.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 33.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 34.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 34.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 35.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 35.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 36.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 36.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 37.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 37.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 38.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 38.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 39.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 39.75, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: -0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 23.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 23.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 24.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 24.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 25.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 25.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 26.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 26.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 27.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 27.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 28.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 28.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 29.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 29.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 30.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 30.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 31.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 31.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 32.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 32.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 33.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 33.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 34.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 34.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 35.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 35.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 36.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 36.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 37.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 37.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 38.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 38.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 39.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 39.75, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: -0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 17.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 17.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 18.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 18.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 19.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 22.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 23.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 23.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 24.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 24.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 25.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 25.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 26.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 26.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 27.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 27.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 28.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 28.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 29.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 29.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 30.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 31.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 31.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 32.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 32.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 33.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 33.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 34.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 34.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 35.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 35.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 36.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 36.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 37.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 37.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 38.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 38.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 1.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 1.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 2.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 2.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 3.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 3.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 4.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 4.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 5.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 5.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 6.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 6.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 7.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 7.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 8.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 8.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 9.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 9.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 10.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 10.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 11.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 11.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 12.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 12.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 13.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 13.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 14.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 16.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 40.25, y: 16.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 17.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 17.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 18.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 18.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 18.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 18.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 19.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 19.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 22.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 22.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 23.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 23.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 23.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 23.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 24.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 24.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 24.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 24.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 25.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 25.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 25.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 25.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 26.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 26.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 26.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 26.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 27.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 27.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 27.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 27.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 28.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 28.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 28.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 28.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 29.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 29.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 29.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 29.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 30.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 30.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 31.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 31.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 31.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 31.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 32.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 32.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 32.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 32.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 33.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 33.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 33.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 33.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 34.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 34.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 34.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 34.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 35.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 35.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 35.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 35.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 36.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 36.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 36.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 36.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 37.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 37.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 37.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 37.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 38.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 38.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 38.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 38.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: -0.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 0.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 0.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 1.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 1.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 2.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 2.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 3.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 3.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 4.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 4.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 5.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 5.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 6.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 6.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 7.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 7.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 16.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 16.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 17.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 17.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 18.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 18.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 23.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 23.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 24.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 24.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 25.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 25.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 26.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 26.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 27.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 27.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 28.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 28.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 29.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 29.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 30.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 30.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 31.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 31.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 32.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 32.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 33.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 33.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 34.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 34.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 35.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 35.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 36.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 36.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 37.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 37.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 38.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 38.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 39.25, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 39.75, y: 39.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 0.25, y: 19.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 0.25, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 0.75, y: 19.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 0.75, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 1.25, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 1.25, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 1.75, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 2.25, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 2.75, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 3.25, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 3.75, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 4.25, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 4.75, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 5.25, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 5.75, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 6.25, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 6.75, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 7.25, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 7.75, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.25, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.75, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.25, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.75, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.25, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.75, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.25, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.25, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.75, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.25, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.75, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.25, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.75, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.25, y: 22.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.75, y: 22.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.75, y: 23.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.25, y: 23.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.75, y: 23.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.25, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.75, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.25, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.75, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.25, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.75, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.25, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.75, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.25, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.75, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.25, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 7.75, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 7.25, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 6.75, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 6.25, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 5.75, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 5.25, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 4.75, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 4.25, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 3.75, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 3.25, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 2.75, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 2.25, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 1.75, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 0.75, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 0.75, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 0.25, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 1.25, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 1.75, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 1.75, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 2.25, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 3.25, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.25, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.75, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.75, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.25, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.75, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.25, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.75, y: 22.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.25, y: 22.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.75, y: 22.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.75, y: 23.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.25, y: 23.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.75, y: 23.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 7.75, y: 30.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.25, y: 30.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.75, y: 30.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.25, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.75, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.25, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.25, y: 29.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.75, y: 29.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.75, y: 29.75}
     go_type: 1
     type_index: 2
   - position: {x: 16.75, y: 29.75}
@@ -15620,61 +13643,7 @@ MonoBehaviour:
   - position: {x: 17.25, y: 29.75}
     go_type: 1
     type_index: 2
-  - position: {x: 16.25, y: 29.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.75, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.25, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.75, y: 30.25}
-    go_type: 1
-    type_index: 2
   - position: {x: 14.25, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.75, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.25, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.75, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.25, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.75, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.75, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.25, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.75, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.25, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 7.75, y: 30.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.25, y: 30.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.75, y: 30.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.25, y: 30.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 16.25, y: 30.25}
     go_type: 1
     type_index: 2
   - position: {x: 16.75, y: 30.25}
@@ -15683,34 +13652,7 @@ MonoBehaviour:
   - position: {x: 18.75, y: 29.75}
     go_type: 1
     type_index: 2
-  - position: {x: 15.25, y: 29.75}
-    go_type: 1
-    type_index: 2
   - position: {x: 14.25, y: 29.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.75, y: 29.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.75, y: 29.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.25, y: 29.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.75, y: 29.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.25, y: 29.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.75, y: 29.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.25, y: 29.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.75, y: 29.75}
     go_type: 1
     type_index: 2
   - position: {x: 17.25, y: 30.25}
@@ -15749,9 +13691,6 @@ MonoBehaviour:
   - position: {x: 17.25, y: 29.25}
     go_type: 1
     type_index: 2
-  - position: {x: 16.25, y: 29.25}
-    go_type: 1
-    type_index: 2
   - position: {x: 18.25, y: 28.75}
     go_type: 1
     type_index: 2
@@ -15788,526 +13727,7 @@ MonoBehaviour:
   - position: {x: 22.25, y: 26.25}
     go_type: 1
     type_index: 2
-  - position: {x: 22.75, y: 25.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 23.25, y: 25.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 23.25, y: 24.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 23.25, y: 24.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 23.25, y: 23.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 23.25, y: 23.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 23.25, y: 22.75}
-    go_type: 1
-    type_index: 2
   - position: {x: 23.25, y: 25.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 23.75, y: 24.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 23.75, y: 23.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 23.75, y: 23.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 24.25, y: 23.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 24.75, y: 22.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 25.25, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 25.75, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 25.75, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 26.25, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 26.75, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 27.25, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 27.25, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 27.75, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 28.25, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 28.25, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 28.75, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 29.25, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 29.75, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 30.25, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 30.75, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 31.25, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 31.75, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 31.75, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 32.25, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 32.75, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 33.25, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 33.75, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 34.25, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.75, y: 24.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.75, y: 24.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 23.75, y: 22.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 24.25, y: 22.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 24.25, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 24.75, y: 22.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 25.25, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 26.75, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 31.25, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 33.75, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 34.25, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 34.75, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 33.25, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 32.75, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 30.75, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 30.25, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 29.75, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 27.75, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 27.25, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 26.25, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 24.75, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 26.75, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 28.25, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 28.75, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 29.25, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 31.75, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 32.25, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 34.75, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 35.25, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 35.75, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 36.25, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 36.75, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 37.25, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 37.75, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 38.25, y: 19.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 38.25, y: 19.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 38.75, y: 19.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 38.75, y: 18.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 39.25, y: 18.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 39.25, y: 17.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 39.25, y: 17.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 39.75, y: 17.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 39.75, y: 16.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 39.75, y: 16.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 39.75, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 39.75, y: 15.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 39.75, y: 14.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 39.75, y: 17.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 39.75, y: 18.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 39.25, y: 18.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 37.25, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 36.75, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 36.25, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 35.75, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 35.25, y: 20.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 34.75, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 34.25, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 33.75, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 33.25, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 32.75, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 32.25, y: 20.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 29.25, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 28.75, y: 21.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 27.75, y: 21.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 8.75, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.25, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 9.75, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.25, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.75, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 10.75, y: 16.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.25, y: 16.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.75, y: 16.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.25, y: 16.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.75, y: 16.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.25, y: 16.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.75, y: 16.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.25, y: 16.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.75, y: 16.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.25, y: 16.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.75, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 16.25, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.25, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.75, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 14.25, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.75, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 13.25, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.75, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 12.25, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.75, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 11.25, y: 15.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 15.75, y: 14.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 16.25, y: 14.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 16.75, y: 14.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 17.25, y: 14.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 17.25, y: 13.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 17.75, y: 13.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 18.25, y: 13.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 18.75, y: 13.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 18.75, y: 13.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.25, y: 13.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.75, y: 13.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 13.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 13.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.75, y: 13.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.25, y: 14.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 18.75, y: 14.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 18.25, y: 14.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 17.75, y: 14.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.75, y: 14.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 14.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.25, y: 13.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 12.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 11.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 12.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.75, y: 12.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.75, y: 12.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.75, y: 12.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.25, y: 12.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.25, y: 11.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.75, y: 11.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.75, y: 11.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.75, y: 10.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.75, y: 10.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.75, y: 9.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.75, y: 9.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.75, y: 8.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.75, y: 8.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.25, y: 10.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.25, y: 11.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.75, y: 11.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.75, y: 11.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.25, y: 10.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.25, y: 9.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 22.25, y: 9.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.75, y: 9.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.75, y: 10.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.75, y: 10.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.75, y: 9.25}
     go_type: 1
     type_index: 2
   - position: {x: 22.75, y: 7.75}
@@ -16337,90 +13757,6 @@ MonoBehaviour:
   - position: {x: 22.75, y: 3.75}
     go_type: 1
     type_index: 2
-  - position: {x: 21.25, y: 7.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 7.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 6.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 6.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 5.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 5.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 4.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 4.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 3.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 3.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 2.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 2.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 1.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.75, y: 1.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.75, y: 1.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.75, y: 0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 7.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 7.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 6.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 6.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 5.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 5.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 5.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 4.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 4.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 3.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 3.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 1.25}
-    go_type: 1
-    type_index: 2
   - position: {x: 21.25, y: 3.75}
     go_type: 1
     type_index: 2
@@ -16433,52 +13769,802 @@ MonoBehaviour:
   - position: {x: 21.25, y: 2.25}
     go_type: 1
     type_index: 2
-  - position: {x: 20.75, y: 2.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 1.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 1.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.75, y: 0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 19.25, y: 0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 2.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 4.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 21.25, y: 4.75}
-    go_type: 1
-    type_index: 2
   - position: {x: 21.25, y: 1.25}
     go_type: 1
     type_index: 2
   - position: {x: 21.25, y: 0.75}
     go_type: 1
     type_index: 2
-  - position: {x: 20.75, y: 0.75}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.75, y: 0.25}
-    go_type: 1
-    type_index: 2
-  - position: {x: 20.25, y: 0.25}
-    go_type: 1
-    type_index: 2
   - position: {x: 21.25, y: 1.75}
     go_type: 1
     type_index: 2
   - position: {x: 21.25, y: 0.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 16.25, y: 29.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 15.75, y: 29.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 15.75, y: 30.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 15.25, y: 30.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 14.75, y: 30.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 14.75, y: 29.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 14.25, y: 29.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 13.75, y: 29.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 13.25, y: 29.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 12.75, y: 29.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 12.75, y: 28.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 12.25, y: 28.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 11.75, y: 28.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 11.25, y: 28.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 10.75, y: 28.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 10.25, y: 28.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 9.75, y: 28.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 9.75, y: 28.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 9.25, y: 28.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.75, y: 28.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.25, y: 28.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.25, y: 27.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.75, y: 27.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.75, y: 27.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.25, y: 27.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.25, y: 26.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.75, y: 26.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.75, y: 26.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.25, y: 26.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.25, y: 25.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 5.75, y: 25.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 5.75, y: 25.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 5.25, y: 25.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 5.25, y: 24.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 4.75, y: 24.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.75, y: 25.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.25, y: 25.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.25, y: 26.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.75, y: 26.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.25, y: 26.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.25, y: 26.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.75, y: 26.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.75, y: 27.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 9.25, y: 27.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 9.75, y: 27.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 9.75, y: 27.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 10.25, y: 27.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 10.75, y: 28.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 11.25, y: 28.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 11.75, y: 28.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 12.25, y: 28.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 12.75, y: 28.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 13.25, y: 28.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 13.25, y: 28.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 13.75, y: 28.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 14.25, y: 28.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 14.75, y: 29.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 15.25, y: 29.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 15.75, y: 29.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 16.25, y: 29.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 16.25, y: 30.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 16.25, y: 30.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 15.75, y: 30.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 15.25, y: 29.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 9.25, y: 27.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.75, y: 27.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.25, y: 27.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.75, y: 26.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 10.25, y: 28.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 13.25, y: 29.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 13.75, y: 29.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 13.75, y: 30.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 13.25, y: 30.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 12.75, y: 29.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 11.75, y: 29.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 11.25, y: 29.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 10.75, y: 29.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 9.25, y: 28.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.75, y: 28.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.25, y: 27.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.75, y: 27.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.25, y: 27.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 5.75, y: 26.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 12.25, y: 29.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 12.25, y: 29.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 11.25, y: 29.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.25, y: 26.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 5.75, y: 26.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: -0.75, y: 15.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: -0.75, y: 15.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: -0.75, y: 14.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: -0.75, y: 14.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: -0.75, y: 13.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: -0.25, y: 13.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 0.25, y: 14.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 1.25, y: 14.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 1.75, y: 14.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 2.75, y: 14.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 3.25, y: 15.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 3.75, y: 15.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 4.25, y: 15.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 4.75, y: 15.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 5.25, y: 15.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 5.75, y: 15.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 5.75, y: 16.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.25, y: 16.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.25, y: 16.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.75, y: 16.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.25, y: 16.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.75, y: 17.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.25, y: 17.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.25, y: 17.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.75, y: 17.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.75, y: 18.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 9.25, y: 18.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 9.75, y: 19.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 10.25, y: 19.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 10.75, y: 19.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 10.75, y: 20.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 10.75, y: 20.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 11.25, y: 20.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 11.25, y: 21.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 11.75, y: 21.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 11.75, y: 21.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 11.75, y: 22.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 12.25, y: 22.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 10.25, y: 20.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 9.75, y: 19.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 9.25, y: 19.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.75, y: 18.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.25, y: 18.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.75, y: 18.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.75, y: 17.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.25, y: 17.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.75, y: 17.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 5.75, y: 16.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 5.25, y: 16.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 3.75, y: 15.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 3.25, y: 15.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 2.75, y: 15.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 2.25, y: 15.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 1.75, y: 15.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 1.25, y: 15.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 0.75, y: 15.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 0.75, y: 14.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 0.25, y: 14.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: -0.25, y: 14.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 1.25, y: 14.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 1.75, y: 14.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 2.25, y: 14.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 3.25, y: 14.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.25, y: 17.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 0.75, y: 14.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: -0.25, y: 14.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 0.25, y: 13.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 2.25, y: 14.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 3.75, y: 14.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 4.25, y: 15.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.75, y: 16.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 4.75, y: 15.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 4.25, y: 14.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 5.25, y: 15.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.25, y: 15.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 9.25, y: 18.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 9.75, y: 18.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 10.25, y: 19.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 11.25, y: 20.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 11.75, y: 20.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 9.75, y: 20.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.75, y: 19.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.25, y: 19.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.75, y: 18.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.25, y: 18.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.75, y: 18.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 5.75, y: 17.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 5.25, y: 17.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 4.75, y: 17.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 4.25, y: 16.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 3.75, y: 16.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 3.25, y: 16.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 2.25, y: 15.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 1.75, y: 15.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 1.25, y: 15.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 4.75, y: 16.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 4.25, y: 17.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 4.75, y: 17.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 5.25, y: 17.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 5.75, y: 18.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.25, y: 18.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.75, y: 18.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.25, y: 19.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.75, y: 19.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.25, y: 19.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.75, y: 19.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 9.25, y: 19.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.25, y: 18.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 3.25, y: 16.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 2.75, y: 16.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 2.25, y: 16.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 4.25, y: 16.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 5.25, y: 16.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 4.75, y: 16.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 3.75, y: 16.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 5.75, y: 17.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.25, y: 17.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 2.75, y: 15.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.25, y: 17.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.25, y: 18.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.75, y: 17.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 16.25, y: 10.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 12.25, y: 10.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 12.75, y: 10.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 13.25, y: 11.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 13.75, y: 11.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 13.75, y: 11.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 14.25, y: 11.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 14.75, y: 12.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 14.75, y: 12.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 15.25, y: 12.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 15.25, y: 13.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 15.75, y: 13.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 15.75, y: 13.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 15.75, y: 14.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 16.25, y: 14.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 16.25, y: 14.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 16.25, y: 15.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 16.75, y: 15.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 16.75, y: 15.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 15.75, y: 14.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 15.25, y: 14.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 15.25, y: 13.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 14.75, y: 13.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 14.75, y: 13.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 14.25, y: 13.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 14.25, y: 12.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 13.75, y: 12.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 13.75, y: 12.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 13.25, y: 12.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 13.25, y: 11.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 12.75, y: 11.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 12.75, y: 11.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 12.25, y: 11.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 11.75, y: 11.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 11.25, y: 10.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 10.75, y: 10.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 10.25, y: 10.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 10.25, y: 10.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 9.75, y: 10.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 9.25, y: 10.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.75, y: 10.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.25, y: 10.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.75, y: 10.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.25, y: 10.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.75, y: 9.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 6.25, y: 9.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.25, y: 9.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 7.75, y: 9.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 8.25, y: 9.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 11.75, y: 10.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 15.25, y: 12.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 14.25, y: 12.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 16.75, y: 14.75}
     go_type: 1
     type_index: 2
   Resource_Tilemap:
@@ -17410,7 +15496,7 @@ MonoBehaviour:
   EnemyWaves:
   - type: 0
     amount: 1
-    spawnTime: 20
+    spawnTime: 15
     spawnPosition: {x: 34, y: 34}
   - type: 3
     amount: 1

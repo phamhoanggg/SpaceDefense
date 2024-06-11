@@ -106,9 +106,17 @@ MonoBehaviour:
   avatarSprite: {fileID: 21300000, guid: 5284f33ef6edcbd41ba6e786ccc874b5, type: 3}
   Description: Air defend with missiles
   Construction_Width: 2
-  buildResources: []
-  unlockResources: []
-  maxHP: 250
+  buildResources:
+  - res_type: 3
+    res_amount: 10
+  - res_type: 1
+    res_amount: 20
+  unlockResources:
+  - res_type: 3
+    res_amount: 100
+  - res_type: 1
+    res_amount: 150
+  maxHP: 200
   isPlaced: 0
 --- !u!50 &61444575702446356
 Rigidbody2D:

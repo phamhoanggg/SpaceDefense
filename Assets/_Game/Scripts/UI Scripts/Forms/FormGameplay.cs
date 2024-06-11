@@ -10,6 +10,7 @@ public class FormGameplay : SingletonMB<FormGameplay>
     [SerializeField] private GameObject[] panelButtons;
     [SerializeField] private GameObject selectingPanel_obj;
     [SerializeField] private GameObject bottom_object;
+    [SerializeField] private ButtonConstruction buttonCons_prefab;
 
     [Header("POPUPS")]
     [SerializeField] private PopupSetting popupPause;
@@ -20,19 +21,35 @@ public class FormGameplay : SingletonMB<FormGameplay>
 
     private GameObject currentPanel;
     private CenterModule centerModule;
+    private GameConfig gameConfig => GameManager.Instance.gameConfig;
 
     private void Start()
     {
         selectingPanel_obj.SetActive(false);
-        currentPanel = listPanel[0];
-        currentPanel.SetActive(true);
-        for (int i = 1; i < listPanel.Length; i++)
-        {
-            listPanel[i].SetActive(false);
-        }
-
+        SetupConstructionPanel();
         AudioManager.Instance.PlayMusic(MusicId.Game);
         if (DataManager.Instance.gameData.currentLevelIndex == -1) bottom_object.SetActive(false);
+    }
+
+    public void SetupConstructionPanel()
+    {
+        ConstructionData[] consData = gameConfig.ConstructionDataSO.constructionSet;
+        for (int i = 0; i < consData.Length; i++)
+        {
+            if (consData[i].IsUnlocked)
+            {
+                ButtonConstruction button = Instantiate(buttonCons_prefab, listPanel[(int)consData[i].constructionType].transform);
+                button.SetPrefab(consData[i].constructionPrefab);
+            }
+        }
+    }
+
+    public void UnlockConstruction(int construction_id)
+    {
+        ConstructionData[] consData = gameConfig.ConstructionDataSO.constructionSet;
+        AudioManager.Instance.PlaySound(SoundId.Click);
+        ButtonConstruction button = Instantiate(buttonCons_prefab, listPanel[(int)consData[construction_id].constructionType].transform);
+        button.SetPrefab(consData[construction_id].constructionPrefab);
     }
 
     public void DisplayBottomObject()
@@ -42,6 +59,8 @@ public class FormGameplay : SingletonMB<FormGameplay>
 
     void OpenPanel(int index)
     {
+        AudioManager.Instance.PlaySound(SoundId.Click);
+
         if (currentPanel)
         {
             currentPanel.SetActive(false);
@@ -87,7 +106,7 @@ public class FormGameplay : SingletonMB<FormGameplay>
     public void SettingButton()
     {
         if (DataManager.Instance.gameData.currentLevelIndex == -1) return;
-
+        AudioManager.Instance.PlaySound(SoundId.Click);
         popupPause.Open();
     }
 
@@ -109,7 +128,7 @@ public class FormGameplay : SingletonMB<FormGameplay>
     public void OpenPopupConstructionTree()
     {
         if (DataManager.Instance.gameData.currentLevelIndex == -1) return;
-
+        AudioManager.Instance.PlaySound(SoundId.Click);
         popupConstructionTree.Open();
     }
 }

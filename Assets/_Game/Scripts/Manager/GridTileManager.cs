@@ -25,6 +25,13 @@ public class GridTileManager : SingletonMB<GridTileManager>
                 walkableMap[height - 1 - y, x] = newTile.IsWalkable();
             }
         }
+
+        GetMapSize();
+    }
+
+    public void GetMapSize()
+    {
+        Debug.Log(walkableMap.GetLength(0) + "---" + walkableMap.GetLength(1));
     }
 
     public bool[,] GetWalkableMap()

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Drill : Construction, IDriller
+public class Drill : Construction, IDriller, ISensorInOut
 {
     [SerializeField] private float drillSpeed;
     [SerializeField] private Animator fanAnim;
@@ -109,5 +109,16 @@ public class Drill : Construction, IDriller
             fanAnim.SetTrigger(GameConstant.ANIM_DRILL_FAN_IDLE);
         }
         isFanRotating = isRotating;
+    }
+
+    public void SetUpOutput(ProductSensor sensor)
+    {
+        outputTransformList.Add(sensor.transform);
+        PlayFanAnim(true);
+    }
+
+    public void SetUpInput(ProductSensor sensor)
+    {
+        
     }
 }

@@ -32,7 +32,7 @@ public class GameLoader : MonoBehaviour
         if (gameData.isFirstOpen)
         {
             DataManager.Instance.gameData.isFirstOpen = false;
-            SceneLoader.Instance.LoadScene(SceneId.GamePlay, SceneLoader.Mode.Before, (float progress) =>
+            SceneLoader.Instance.LoadScene(SceneId.Menu, SceneLoader.Mode.Before, (float progress) =>
             {
                 SetProgress(0.6f + progress / 0.9f * 0.4f);
             });

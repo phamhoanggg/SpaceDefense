@@ -118,6 +118,7 @@ namespace AStar.Algolgorithms
 				if (current.Item1 == goalX && current.Item2 == goalY)
 				{
 					(int, int)[] path = backtracePath(parentMap, goalX, goalY);
+                    UnityEngine.Debug.Log("Path Found: " + path.Length);
 					return path;
 				}
 
@@ -156,6 +157,8 @@ namespace AStar.Algolgorithms
 					}
 				}
 			}
+
+			UnityEngine.Debug.Log("NO PATH");
 
 			// Returns a empty path, if none could be found
 			return new (int, int)[0];

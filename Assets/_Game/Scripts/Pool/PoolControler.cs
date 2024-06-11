@@ -157,6 +157,9 @@ public enum PoolType
     Gold_Props,
     Silver_Props,
     Missile,
+    Titan_Props,
+    Sand_Props,
+    Silicon_Props,
 }
 
 

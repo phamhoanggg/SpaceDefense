@@ -13,6 +13,7 @@ TagManager:
   - CenterModule
   - CameraBox
   - Construction
+  - SiliconMelter
   layers:
   - Default
   - TransparentFX
@@ -30,7 +31,7 @@ TagManager:
   - Aura
   - Player_Bullet
   - Enemy_Bullet
-  - 
+  - CenterModule
   - 
   - 
   - 
