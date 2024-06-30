@@ -69,6 +69,9 @@ public class FormGameplay : SingletonMB<FormGameplay>
         currentPanel.SetActive(true);
         selectingPanel_obj.SetActive(true);
         selectingPanel_obj.transform.position = panelButtons[index].transform.position;
+        Selecting_block.SetActive(false);
+        CoreManager.Instance.selectingPrefab = null;
+
         CoreManager.Instance.selectingConstruction = null;
         CoreManager.Instance.selectingPrefab = null;
     }

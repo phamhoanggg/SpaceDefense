@@ -100,7 +100,7 @@ public class GameData
         isFirstOpen = true;
         levelUnlocked = 0;
         currentLevelIndex = -1;
-        resourcesAmounts = new int[] { 2000, 2000, 2000, 2000, 2000, 0, 0, 0};
+        resourcesAmounts = new int[] { 200, 200, 200, 200, 200, 0, 0, 0};
         isSFXEnabled = true;
         isMusicEnabled = true;
     }

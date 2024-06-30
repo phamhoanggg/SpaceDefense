@@ -10,6 +10,7 @@ public class GameLoader : MonoBehaviour
     private Image fillImage;
     [SerializeField]
     private TimeFetcher timeFetcher;
+    [SerializeField] private Gradient loadGradient;
 
     private GameData gameData => DataManager.Instance.gameData;
     private GameConfig gameConfig => GameManager.Instance.gameConfig;
@@ -31,8 +32,7 @@ public class GameLoader : MonoBehaviour
 
         if (gameData.isFirstOpen)
         {
-            DataManager.Instance.gameData.isFirstOpen = false;
-            SceneLoader.Instance.LoadScene(SceneId.Menu, SceneLoader.Mode.Before, (float progress) =>
+            SceneLoader.Instance.LoadScene(SceneId.GamePlay, SceneLoader.Mode.Before, (float progress) =>
             {
                 SetProgress(0.6f + progress / 0.9f * 0.4f);
             });
@@ -50,5 +50,6 @@ public class GameLoader : MonoBehaviour
     private void SetProgress(float progress)
     {
         fillImage.fillAmount = progress;
+        fillImage.color = loadGradient.Evaluate(progress);
     }
 }

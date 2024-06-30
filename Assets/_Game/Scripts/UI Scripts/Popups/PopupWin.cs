@@ -19,7 +19,7 @@ public class PopupWin : PopupBase
         }
 
         playTime_tmp.text = playTime.ToString();
-
+        AudioManager.Instance.PlaySound(SoundId.Win);
         DataManager.Instance.SaveData();
 
     }

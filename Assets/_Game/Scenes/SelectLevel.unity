@@ -911,6 +911,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: f183bf01b198ac54281c64b11b5f3f8a, type: 2}
     - target: {fileID: 8482008420543500379, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: name_tmp
+      value: 
+      objectReference: {fileID: 761895152}
+    - target: {fileID: 8482008420543500379, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
       propertyPath: planetName
       value: Galactis Vortex
       objectReference: {fileID: 0}
@@ -935,6 +939,14 @@ PrefabInstance:
       value: Planet 3
       objectReference: {fileID: 0}
     - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_fontSize
+      value: 30.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d429ae7e36bba6e4698a15358e24c65a, type: 2}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
       propertyPath: m_fontColor.b
       value: 0.84072626
       objectReference: {fileID: 0}
@@ -947,8 +959,32 @@ PrefabInstance:
       value: 0.9056604
       objectReference: {fileID: 0}
     - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_overflowMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8695724174851068623, guid: d429ae7e36bba6e4698a15358e24c65a, type: 2}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
       propertyPath: m_fontColor32.rgba
       value: 4292269799
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207939, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 170
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207939, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8482008422504652292, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
       propertyPath: m_Sprite
@@ -973,6 +1009,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8482008420543500375, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
   m_PrefabInstance: {fileID: 761895150}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &761895152 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+  m_PrefabInstance: {fileID: 761895150}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &897371927
 GameObject:
   m_ObjectHideFlags: 0
@@ -1406,7 +1453,11 @@ PrefabInstance:
     - target: {fileID: 8482008420543500379, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
       propertyPath: level_SO
       value: 
-      objectReference: {fileID: 11400000, guid: 0873857c329872449bd990901d9d0d5a, type: 2}
+      objectReference: {fileID: 11400000, guid: 3374130debb6a2d42b40829fb0c9092e, type: 2}
+    - target: {fileID: 8482008420543500379, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: name_tmp
+      value: 
+      objectReference: {fileID: 992040424}
     - target: {fileID: 8482008420543500379, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
       propertyPath: planetName
       value: Luminara Delta
@@ -1431,6 +1482,38 @@ PrefabInstance:
       propertyPath: m_text
       value: Planet 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_fontSize
+      value: 30.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d429ae7e36bba6e4698a15358e24c65a, type: 2}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_overflowMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8695724174851068623, guid: d429ae7e36bba6e4698a15358e24c65a, type: 2}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207939, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 170
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207939, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 8482008422504652292, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -1454,6 +1537,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8482008420543500375, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
   m_PrefabInstance: {fileID: 992040422}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &992040424 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+  m_PrefabInstance: {fileID: 992040422}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1244792641
 GameObject:
   m_ObjectHideFlags: 0
@@ -2048,7 +2142,11 @@ PrefabInstance:
     - target: {fileID: 8482008420543500379, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
       propertyPath: level_SO
       value: 
-      objectReference: {fileID: 11400000, guid: 0873857c329872449bd990901d9d0d5a, type: 2}
+      objectReference: {fileID: 11400000, guid: 7c369fe1cf04fe64a9e3a62ff681f054, type: 2}
+    - target: {fileID: 8482008420543500379, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: name_tmp
+      value: 
+      objectReference: {fileID: 1524217060}
     - target: {fileID: 8482008420543500379, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
       propertyPath: planetName
       value: Astrion Prime
@@ -2073,6 +2171,38 @@ PrefabInstance:
       propertyPath: m_text
       value: Planet 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_fontSize
+      value: 30.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d429ae7e36bba6e4698a15358e24c65a, type: 2}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_overflowMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8695724174851068623, guid: d429ae7e36bba6e4698a15358e24c65a, type: 2}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207939, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 170
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207939, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 8482008422504652292, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2096,6 +2226,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8482008420543500375, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
   m_PrefabInstance: {fileID: 1524217058}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1524217060 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+  m_PrefabInstance: {fileID: 1524217058}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1558738945
 GameObject:
   m_ObjectHideFlags: 0
@@ -2635,6 +2776,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 0873857c329872449bd990901d9d0d5a, type: 2}
     - target: {fileID: 8482008420543500379, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: name_tmp
+      value: 
+      objectReference: {fileID: 2062992504}
+    - target: {fileID: 8482008420543500379, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
       propertyPath: planetName
       value: Quasarion Alpha
       objectReference: {fileID: 0}
@@ -2658,6 +2803,38 @@ PrefabInstance:
       propertyPath: m_text
       value: Planet 2
       objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_fontSize
+      value: 30.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d429ae7e36bba6e4698a15358e24c65a, type: 2}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_overflowMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8695724174851068623, guid: d429ae7e36bba6e4698a15358e24c65a, type: 2}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207939, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 170
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207939, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 8482008422504652292, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -2669,6 +2846,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 8482008420543500375, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
   m_PrefabInstance: {fileID: 2062992502}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2062992504 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+  m_PrefabInstance: {fileID: 2062992502}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &8482008420834383379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2773,6 +2961,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 02d8ca1fdfeb8c941b2ce43498f7f9fd, type: 2}
     - target: {fileID: 8482008420543500379, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: name_tmp
+      value: 
+      objectReference: {fileID: 8482008420834383380}
+    - target: {fileID: 8482008420543500379, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
       propertyPath: planetName
       value: Celestria IX
       objectReference: {fileID: 0}
@@ -2792,5 +2984,48 @@ PrefabInstance:
       propertyPath: resAvail_gameobject
       value: 
       objectReference: {fileID: 1284317869}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_fontSize
+      value: 30.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d429ae7e36bba6e4698a15358e24c65a, type: 2}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_overflowMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 8695724174851068623, guid: d429ae7e36bba6e4698a15358e24c65a, type: 2}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_enableWordWrapping
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207939, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 170
+      objectReference: {fileID: 0}
+    - target: {fileID: 8482008420954207939, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+--- !u!114 &8482008420834383380 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8482008420954207938, guid: e028f9695ecb6fe4fb5e5b69b2b6f1a8, type: 3}
+  m_PrefabInstance: {fileID: 8482008420834383379}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

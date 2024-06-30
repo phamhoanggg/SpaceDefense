@@ -6,7 +6,7 @@ public class Construction : MonoBehaviour, IOnLand
     [Header("REFERENCES")]
     [SerializeField] protected Animator anim;
     [SerializeField] protected Transform tf;
-    [SerializeField] protected Construction_HP_Bar hp_bar;
+    [SerializeField] public Construction_HP_Bar hp_bar;
     protected Collider2D col2D;
 
     [Header("DATA")]

@@ -6,7 +6,7 @@ using UnityEngine;
 public class LevelButton : MonoBehaviour
 {
     [SerializeField] private ScriptableLevel level_SO;
-    [SerializeField] private TMP_Text planetName_tmp;
+    [SerializeField] private TMP_Text planetName_tmp, name_tmp;
     [SerializeField] private string planetName;
     [SerializeField] private GameObject resAvail_gameobject;
     [SerializeField] private GameObject lockObject;
@@ -15,7 +15,8 @@ public class LevelButton : MonoBehaviour
 
     private void Start()
     {
-        lockObject.SetActive(index > DataManager.Instance.gameData.levelUnlocked);      
+        lockObject.SetActive(index > DataManager.Instance.gameData.levelUnlocked);
+        name_tmp.text = planetName;
     }
     public void OnSelected()
     {

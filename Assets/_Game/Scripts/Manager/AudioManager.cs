@@ -156,4 +156,5 @@ public enum SoundId
     Bullet_hit = 6,
     Bullet_fire = 7,
     Explode = 8,
+    EnemySpawn = 9,
 }

@@ -69,6 +69,7 @@ public class GamePlayController : SingletonMB<GamePlayController>
             if (playTime >= curLevel.EnemyWaves[currentWaveIndex].spawnTime)
             {
                 StartCoroutine(SpawnNewWave(currentWaveIndex));
+                AudioManager.Instance.PlaySound(SoundId.EnemySpawn);
                 if (currentWaveIndex == 0 && DataManager.Instance.gameData.currentLevelIndex == -1)
                 {
                     TutorialController.Instance.NextTutorial(0.5f);
@@ -100,7 +101,7 @@ public class GamePlayController : SingletonMB<GamePlayController>
         {
             Instantiate(enemyListPrefab[(int)curLevel.EnemyWaves[waveIndex].type], spawnPos, Quaternion.identity);
             ParticlePoolController.Instance.Play(ParticleType.Spawn, spawnPos);
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(1.5f);
         }
     }
 

@@ -696,7 +696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.82745105, b: 0.49803925, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -916,6 +916,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fillImage: {fileID: 415730987}
   timeFetcher: {fileID: 55994225}
+  loadGradient:
+    serializedVersion: 2
+    key0: {r: 0.2584905, g: 0.5714888, b: 1, a: 1}
+    key1: {r: 0.2113207, g: 1, b: 0.21621433, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
 --- !u!1 &867972342
 GameObject:
   m_ObjectHideFlags: 0
@@ -1044,7 +1073,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 3c239da23e1a7e14388f4cd8892855a9, type: 3}
     - {fileID: 8300000, guid: 123c4d48fe5718a4a98f235787bd13c7, type: 3}
   soundById:
-    keys: 000000000400000005000000060000000700000008000000
+    keys: 000000000400000005000000060000000700000008000000010000000200000009000000
     values:
     - {fileID: 8300000, guid: b96b8adb712982d408cddbf5d08176dd, type: 3}
     - {fileID: 8300000, guid: 821a16d5bf9b22c46a5c95b878b304e4, type: 3}
@@ -1052,6 +1081,9 @@ MonoBehaviour:
     - {fileID: 8300000, guid: bc439729354c02746989efac707ba702, type: 3}
     - {fileID: 8300000, guid: c597af9fca604e34e944a95b882f90ef, type: 3}
     - {fileID: 8300000, guid: 71e4161e886cddc49a8d10277ee7248f, type: 3}
+    - {fileID: 8300000, guid: ae0b8a9ef3cbbc8499cab0670f3b9a52, type: 3}
+    - {fileID: 8300000, guid: 460ec1d285782f64283f6c61d81ff582, type: 3}
+    - {fileID: 8300000, guid: 829bc229d4790424f888dbd054413c10, type: 3}
 --- !u!1 &984942481
 GameObject:
   m_ObjectHideFlags: 0
@@ -1862,7 +1894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.8301887, b: 0.81452453, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

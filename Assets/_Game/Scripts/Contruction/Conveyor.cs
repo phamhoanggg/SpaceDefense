@@ -132,11 +132,17 @@ public class Conveyor : Construction
 
                 float diffAngle = Mathf.Atan2(inputDirect.y, inputDirect.x) * Mathf.Rad2Deg - Mathf.Atan2(direct.y, direct.x) * Mathf.Rad2Deg;
 
+                if (diffAngle > 180)
+                {
+                    diffAngle -= 360;
+                }
+
                 if (diffAngle > 0)
                 {
                     float angle = Mathf.Atan2(direct.y, direct.x) * Mathf.Rad2Deg;
                     Conveyor newConveyor = Instantiate(cornerConveyor_clockwise, transform.position, Quaternion.identity, transform.parent);
                     newConveyor.TF.eulerAngles = new Vector3(0, 0, (angle - 135));
+                    newConveyor.hp_bar.transform.eulerAngles = new Vector3(0, 0, -newConveyor.TF.eulerAngles.z);
                     newConveyor.SetStyle(ConveyorType.Corner, direct.normalized);
                     DestroyBeforePlaced();
                 }
@@ -145,6 +151,7 @@ public class Conveyor : Construction
                     float angle = Mathf.Atan2(direct.y, direct.x) * Mathf.Rad2Deg;
                     Conveyor newConveyor = Instantiate(cornerConveyor_counter_clockwise, transform.position, Quaternion.identity, transform.parent);
                     newConveyor.TF.eulerAngles = new Vector3(0, 0, (angle + 45));
+                    newConveyor.hp_bar.transform.eulerAngles = new Vector3(0, 0, -newConveyor.TF.eulerAngles.z);
                     newConveyor.SetStyle(ConveyorType.Corner, direct.normalized);
                     DestroyBeforePlaced();
                 }
@@ -187,6 +194,7 @@ public class Conveyor : Construction
                 float angle = Mathf.Atan2(in_out_direct.y, in_out_direct.x) * Mathf.Rad2Deg;
                 Conveyor newConveyor = Instantiate(branchedConveyor_clockwise, transform.position, Quaternion.identity, transform.parent);
                 newConveyor.TF.eulerAngles = new Vector3(0, 0, (angle - 45));
+                newConveyor.hp_bar.transform.eulerAngles = new Vector3(0, 0, -newConveyor.TF.eulerAngles.z);
                 newConveyor.SetStyle(ConveyorType.Branch, in_out_direct.normalized);
                 DestroyBeforePlaced();
             }
@@ -195,6 +203,7 @@ public class Conveyor : Construction
                 float angle = Mathf.Atan2(in_out_direct.y, in_out_direct.x) * Mathf.Rad2Deg;
                 Conveyor newConveyor = Instantiate(branchedConveyor_counter_clockwise, transform.position, Quaternion.identity, transform.parent);
                 newConveyor.TF.eulerAngles = new Vector3(0, 0, (angle - 135));
+                newConveyor.hp_bar.transform.eulerAngles = new Vector3(0, 0, -newConveyor.TF.eulerAngles.z);
                 newConveyor.SetStyle(ConveyorType.Branch, in_out_direct.normalized);
                 DestroyBeforePlaced();
             }

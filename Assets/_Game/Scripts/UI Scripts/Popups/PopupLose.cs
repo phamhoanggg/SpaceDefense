@@ -17,7 +17,7 @@ public class PopupLose : PopupBase
             res_remains_tmp.text += $"<sprite={i}> : {gameData.resourcesAmounts[i]}  (- 50)\n";
         }
         DataManager.Instance.SaveData();
-
+        AudioManager.Instance.PlaySound(SoundId.Lose);
         Invoke(nameof(PauseTime), 0.5f);
     }
 

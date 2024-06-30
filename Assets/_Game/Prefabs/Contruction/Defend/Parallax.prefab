@@ -104,7 +104,7 @@ MonoBehaviour:
   hp_bar: {fileID: 8813873031438331162}
   ConstructionName: Parallax
   avatarSprite: {fileID: 21300000, guid: 5284f33ef6edcbd41ba6e786ccc874b5, type: 3}
-  Description: Air defend with missiles
+  Description: parallax_des
   Construction_Width: 2
   buildResources:
   - res_type: 3

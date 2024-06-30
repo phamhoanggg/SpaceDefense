@@ -15226,15 +15226,19 @@ MonoBehaviour:
   EnemyWaves:
   - type: 3
     amount: 1
-    spawnTime: 15
+    spawnTime: 50
     spawnPosition: {x: 43, y: 33}
   - type: 0
     amount: 2
-    spawnTime: 60
+    spawnTime: 120
     spawnPosition: {x: 43, y: 33}
   - type: 1
     amount: 1
-    spawnTime: 120
+    spawnTime: 180
+    spawnPosition: {x: 43, y: 33}
+  - type: 3
+    amount: 2
+    spawnTime: 240
     spawnPosition: {x: 43, y: 33}
   resAvailableList: 000000000400000001000000
   centerModulePostion: {x: 8.75, y: 17.75}

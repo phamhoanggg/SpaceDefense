@@ -1,11 +1,14 @@
+using I2.Loc;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class PopupPlaceConstruction : PopupBase
 {
-    [SerializeField] private TMP_Text ConstructionName_tmp, ConstructionDes_tmp;
+    [SerializeField] private TMP_Text ConstructionName_tmp;
+    [SerializeField] private Text ConstructionDes_tmp;
     [SerializeField] private TMP_Text ConstructionMat_tmp;
     [SerializeField] private RectTransform directArrow;
     public override void Open(object args = null)
@@ -14,7 +17,9 @@ public class PopupPlaceConstruction : PopupBase
         InputManager.Instance.ChangeState(InputManager.Instance.PlaceConstructionState);
         FormGameplay.Instance.Selecting_block.SetActive(true);
         ConstructionName_tmp.text = CoreManager.Instance.selectingPrefab.ConstructionName;
-        ConstructionDes_tmp.text = CoreManager.Instance.selectingPrefab.Description;
+        string term = CoreManager.Instance.selectingPrefab.Description;
+
+        ConstructionDes_tmp.text = LocalizationManager.GetTermTranslation(term);
 
         directArrow.rotation = Quaternion.Euler(0, 0, -90 * CoreManager.Instance.ConstructionDirect);
     }

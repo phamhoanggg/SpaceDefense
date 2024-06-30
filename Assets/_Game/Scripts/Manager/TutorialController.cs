@@ -14,6 +14,8 @@ public class TutorialController : SingletonMB<TutorialController>
 
     [SerializeField] private GameObject skipBtn_obj;
     [SerializeField] private PopupSkipTutorial popupSKip;
+
+    bool isFirstOpen;
     private void Start()
     {
         if (DataManager.Instance.gameData.currentLevelIndex == -1)
@@ -22,6 +24,8 @@ public class TutorialController : SingletonMB<TutorialController>
             current_button_index = 0;
             InputManager.Instance.SetBlockInput(true);
             skipBtn_obj.SetActive(false);
+            isFirstOpen = DataManager.Instance.gameData.isFirstOpen;
+            DataManager.Instance.gameData.isFirstOpen = false;
             StartCoroutine(OpenTutorialDialog(0, 1f));
         }
         else
@@ -35,7 +39,7 @@ public class TutorialController : SingletonMB<TutorialController>
         yield return new WaitForSeconds(delayTime);
         list_tut[tut_index].SetActive(true);
 
-        if (current_tut_index == 2) skipBtn_obj.SetActive(true);
+        if (current_tut_index == 2 && !isFirstOpen) skipBtn_obj.SetActive(true);
 
         if (current_tut_index == 5)
         {

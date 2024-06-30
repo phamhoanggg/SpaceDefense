@@ -775,7 +775,7 @@ MonoBehaviour:
   hp_bar: {fileID: 1375841336057292023}
   ConstructionName: Driller
   avatarSprite: {fileID: 21300000, guid: fbfc1ff368a2f3e4091e6f7b9d195206, type: 3}
-  Description: Extract resources from mine
+  Description: drill_des
   Construction_Width: 2
   buildResources:
   - res_type: 0

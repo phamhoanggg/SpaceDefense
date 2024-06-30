@@ -416,8 +416,8 @@ MonoBehaviour:
   resourceList:
   - {fileID: 5507289658390059709, guid: 0310568a29039044e98cc1e5c8d30a1d, type: 3}
   - {fileID: 4902543215394392319, guid: 55f6956a78a09cf4ea16fb5997e75ffc, type: 3}
-  - {fileID: 6375153315441602344, guid: 9d49d2ba7a1c4654a893a7fbbbf6e3fc, type: 3}
-  - {fileID: 2194738164710371616, guid: 4bbda8d41f81e3140bc3779db8fd6928, type: 3}
+  - {fileID: 7079935722509466174, guid: 5c3717fc7307d2442a2a46b93708b48e, type: 3}
+  - {fileID: 4360191680674717919, guid: 0dd4f0951b7b0254b927fbc81c93c4f3, type: 3}
   - {fileID: 1969421181914490199, guid: eb5c1e80c02f8004eb4c92517cfba994, type: 3}
   - {fileID: 6904598127389606304, guid: e1d468733472d0e4a86bae9c40d0bd62, type: 3}
   - {fileID: 6904598127389606304, guid: e1d468733472d0e4a86bae9c40d0bd62, type: 3}
@@ -653,7 +653,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1917573173}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.13, y: 34, z: 0}
+  m_LocalPosition: {x: 39, y: 51, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1111,17 +1111,33 @@ MonoBehaviour:
   ObsLayer: {fileID: 670143664}
   ResLayer: {fileID: 3135592089610700879}
   ConsLayer: {fileID: 3135592087683753175}
-  levelIndex: -1
+  levelIndex: 3
   enemyWaves:
+  - type: 2
+    amount: 1
+    spawnTime: 80
+    spawnPosition: {x: 4, y: 50}
   - type: 0
-    amount: 1
-    spawnTime: 15
-    spawnPosition: {x: 34, y: 34}
+    amount: 2
+    spawnTime: 150
+    spawnPosition: {x: 4, y: 50}
   - type: 3
+    amount: 2
+    spawnTime: 200
+    spawnPosition: {x: 46, y: 43}
+  - type: 0
+    amount: 3
+    spawnTime: 280
+    spawnPosition: {x: 40, y: 50}
+  - type: 3
+    amount: 2
+    spawnTime: 340
+    spawnPosition: {x: 40, y: 50}
+  - type: 1
     amount: 1
-    spawnTime: 35
-    spawnPosition: {x: 3, y: 34}
-  centerModulePosition: {x: 4.75, y: 3.75}
+    spawnTime: 400
+    spawnPosition: {x: 40, y: 50}
+  centerModulePosition: {x: 19.75, y: 3.75}
 --- !u!4 &8165561361460801154
 Transform:
   m_ObjectHideFlags: 0

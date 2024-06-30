@@ -134,7 +134,7 @@ MonoBehaviour:
   hp_bar: {fileID: 8909781172026036610}
   ConstructionName: Cyclone
   avatarSprite: {fileID: 21300000, guid: 39d892048345f6046b53496f0f998034, type: 3}
-  Description: Attack Enemies with laserrr
+  Description: cyclone_des
   Construction_Width: 3
   buildResources:
   - res_type: 7

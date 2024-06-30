@@ -36860,7 +36860,787 @@ MonoBehaviour:
     levelTile: {fileID: 11400000, guid: c0a0ddf02068ff345af65a6fb5d5476b, type: 2}
   - position: {x: 149, y: 120, z: 0}
     levelTile: {fileID: 11400000, guid: c0a0ddf02068ff345af65a6fb5d5476b, type: 2}
-  Obstacle_Tilemap: []
+  Obstacle_Tilemap:
+  - position: {x: 34.75, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 35.25, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 35.75, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 36.25, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 37.25, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 36.75, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 37.75, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 38.25, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 38.75, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 38.75, y: 35.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 38.75, y: 34.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 39.25, y: 34.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 39.25, y: 34.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 39.75, y: 34.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 40.25, y: 34.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 40.25, y: 33.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 39.25, y: 35.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 39.75, y: 35.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 39.75, y: 34.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 40.25, y: 34.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 40.75, y: 34.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 40.75, y: 34.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 40.75, y: 33.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 41.25, y: 34.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 41.25, y: 33.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 41.75, y: 33.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 41.75, y: 33.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 42.25, y: 33.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.25, y: 30.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.25, y: 29.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.25, y: 29.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.25, y: 28.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.25, y: 28.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.75, y: 28.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.75, y: 27.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.75, y: 27.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 45.25, y: 27.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 45.25, y: 27.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 45.25, y: 28.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 45.75, y: 18.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 45.25, y: 18.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 45.25, y: 18.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.75, y: 18.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.25, y: 18.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.75, y: 17.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.25, y: 17.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.25, y: 17.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.25, y: 16.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.25, y: 16.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.25, y: 15.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.25, y: 15.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.25, y: 14.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.25, y: 14.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.25, y: 13.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.75, y: 14.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.75, y: 13.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.75, y: 13.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.75, y: 12.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.75, y: 12.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.75, y: 11.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.75, y: 11.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.75, y: 10.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.75, y: 10.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.75, y: 9.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.75, y: 17.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.75, y: 16.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.75, y: 16.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.75, y: 15.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.75, y: 15.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.75, y: 14.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 44.75, y: 14.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 45.25, y: 17.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 45.75, y: 17.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 45.75, y: 18.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 46.25, y: 18.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 46.25, y: 18.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 46.75, y: 18.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 47.25, y: 18.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 47.75, y: 18.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 47.75, y: 19.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 48.25, y: 19.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 48.25, y: 19.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 48.75, y: 19.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 48.75, y: 20.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 49.25, y: 20.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 46.75, y: 18.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 47.25, y: 18.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 47.75, y: 18.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 48.75, y: 18.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 48.25, y: 18.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 48.75, y: 19.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 49.25, y: 19.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 34.75, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 34.25, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 33.75, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 33.25, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 32.75, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 32.25, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 31.75, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 31.25, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 30.75, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 30.25, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 29.75, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 29.25, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 28.75, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 28.25, y: 35.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 34.25, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 33.75, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 33.25, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 32.75, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 32.25, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 31.75, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 31.25, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 30.75, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 30.25, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 29.75, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 29.25, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 28.75, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 28.25, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 27.75, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 27.25, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 26.75, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 26.25, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 25.75, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 25.25, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 24.75, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 24.25, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 23.75, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 23.75, y: 36.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 23.25, y: 36.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 22.75, y: 36.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 22.25, y: 36.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 21.75, y: 36.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 21.25, y: 36.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 20.75, y: 36.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 20.75, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 21.25, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 21.75, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 22.25, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 22.75, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 23.25, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 35.25, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 35.75, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 36.25, y: 36.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 36.75, y: 36.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 37.25, y: 36.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 37.75, y: 36.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 36.25, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 36.75, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 37.25, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 37.75, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 38.25, y: 36.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 42.75, y: 33.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.25, y: 33.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.25, y: 32.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.25, y: 32.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 42.75, y: 32.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 42.75, y: 32.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 42.75, y: 31.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.25, y: 31.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.25, y: 31.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.75, y: 31.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.75, y: 31.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.75, y: 30.75}
+    go_type: 1
+    type_index: 2
+  - position: {x: 43.75, y: 30.25}
+    go_type: 1
+    type_index: 2
+  - position: {x: 30.25, y: 23.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 30.25, y: 22.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 30.25, y: 22.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 30.75, y: 22.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 30.75, y: 21.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 30.75, y: 21.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 30.75, y: 20.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 31.25, y: 20.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 31.25, y: 20.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 31.25, y: 19.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 31.75, y: 19.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 31.75, y: 19.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 32.25, y: 19.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 32.25, y: 18.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 32.75, y: 18.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 32.75, y: 18.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 33.25, y: 18.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 33.25, y: 17.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 33.75, y: 17.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 33.75, y: 17.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 34.25, y: 17.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 34.25, y: 16.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 10.75, y: 31.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 11.25, y: 31.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 11.75, y: 31.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 12.25, y: 31.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 12.75, y: 31.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 13.25, y: 31.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 13.75, y: 31.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 14.25, y: 31.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 14.75, y: 31.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 15.25, y: 31.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 15.75, y: 31.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 16.25, y: 31.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 12.25, y: 30.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 12.75, y: 30.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 13.25, y: 30.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 13.75, y: 30.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 14.25, y: 30.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 14.75, y: 30.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 15.25, y: 30.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 15.75, y: 30.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 16.25, y: 30.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 16.75, y: 30.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 17.25, y: 30.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 17.75, y: 30.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 18.25, y: 30.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 18.75, y: 30.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 14.25, y: 30.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 14.75, y: 30.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 15.25, y: 30.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 15.75, y: 30.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 16.25, y: 30.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 16.75, y: 30.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 17.25, y: 30.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 17.75, y: 30.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 15.25, y: 29.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 15.75, y: 29.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 16.25, y: 29.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 16.75, y: 29.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 17.25, y: 29.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 12.25, y: 31.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 12.75, y: 31.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 13.25, y: 31.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 13.75, y: 31.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 14.25, y: 31.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 14.75, y: 31.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 15.25, y: 31.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 15.75, y: 31.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 27.75, y: 18.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 27.75, y: 18.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 28.25, y: 17.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 28.25, y: 17.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 28.25, y: 16.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 28.75, y: 16.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 28.75, y: 15.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 28.75, y: 15.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 28.75, y: 14.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 28.75, y: 14.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 29.25, y: 14.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 29.25, y: 13.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 29.25, y: 13.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 29.25, y: 12.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 29.25, y: 12.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 29.25, y: 11.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 29.25, y: 14.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 29.25, y: 15.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 29.25, y: 15.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 29.25, y: 16.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 29.25, y: 16.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 28.75, y: 16.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 28.75, y: 17.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 28.75, y: 17.75}
+    go_type: 1
+    type_index: 0
+  - position: {x: 28.25, y: 18.25}
+    go_type: 1
+    type_index: 0
+  - position: {x: 28.25, y: 18.75}
+    go_type: 1
+    type_index: 0
   Resource_Tilemap:
   - position: {x: 21.25, y: 5.25}
     go_type: 0
@@ -38363,6 +39143,38 @@ MonoBehaviour:
     go_type: 0
     type_index: 0
   Construction_Tilemap: []
-  EnemyWaves: []
+  EnemyWaves:
+  - type: 0
+    amount: 2
+    spawnTime: 45
+    spawnPosition: {x: 53, y: 59}
+  - type: 0
+    amount: 2
+    spawnTime: 60
+    spawnPosition: {x: 53, y: 59}
+  - type: 3
+    amount: 1
+    spawnTime: 90
+    spawnPosition: {x: 62, y: 53}
+  - type: 3
+    amount: 1
+    spawnTime: 95
+    spawnPosition: {x: 62, y: 53}
+  - type: 3
+    amount: 1
+    spawnTime: 100
+    spawnPosition: {x: 62, y: 53}
+  - type: 0
+    amount: 2
+    spawnTime: 150
+    spawnPosition: {x: 70, y: 50}
+  - type: 0
+    amount: 2
+    spawnTime: 160
+    spawnPosition: {x: 70, y: 50}
+  - type: 3
+    amount: 2
+    spawnTime: 240
+    spawnPosition: {x: 70, y: 50}
   resAvailableList: 010000000400000000000000
   centerModulePostion: {x: 10.75, y: 17.75}
