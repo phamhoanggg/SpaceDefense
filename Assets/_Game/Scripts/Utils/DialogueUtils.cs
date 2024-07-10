@@ -6,8 +6,11 @@ using UnityEngine.UI;
 public class DialogueUtils : MonoBehaviour
 {
     [SerializeField] Text dialogue_txt;
+
+    public bool IsComplete;
     private void Start()
     {
+        IsComplete = false;
         StartCoroutine(ShowDialogue());
     }
 
@@ -25,5 +28,7 @@ public class DialogueUtils : MonoBehaviour
             dialogue_txt.text = text;
             yield return new WaitForSeconds(0.03f);
         }
+
+        IsComplete = true;
     }
 }

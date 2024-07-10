@@ -789,7 +789,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 081ef1d2d0affd946b22fb6d7f068ed8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 021b85d27f22cc343baafe44e84b967b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -866,7 +866,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 26fd33f6adf3b924e869e77b3c5c99b3, type: 3}
+    m_Font: {fileID: 12800000, guid: 20b6254a8c28a484aaa538cf0e984f34, type: 3}
     m_FontSize: 26
     m_FontStyle: 1
     m_BestFit: 1
@@ -878,7 +878,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "C\xC0I \u0110\u1EB6T"
+  m_Text: SETTINGS
 --- !u!222 &319722245
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1265,7 +1265,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 26fd33f6adf3b924e869e77b3c5c99b3, type: 3}
+    m_Font: {fileID: 12800000, guid: bbd5332786846134583c987aeaaa964f, type: 3}
     m_FontSize: 14
     m_FontStyle: 1
     m_BestFit: 1
@@ -1277,7 +1277,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "HI\u1EC6U \u1EE8NG"
+  m_Text: SOUND
 --- !u!222 &517414345
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1464,7 +1464,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 26fd33f6adf3b924e869e77b3c5c99b3, type: 3}
+    m_Font: {fileID: 12800000, guid: bbd5332786846134583c987aeaaa964f, type: 3}
     m_FontSize: 14
     m_FontStyle: 1
     m_BestFit: 1
@@ -1476,7 +1476,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "NH\u1EA0C N\u1EC0N"
+  m_Text: MUSIC
 --- !u!222 &624220403
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1737,7 +1737,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 081ef1d2d0affd946b22fb6d7f068ed8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 021b85d27f22cc343baafe44e84b967b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1907,7 +1907,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 081ef1d2d0affd946b22fb6d7f068ed8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 021b85d27f22cc343baafe44e84b967b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2028,7 +2028,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 081ef1d2d0affd946b22fb6d7f068ed8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 021b85d27f22cc343baafe44e84b967b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2178,7 +2178,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 081ef1d2d0affd946b22fb6d7f068ed8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 021b85d27f22cc343baafe44e84b967b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2458,7 +2458,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 081ef1d2d0affd946b22fb6d7f068ed8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 021b85d27f22cc343baafe44e84b967b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2552,7 +2552,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 081ef1d2d0affd946b22fb6d7f068ed8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 021b85d27f22cc343baafe44e84b967b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2608,7 +2608,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 081ef1d2d0affd946b22fb6d7f068ed8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 021b85d27f22cc343baafe44e84b967b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3212,7 +3212,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 26fd33f6adf3b924e869e77b3c5c99b3, type: 3}
+    m_Font: {fileID: 12800000, guid: 20b6254a8c28a484aaa538cf0e984f34, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -3224,7 +3224,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "H\u01B0\u1EDBng d\u1EABn"
+  m_Text: Tutorial
 --- !u!222 &1410987582
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3290,7 +3290,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 081ef1d2d0affd946b22fb6d7f068ed8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 021b85d27f22cc343baafe44e84b967b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3452,7 +3452,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 26fd33f6adf3b924e869e77b3c5c99b3, type: 3}
+    m_Font: {fileID: 12800000, guid: 20b6254a8c28a484aaa538cf0e984f34, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 1
@@ -3464,7 +3464,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "B\u1EAFt \u0111\u1EA7u"
+  m_Text: Start
 --- !u!1 &1558789011
 GameObject:
   m_ObjectHideFlags: 0
@@ -3709,7 +3709,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 081ef1d2d0affd946b22fb6d7f068ed8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 021b85d27f22cc343baafe44e84b967b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4145,7 +4145,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 081ef1d2d0affd946b22fb6d7f068ed8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 021b85d27f22cc343baafe44e84b967b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4220,7 +4220,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 081ef1d2d0affd946b22fb6d7f068ed8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 021b85d27f22cc343baafe44e84b967b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

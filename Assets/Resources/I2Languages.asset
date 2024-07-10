@@ -49,6 +49,14 @@ MonoBehaviour:
       - back
       Flags: 0000
       Languages_Touch: []
+    - Term: back_to_menu
+      TermType: 0
+      Description: 
+      Languages:
+      - "Tr\u1EDF v\u1EC1 Menu"
+      - Back to Menu
+      Flags: 0000
+      Languages_Touch: []
     - Term: build_require
       TermType: 0
       Description: 
@@ -80,6 +88,38 @@ MonoBehaviour:
       Languages:
       - "C\xF4ng tr\xECnh"
       - Constructions
+      Flags: 0000
+      Languages_Touch: []
+    - Term: conveyor_des
+      TermType: 0
+      Description: 
+      Languages:
+      - "V\u1EADn chuy\u1EC3n t\xE0i nguy\xEAn"
+      - Transport resources
+      Flags: 0000
+      Languages_Touch: []
+    - Term: cyclone_des
+      TermType: 0
+      Description: 
+      Languages:
+      - "T\u1EA5n c\xF4ng k\u1EBB \u0111\u1ECBch b\u1EB1ng tia la-zeeeee"
+      - Attack Enemies with laserrr
+      Flags: 0000
+      Languages_Touch: []
+    - Term: drill_des
+      TermType: 0
+      Description: 
+      Languages:
+      - "Khai th\xE1c t\xE0i nguy\xEAn t\u1EEB m\u1ECF t\u1EF1 nhi\xEAn"
+      - Extract resources from natural mines
+      Flags: 0000
+      Languages_Touch: []
+    - Term: duo_des
+      TermType: 0
+      Description: 
+      Languages:
+      - "T\u1EA5n c\xF4ng k\u1EBB \u0111\u1ECBch b\u1ED9 binh"
+      - Attack land enemies
       Flags: 0000
       Languages_Touch: []
     - Term: enemies?
@@ -114,12 +154,30 @@ MonoBehaviour:
       - Great!!!
       Flags: 0000
       Languages_Touch: []
+    - Term: healer_des
+      TermType: 0
+      Description: 
+      Languages:
+      - "H\u1ED3i ph\u1EE5c \u0111\u1ED9 b\u1EC1n cho c\xE1c c\xF4ng tr\xECnh l\xE2n
+        c\u1EADn. C\u1EA7n g\u1ECDi b\xE1c s\u0129 ah?"
+      - Restores durability to neighboring structures. Need to call a doctor?
+      Flags: 0000
+      Languages_Touch: []
     - Term: hmm
       TermType: 0
       Description: 
       Languages:
       - "H\u1EEBm..."
       - hmm...
+      Flags: 0000
+      Languages_Touch: []
+    - Term: large_wall_des
+      TermType: 0
+      Description: 
+      Languages:
+      - "Che ch\u1EAFn \u0111\u01B0\u1EDDng \u0111\u1EA1n c\u1EE7a k\u1EBB \u0111\u1ECBch...l\u01B0\u1EE3ng
+        ch\u1ED1ng ch\u1ECBu cao h\u01A1n r\u1ED3i"
+      - Block enemies'bullets...resistance is higher now!
       Flags: 0000
       Languages_Touch: []
     - Term: launch
@@ -186,6 +244,23 @@ MonoBehaviour:
       - Okay
       Flags: 0000
       Languages_Touch: []
+    - Term: parallax_des
+      TermType: 0
+      Description: 
+      Languages:
+      - "T\u1EA5n c\xF4ng k\u1EBB \u0111\u1ECBch tr\xEAn kh\xF4ng b\u1EB1ng t\xEAn
+        l\u1EEDa di\u1EC7n r\u1ED9ng"
+      - Attack air enemies by wide-ranged missiles
+      Flags: 0000
+      Languages_Touch: []
+    - Term: play_time
+      TermType: 0
+      Description: 
+      Languages:
+      - "Th\u1EDDi gian ch\u01A1i:"
+      - 'Played time:'
+      Flags: 0000
+      Languages_Touch: []
     - Term: require
       TermType: 0
       Description: 
@@ -194,12 +269,44 @@ MonoBehaviour:
       - 'Require:'
       Flags: 0000
       Languages_Touch: []
+    - Term: res_lost
+      TermType: 0
+      Description: 
+      Languages:
+      - "T\xE0i nguy\xEAn \u0111\xE3 m\u1EA5t!!!"
+      - Resources lost!!!
+      Flags: 0000
+      Languages_Touch: []
+    - Term: res_remain
+      TermType: 0
+      Description: 
+      Languages:
+      - "T\xE0i nguy\xEAn hi\u1EC7n c\xF3:"
+      - 'Resources remains:'
+      Flags: 0000
+      Languages_Touch: []
+    - Term: scatter_des
+      TermType: 0
+      Description: 
+      Languages:
+      - "T\u1EA5n c\xF4ng k\u1EBB \u0111\u1ECBch tr\xEAn kh\xF4ng"
+      - Attack air enemies
+      Flags: 0000
+      Languages_Touch: []
     - Term: settings
       TermType: 0
       Description: 
       Languages:
       - "c\xE0i \u0111\u1EB7t"
       - settings
+      Flags: 0000
+      Languages_Touch: []
+    - Term: silicon_des
+      TermType: 0
+      Description: 
+      Languages:
+      - "T\u1ED5ng h\u1EE3p silicon t\u1EEB c\xE1t"
+      - Synthesis of silicon from sand
       Flags: 0000
       Languages_Touch: []
     - Term: skip_desc
@@ -224,6 +331,15 @@ MonoBehaviour:
       - skip tutorial
       Flags: 0000
       Languages_Touch: []
+    - Term: small_wall_des
+      TermType: 0
+      Description: 
+      Languages:
+      - "Che ch\u1EAFn \u0111\u01B0\u1EDDng \u0111\u1EA1n c\u1EE7a k\u1EBB \u0111\u1ECBch...v\u1EDBi
+        m\u1ED9t l\u01B0\u1EE3ng ch\u1ED1ng ch\u1ECBu th\u1EA5p"
+      - Block enemies'bullets...with low resistance
+      Flags: 0000
+      Languages_Touch: []
     - Term: sound
       TermType: 0
       Description: 
@@ -238,6 +354,15 @@ MonoBehaviour:
       Languages:
       - "B\u1EAFt \u0111\u1EA7u"
       - Start
+      Flags: 0000
+      Languages_Touch: []
+    - Term: steel_wall_des
+      TermType: 0
+      Description: 
+      Languages:
+      - "Che ch\u1EAFn s\xE1t th\u01B0\u01A1ng? Kh\xF4ng! C\xE1i n\xE0y c\xF3 th\u1EC3
+        gi\u1EA3m c\u1EA3 s\xE1t th\u01B0\u01A1ng n\u1EEFa"
+      - Block damage? No! This thing can even reduce damage!
       Flags: 0000
       Languages_Touch: []
     - Term: tut1
@@ -291,12 +416,10 @@ MonoBehaviour:
       Description: 
       Languages:
       - "B\u1EA1n \u0111\xE3 ho\xE0n th\xE0nh ph\u1EA7n h\u01B0\u1EDBng d\u1EABn.
-        B\xE2y gi\u1EDD b\u1EA1n c\xF3 th\u1EC3 b\u1EAFt \u0111\u1EA7u cu\u1ED9c
+        \nB\xE2y gi\u1EDD b\u1EA1n c\xF3 th\u1EC3 b\u1EAFt \u0111\u1EA7u cu\u1ED9c
         phi\xEAu l\u01B0u c\u1EE7a m\xECnh trong kh\xF4ng gian!\r\nCh\xFAc may m\u1EAFn!"
-      - 'you''ve completed the tutorial. Now you can start your adventure in space!
-
-        good
-        luck!'
+      - "you've completed the tutorial.\n Now you can start your adventure in space!\ngood
+        luck!"
       Flags: 0000
       Languages_Touch: []
     - Term: tut2
@@ -413,97 +536,12 @@ MonoBehaviour:
       - 'Unlock Conditions:'
       Flags: 0000
       Languages_Touch: []
-    - Term: cyclone_des
+    - Term: wave_clear
       TermType: 0
       Description: 
       Languages:
-      - "T\u1EA5n c\xF4ng k\u1EBB \u0111\u1ECBch b\u1EB1ng tia la-zeeeee"
-      - Attack Enemies with laserrr
-      Flags: 0000
-      Languages_Touch: []
-    - Term: duo_des
-      TermType: 0
-      Description: 
-      Languages:
-      - "T\u1EA5n c\xF4ng k\u1EBB \u0111\u1ECBch b\u1ED9 binh"
-      - Attack land enemies
-      Flags: 0000
-      Languages_Touch: []
-    - Term: scatter_des
-      TermType: 0
-      Description: 
-      Languages:
-      - "T\u1EA5n c\xF4ng k\u1EBB \u0111\u1ECBch tr\xEAn kh\xF4ng"
-      - Attack air enemies
-      Flags: 0000
-      Languages_Touch: []
-    - Term: parallax_des
-      TermType: 0
-      Description: 
-      Languages:
-      - "T\u1EA5n c\xF4ng k\u1EBB \u0111\u1ECBch tr\xEAn kh\xF4ng b\u1EB1ng t\xEAn
-        l\u1EEDa di\u1EC7n r\u1ED9ng"
-      - Attack air enemies by wide-ranged missiles
-      Flags: 0000
-      Languages_Touch: []
-    - Term: small_wall_des
-      TermType: 0
-      Description: 
-      Languages:
-      - "Che ch\u1EAFn \u0111\u01B0\u1EDDng \u0111\u1EA1n c\u1EE7a k\u1EBB \u0111\u1ECBch...v\u1EDBi
-        m\u1ED9t l\u01B0\u1EE3ng ch\u1ED1ng ch\u1ECBu th\u1EA5p"
-      - Block enemies'bullets...with low resistance
-      Flags: 0000
-      Languages_Touch: []
-    - Term: large_wall_des
-      TermType: 0
-      Description: 
-      Languages:
-      - "Che ch\u1EAFn \u0111\u01B0\u1EDDng \u0111\u1EA1n c\u1EE7a k\u1EBB \u0111\u1ECBch...l\u01B0\u1EE3ng
-        ch\u1ED1ng ch\u1ECBu cao h\u01A1n r\u1ED3i"
-      - Block enemies'bullets...resistance is higher now!
-      Flags: 0000
-      Languages_Touch: []
-    - Term: steel_wall_des
-      TermType: 0
-      Description: 
-      Languages:
-      - "Che ch\u1EAFn s\xE1t th\u01B0\u01A1ng? Kh\xF4ng! C\xE1i n\xE0y c\xF3 th\u1EC3
-        gi\u1EA3m c\u1EA3 s\xE1t th\u01B0\u01A1ng n\u1EEFa"
-      - Block damage? No! This thing can even reduce damage!
-      Flags: 0000
-      Languages_Touch: []
-    - Term: drill_des
-      TermType: 0
-      Description: 
-      Languages:
-      - "Khai th\xE1c t\xE0i nguy\xEAn t\u1EEB m\u1ECF t\u1EF1 nhi\xEAn"
-      - Extract resources from natural mines
-      Flags: 0000
-      Languages_Touch: []
-    - Term: silicon_des
-      TermType: 0
-      Description: 
-      Languages:
-      - "T\u1ED5ng h\u1EE3p silicon t\u1EEB c\xE1t"
-      - Synthesis of silicon from sand
-      Flags: 0000
-      Languages_Touch: []
-    - Term: conveyor_des
-      TermType: 0
-      Description: 
-      Languages:
-      - "V\u1EADn chuy\u1EC3n t\xE0i nguy\xEAn"
-      - Transport resources
-      Flags: 0000
-      Languages_Touch: []
-    - Term: healer_des
-      TermType: 0
-      Description: 
-      Languages:
-      - "H\u1ED3i ph\u1EE5c \u0111\u1ED9 b\u1EC1n cho c\xE1c c\xF4ng tr\xECnh l\xE2n
-        c\u1EADn. C\u1EA7n g\u1ECDi b\xE1c s\u0129 ah?"
-      - Restores durability to neighboring structures. Need to call a doctor?
+      - "S\u1ED1 k\u1EBB \u0111\u1ECBch \u0111\xE3 ti\xEAu di\u1EC7t:"
+      - 'Enemies cleared:'
       Flags: 0000
       Languages_Touch: []
     CaseInsensitiveTerms: 0

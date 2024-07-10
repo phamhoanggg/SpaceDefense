@@ -19,7 +19,6 @@ public class Input_PlaceConstruction_State : GamePlayState
 
             if (CoreManager.Instance.selectingPrefab != null)
             {
-                if (!CoreManager.Instance.selectingPrefab.IsEnoughResourcesToBuild()) return;
 
                 RaycastHit2D hit1 = Physics2D.Raycast(ray.origin, ray.direction, 100, InputManager.Instance.constructionLayer);
 
@@ -34,6 +33,7 @@ public class Input_PlaceConstruction_State : GamePlayState
                     return;
                 }
 
+                if (!CoreManager.Instance.selectingPrefab.IsEnoughResourcesToBuild()) return;
 
                 RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction, 100, InputManager.Instance.tileLayer);
                 if (hit && hit.collider.GetComponent<GridTile>() != null)

@@ -118,9 +118,9 @@ public class FormGameplay : SingletonMB<FormGameplay>
         popupLose.Open();
     }
 
-    public void OpenPopupWin(string playTime)
+    public void OpenPopupWin(string playTime, int enemy_count)
     {
-        popupWin.Open(playTime);
+        popupWin.Open(playTime, enemy_count);
     }
 
     public void OpenPopupPlaceConstruction()

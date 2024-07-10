@@ -82,7 +82,7 @@ public class PopupConstructionTree : PopupBase
             List<ResourceData> unlockResources = constructionData.constructionPrefab.unlockResources;
             for (int i = 0; i < constructionData.constructionPrefab.unlockResources.Count; i++)
             {
-                unlockResourcesText.text += $"<sprite={(int)unlockResources[i].res_type}>: {unlockResources[i].res_amount}/{gameData.resourcesAmounts[(int)unlockResources[i].res_type]}\n";
+                unlockResourcesText.text += $"<sprite={(int)unlockResources[i].res_type}>:{gameData.resourcesAmounts[(int)unlockResources[i].res_type]} / {unlockResources[i].res_amount}\n";
 
                 if (gameData.resourcesAmounts[(int)unlockResources[i].res_type] < unlockResources[i].res_amount) isUnlockable = false;
             }

@@ -6,6 +6,7 @@ public class PopupSkipTutorial : PopupBase
 {
     public void YesButton()
     {
+        DataManager.Instance.gameData.ReFillResource();
         SceneLoader.Instance.LoadScene(SceneId.Menu);
     }
 

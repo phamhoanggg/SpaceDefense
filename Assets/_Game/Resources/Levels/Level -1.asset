@@ -15499,8 +15499,8 @@ MonoBehaviour:
     spawnTime: 15
     spawnPosition: {x: 34, y: 34}
   - type: 3
-    amount: 1
-    spawnTime: 35
+    amount: 2
+    spawnTime: 50
     spawnPosition: {x: 3, y: 34}
   resAvailableList: 000000000100000004000000
   centerModulePostion: {x: 4.75, y: 3.75}

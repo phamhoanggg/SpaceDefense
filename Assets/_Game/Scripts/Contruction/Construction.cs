@@ -62,7 +62,7 @@ public class Construction : MonoBehaviour, IOnLand
             col2D.enabled = true;
             isPlaced = true;
             curHP = maxHP;
-            hp_bar.transform.eulerAngles = new Vector3(0, 0, -transform.eulerAngles.z);
+            hp_bar.transform.eulerAngles = new Vector3(0, 0, 0);
             hp_bar.SetFillAmount(1);
         }
     }
@@ -124,6 +124,8 @@ public class Construction : MonoBehaviour, IOnLand
 
     public void ConsumeResources()
     {
+        if (DataManager.Instance.gameData.currentLevelIndex == -1) return;
+
         for (int i = 0; i < buildResources.Count; i++)
         {
             int res_index = (int)buildResources[i].res_type;
@@ -135,6 +137,7 @@ public class Construction : MonoBehaviour, IOnLand
 
     public void RefillResources()
     {
+        if (DataManager.Instance.gameData.currentLevelIndex == -1) return;
         for (int i = 0; i < buildResources.Count; i++)
         {
             int res_index = (int)buildResources[i].res_type;

@@ -6,9 +6,10 @@ public class PopupWin : PopupBase
 {
     [SerializeField] private TMP_Text res_remains_tmp;
     [SerializeField] private Text playTime_tmp;
+    [SerializeField] private Text enemy_cleared;
 
     private GameData gameData;
-    public override void Open(object playTime)
+    public void Open(string playTime, int enemy_count)
     {
         base.Open();
         gameData = DataManager.Instance.gameData;
@@ -19,6 +20,7 @@ public class PopupWin : PopupBase
         }
 
         playTime_tmp.text = playTime.ToString();
+        enemy_cleared.text = enemy_count.ToString();
         AudioManager.Instance.PlaySound(SoundId.Win);
         DataManager.Instance.SaveData();
 

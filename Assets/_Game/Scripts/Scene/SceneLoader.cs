@@ -113,6 +113,7 @@ public class SceneLoader : SingletonMB<SceneLoader>
             yield return null;
         }
 
+        OpenAnimation();
         onComplete?.Invoke();
     }
 

@@ -19,6 +19,7 @@ public class GamePlayController : SingletonMB<GamePlayController>
 
     private float playTime;
     private int currentWaveIndex;
+    private int enemy_count;
 
     private void Start()
     {
@@ -27,6 +28,10 @@ public class GamePlayController : SingletonMB<GamePlayController>
                 LoadLevel(DataManager.Instance.gameData.currentLevelIndex));
         playTime = 0;
         currentWaveIndex = 0;
+        for (int i = 0; i < curLevel.EnemyWaves.Count; i++)
+        {
+            enemy_count += curLevel.EnemyWaves[i].amount;
+        }
         Player.Instance.InitValue();
         spawningPosition_Obj.SetActive(false);
     }
@@ -43,7 +48,7 @@ public class GamePlayController : SingletonMB<GamePlayController>
         centerModule.Place();
         centerModule.TF.localPosition = curLevel.centerModulePostion;
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForEndOfFrame();
         GridTileManager.Instance.SpawnAllTiles(curLevel.Map_Width, curLevel.Map_Height);
     }
 
@@ -161,7 +166,7 @@ public class GamePlayController : SingletonMB<GamePlayController>
             DataManager.Instance.gameData.levelUnlocked++;
         }
 
-        FormGameplay.Instance.OpenPopupWin(TimeFormatter((int)playTime));
+        FormGameplay.Instance.OpenPopupWin(TimeFormatter((int)playTime), enemy_count);
     }
 
     public void OnLoseLevel()

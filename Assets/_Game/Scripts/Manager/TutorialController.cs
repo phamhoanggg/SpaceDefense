@@ -51,7 +51,13 @@ public class TutorialController : SingletonMB<TutorialController>
             FormGameplay.Instance.DisplayBottomObject();
         }
 
-        StartCoroutine(DisplayNextButtonAfter(3, current_button_index));
+        if (list_tut[tut_index].GetComponent<DialogueUtils>() != null)
+        {
+            yield return new WaitUntil(() => list_tut[tut_index].GetComponent<DialogueUtils>().IsComplete);
+
+            StartCoroutine(DisplayNextButtonAfter(1f, current_button_index));
+        }
+        
     }
 
     public IEnumerator DisplayNextButtonAfter(float sec, int button_index)
@@ -88,6 +94,7 @@ public class TutorialController : SingletonMB<TutorialController>
 
     public void CompleteButton()
     {
+        DataManager.Instance.gameData.ReFillResource();
         SceneLoader.Instance.LoadScene(SceneId.Menu);
     }
 }

@@ -104,4 +104,9 @@ public class GameData
         isSFXEnabled = true;
         isMusicEnabled = true;
     }
+
+    public void ReFillResource()
+    {
+        resourcesAmounts = new int[] { 200, 200, 200, 200, 200, 0, 0, 0 };
+    }
 }

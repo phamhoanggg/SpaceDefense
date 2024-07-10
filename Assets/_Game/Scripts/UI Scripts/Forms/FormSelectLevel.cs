@@ -37,7 +37,7 @@ public class FormSelectLevel : SingletonMB<FormSelectLevel>
         if (selectingLevel != null)
         {
             UIManager.Instance.SetActiveBlock(true);
-            SceneLoader.Instance.LoadScene(SceneId.GamePlay);
+            SceneLoader.Instance.LoadScene(SceneId.GamePlay, SceneLoader.Mode.With);
             DataManager.Instance.gameData.currentLevelIndex = selectingLevel.LevelIndex;
             AudioManager.Instance.PlaySound(SoundId.Play_Click);
         }
